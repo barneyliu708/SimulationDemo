@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimulationDemo
+namespace SimulationDemo.Elements
 {
     public class Customer
     {
@@ -16,6 +16,6 @@ namespace SimulationDemo
 
         }
 
-        
+
     }
 }

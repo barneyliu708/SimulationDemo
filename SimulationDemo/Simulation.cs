@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimulationDemo
 {
-    public class CashierQueue : BaseQueue
+    class Simulation
     {
     }
 }

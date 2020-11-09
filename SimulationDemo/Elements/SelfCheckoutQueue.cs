@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SimulationDemo
+namespace SimulationDemo.Elements
 {
     public class SelfCheckoutQueue : BaseQueue
     {

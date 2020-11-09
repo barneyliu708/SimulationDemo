@@ -1,0 +1,4 @@
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\SimulationDemo.exe
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.csprojAssemblyReference.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.AssemblyInfoInputs.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.AssemblyInfo.cs
