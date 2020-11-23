@@ -6,24 +6,24 @@ namespace SimulationDemo.Elements
 {
     public abstract class BaseQueue
     {
-        protected LinkedList<Customer> _queue;
+        protected LinkedList<Customer> _waitingqueue;
 
         // customer will arrive and join at the end of the queue 
         public void NewCustomersJoins(Customer newCustomer)
         {
-            _queue.AddLast(newCustomer);
+            _waitingqueue.AddLast(newCustomer);
             
         }
 
         // customer will leave either after finishing the checkout, or leave without buying anything
         public void CustomerLeaves(Customer customer)
         {
-            _queue.Remove(customer);
+            _waitingqueue.Remove(customer);
         }
 
         public int NumOfWaitingCustomers()
         {
-            return _queue.Count;
+            return _waitingqueue.Count;
         }
 
     }

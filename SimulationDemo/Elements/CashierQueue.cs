@@ -13,6 +13,15 @@ namespace SimulationDemo.Elements
 
         }
 
+        public IEnumerable<Customer> GetAllCustomers()
+        {
+            List<Customer> customers = new List<Customer>();
+            customers.Add(_currentInServiceCustomer);
+            customers.AddRange(_waitingqueue);
+
+            return customers;
+        }
+
         public bool IsCurrentCustomerFinished()
         {
             if (_currentInServiceCustomer == null)
@@ -32,10 +41,10 @@ namespace SimulationDemo.Elements
 
             _currentInServiceCustomer?.DepartureAfterCheckout();
 
-            _currentInServiceCustomer = _queue.First?.Value; // if queue is empty, then _currentInServiceCustomer is null 
-            if (_queue.Count != 0)
+            if (_waitingqueue.Count != 0) // if queue is empty, then _currentInServiceCustomer is null 
             {
-                _queue.RemoveFirst();
+                _currentInServiceCustomer = _waitingqueue.First?.Value; 
+                _waitingqueue.RemoveFirst();
             }
         }
     }

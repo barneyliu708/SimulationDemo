@@ -30,7 +30,7 @@ namespace SimulationDemo.Elements
             _needHelpTime = (int)DistributionHelper.GetDistribution(EventEnum.FixingMachineError).Sample();
         }
 
-        public bool ShouldAngryDeparture()
+        public bool IfShouldAngryDeparture()
         {
             return Simulation.GlobalTime >= _arrivalTime + _maxToleranceTime;
         }
@@ -56,7 +56,7 @@ namespace SimulationDemo.Elements
             return _startCheckoutTime != 0;
         }
 
-        public bool ShouldChangeLine()
+        public bool IfShouldChangeLine()
         {
             if (this.IsCheckoutStarted())
             {
@@ -123,7 +123,7 @@ namespace SimulationDemo.Elements
 
         public void AngryDeparture()
         {
-            if (this.ShouldAngryDeparture() == false)
+            if (this.IfShouldAngryDeparture() == false)
             {
                 throw new Exception($"Should not angry departure as the customer can still wait longer: currentTime = {Simulation.GlobalTime}, arrivalTime = {_arrivalTime}, maxToleranceTime = {_maxToleranceTime}");
             }

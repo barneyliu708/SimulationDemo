@@ -49,6 +49,25 @@ namespace SimulationDemo.Elements
             }
 
             return ans;
-        } 
+        }
+
+        public IEnumerable<IQueue> GetQueues()
+        {
+            List<IQueue> allQueues = new List<IQueue>();
+            allQueues.AddRange(_cashierQueues);
+            allQueues.AddRange(_selfCheckoutQueues);
+
+            return allQueues;
+        }
+
+        public IEnumerable<Customer> GetCustomers()
+        {
+            List<Customer> allCustomers = new List<Customer>();
+            foreach(IQueue queue in this.GetQueues())
+            {
+                allCustomers.AddRange(queue.GetAllCustomers());
+            }
+            return allCustomers;
+        }
     }
 }

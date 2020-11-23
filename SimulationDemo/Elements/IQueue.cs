@@ -11,5 +11,6 @@ namespace SimulationDemo.Elements
         void CustomerLeaves(Customer customer);
         bool IsCurrentCustomerFinished();
         void StartCheckoutForNextCustomer();
+        IEnumerable<Customer> GetAllCustomers();
     }
 }

@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SimulationDemo.Enums;
+using SimulationDemo.Randomness;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -21,6 +23,15 @@ namespace SimulationDemo.Elements
         }
 
         public int NumOfMachines { get => _numOfMachines; }
+
+        public IEnumerable<Customer> GetAllCustomers()
+        {
+            List<Customer> customers = new List<Customer>();
+            customers.AddRange(_currentInServiceCustomers);
+            customers.AddRange(_waitingqueue);
+
+            return customers;
+        }
 
         public bool IsCurrentCustomerFinished()
         {
@@ -47,10 +58,14 @@ namespace SimulationDemo.Elements
                 {
                     _currentInServiceCustomers[i]?.DepartureAfterCheckout();
                 }
-                _currentInServiceCustomers[i] = _queue.First?.Value; // if queue is empty, then _currentInServiceCustomer is null 
-                if (_queue.Count != 0)
+                if (_waitingqueue.Count != 0)  // if queue is empty, then _currentInServiceCustomer is null 
                 {
-                    _queue.RemoveFirst();
+                    _currentInServiceCustomers[i] = _waitingqueue.First.Value;
+                    if ((int)DistributionHelper.GetDistribution(EventEnum.MachineError).Sample() == 1) // machine error occurs
+                    {
+                        _currentInServiceCustomers[i].NeedHelpForSelfCheckout();
+                    }
+                    _waitingqueue.RemoveFirst();
                 }
             }
         }
