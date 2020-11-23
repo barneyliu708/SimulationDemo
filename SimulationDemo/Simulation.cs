@@ -4,7 +4,11 @@ using System.Text;
 
 namespace SimulationDemo
 {
-    class Simulation
+    public class Simulation
     {
+        public void Execute()
+        {
+
+        }
     }
 }

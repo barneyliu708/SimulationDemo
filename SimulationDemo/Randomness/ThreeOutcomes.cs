@@ -1,0 +1,40 @@
+﻿using Extreme.Statistics.Distributions;
+using SimulationDemo.Enums;
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SimulationDemo.Randomness
+{
+    public class ThreeOutcomes : DistributionBase, IDistribution
+    {
+        private int _accumulateOutcome1;
+        private int _accumulateOutcome2;
+
+        public ThreeOutcomes(int pOutcome1, int pOutcome2)
+        {
+            if (pOutcome1 + pOutcome2 > 100)
+            {
+                throw new Exception($"Wrong setting: probability of outcome 1 = {pOutcome1}, probability of outcome 2 = {pOutcome2}");
+            }
+
+            _accumulateOutcome1 = pOutcome1;
+            _accumulateOutcome2 = pOutcome1 + pOutcome2;
+        }
+        public object Sample()
+        {
+            var uniformDistribution = new DiscreteUniformDistribution(100); //[0, maxValue)
+            var randValue = uniformDistribution.Sample(rand) + 1; 
+            
+            if (randValue >= 0 && randValue <= _accumulateOutcome1)
+            {
+                return EventEnum.ScaningSmallAmountItems;
+            }
+            else if (randValue > _accumulateOutcome1 && randValue <= _accumulateOutcome2)
+            {
+                return EventEnum.ScaningMediumAmountItems;
+            }
+            return EventEnum.ScaningLargeAmountItems;
+        }
+    }
+}
