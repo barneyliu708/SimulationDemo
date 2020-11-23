@@ -37,7 +37,7 @@ namespace SimulationDemo
                 }
 
                 // the departure of customers after checking out -- loop through each queue
-                IEnumerable<IQueue> queues = _checkoutArea.GetQueues();
+                IEnumerable<IQueue> queues = _checkoutArea.GetAllQueues();
                 foreach(IQueue queue in queues)
                 {
                     if (queue.IsCurrentCustomerFinished())
@@ -47,7 +47,7 @@ namespace SimulationDemo
                 }
 
                 // changing line of customers & angry departure of custoemrs -- loop through each customer
-                IEnumerable<Customer> customers = _checkoutArea.GetCustomers();
+                IEnumerable<Customer> customers = _checkoutArea.GetAllCustomers();
                 foreach(Customer customer in customers)
                 {
                     if (customer.IfShouldChangeLine())

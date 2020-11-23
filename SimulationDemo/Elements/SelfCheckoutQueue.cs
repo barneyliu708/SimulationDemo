@@ -61,6 +61,8 @@ namespace SimulationDemo.Elements
                 if (_waitingqueue.Count != 0)  // if queue is empty, then _currentInServiceCustomer is null 
                 {
                     _currentInServiceCustomers[i] = _waitingqueue.First.Value;
+                    _currentInServiceCustomers[i].StartCheckout();
+
                     if ((int)DistributionHelper.GetDistribution(EventEnum.MachineError).Sample() == 1) // machine error occurs
                     {
                         _currentInServiceCustomers[i].NeedHelpForSelfCheckout();

@@ -68,6 +68,7 @@ namespace SimulationDemo.Elements
             {
                 return false; // cannot change line anymore if the customer already start checking out.
             }
+
             return _checkoutArea.QuickestQueue() != _joinedQueue; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 

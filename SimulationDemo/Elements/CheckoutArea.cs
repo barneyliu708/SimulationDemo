@@ -51,7 +51,7 @@ namespace SimulationDemo.Elements
             return ans;
         }
 
-        public IEnumerable<IQueue> GetQueues()
+        public IEnumerable<IQueue> GetAllQueues()
         {
             List<IQueue> allQueues = new List<IQueue>();
             allQueues.AddRange(_cashierQueues);
@@ -60,10 +60,10 @@ namespace SimulationDemo.Elements
             return allQueues;
         }
 
-        public IEnumerable<Customer> GetCustomers()
+        public IEnumerable<Customer> GetAllCustomers()
         {
             List<Customer> allCustomers = new List<Customer>();
-            foreach(IQueue queue in this.GetQueues())
+            foreach(IQueue queue in this.GetAllQueues())
             {
                 allCustomers.AddRange(queue.GetAllCustomers());
             }
