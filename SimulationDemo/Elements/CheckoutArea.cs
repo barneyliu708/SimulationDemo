@@ -30,9 +30,9 @@ namespace SimulationDemo.Elements
             }
         }
 
-        public BaseQueue QuickestQueue()
+        public IQueue QuickestQueue()
         {
-            BaseQueue ans = null;
+            IQueue ans = null;
             foreach(var queue in _cashierQueues)
             {
                 if (ans == null || ans.NumOfWaitingCustomers() >= queue.NumOfWaitingCustomers())

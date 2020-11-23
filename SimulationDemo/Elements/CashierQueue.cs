@@ -4,7 +4,7 @@ using System.Text;
 
 namespace SimulationDemo.Elements
 {
-    public class CashierQueue : BaseQueue
+    public class CashierQueue : BaseQueue, IQueue
     {
         private Customer _currentInServiceCustomer;
 
@@ -30,13 +30,9 @@ namespace SimulationDemo.Elements
                 throw new Exception($"Current customer's checkout has not been finished yet, cannot start checking out for next one");
             }
 
-            if (_currentInServiceCustomer != null)
-            {
-                _currentInServiceCustomer.DepartureAfterCheckout();
-                _currentInServiceCustomer = null;
-            }
+            _currentInServiceCustomer?.DepartureAfterCheckout();
 
-            _currentInServiceCustomer = _queue.First?.Value; // if queue is empty, then _currentInServiceCustomer is null
+            _currentInServiceCustomer = _queue.First?.Value; // if queue is empty, then _currentInServiceCustomer is null 
             if (_queue.Count != 0)
             {
                 _queue.RemoveFirst();

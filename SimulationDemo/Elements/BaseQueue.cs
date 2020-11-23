@@ -25,5 +25,6 @@ namespace SimulationDemo.Elements
         {
             return _queue.Count;
         }
+
     }
 }
