@@ -6,25 +6,20 @@ namespace SimulationDemo.Elements
 {
     public class SelfCheckoutQueue : BaseQueue
     {
-        private int _countOfMachines;
-        private Customer[] _checkingoutCustomers;
+        private int _numOfMachines;
+        private Customer[] _currentInServiceCustomers;
 
-        public SelfCheckoutQueue(int countOfMachines)
+        public SelfCheckoutQueue(int numOfMachines)
         {
-            _countOfMachines = countOfMachines;
-            _checkingoutCustomers = new Customer[_countOfMachines];
+            if (numOfMachines <= 0)
+            {
+                throw new Exception($"The number of self checkout machine should be greater than zero: numOfMachines = {numOfMachines}");
+            }
+
+            _numOfMachines = numOfMachines;
+            _currentInServiceCustomers = new Customer[_numOfMachines];
         }
 
-        // customer will arrive and join at the end of the queue 
-        public void NewCustomersArrives(Customer newCustomer)
-        {
-            _queue.AddLast(newCustomer);
-        }
-
-        // customer will leave either after finishing the checkout, or leave without buying anything
-        public void CustomerLeaves(Customer customer)
-        {
-            _queue.Remove(customer);
-        }
+        public int NumOfMachines { get => _numOfMachines; }
     }
 }
