@@ -12,5 +12,6 @@ namespace SimulationDemo.Elements
         bool IsCurrentCustomerFinished();
         void StartCheckoutForNextCustomer();
         IEnumerable<Customer> GetAllCustomers();
+        int IndexOfCustomerInQueue(Customer customer);
     }
 }

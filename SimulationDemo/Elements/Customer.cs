@@ -56,6 +56,12 @@ namespace SimulationDemo.Elements
             return _startCheckoutTime != 0;
         }
 
+        public int NumOfWaitingCustomersAhead()
+        {
+            return 1 + _joinedQueue.IndexOfCustomerInQueue(this);
+        }
+
+        // TODO
         public bool IfShouldChangeLine()
         {
             if (this.IsCheckoutStarted())
@@ -65,6 +71,7 @@ namespace SimulationDemo.Elements
             return _checkoutArea.QuickestQueue() != _joinedQueue; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
+        // TODO
         public void ChangeLine()
         {
             if (this.IsCheckoutStarted())

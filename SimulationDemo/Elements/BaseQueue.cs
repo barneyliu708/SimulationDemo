@@ -26,5 +26,20 @@ namespace SimulationDemo.Elements
             return _waitingqueue.Count;
         }
 
+        public int IndexOfCustomerInQueue(Customer customer)
+        {
+            if (_waitingqueue.Find(customer) == null)
+            {
+                throw new Exception("Customer does not belows to this queue");
+            }
+            int index = 0;
+            LinkedListNode<Customer> current = _waitingqueue.First;
+            while(current != null && current.Value != customer)
+            {
+                current = current.Next;
+                index++;
+            }
+            return index;
+        }
     }
 }
