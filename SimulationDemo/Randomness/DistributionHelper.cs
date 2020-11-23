@@ -7,7 +7,7 @@ namespace SimulationDemo.Randomness
 {
     public static class DistributionHelper
     {
-        public static Dictionary<EventEnum, IDistribution> _distribution = new Dictionary<EventEnum, IDistribution>()
+        private static Dictionary<EventEnum, IDistribution> _distribution = new Dictionary<EventEnum, IDistribution>()
         {
             { EventEnum.Arrival, new Bernoulli(0.25) },
             { EventEnum.BuyingItems, new ThreeOutcomes(30, 40) },
@@ -19,5 +19,10 @@ namespace SimulationDemo.Randomness
             { EventEnum.FixingMachineError, new Normal(1, 1) },
             { EventEnum.AngryDeparture, new Normal(60, 1) }
         };
+
+        public static IDistribution GetDistribution(EventEnum eventType)
+        {
+            return _distribution[eventType];
+        }
     }
 }

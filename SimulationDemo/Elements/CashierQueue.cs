@@ -6,5 +6,6 @@ namespace SimulationDemo.Elements
 {
     public class CashierQueue : BaseQueue
     {
+
     }
 }

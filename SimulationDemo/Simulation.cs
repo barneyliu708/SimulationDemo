@@ -6,6 +6,8 @@ namespace SimulationDemo
 {
     public class Simulation
     {
+        public static int GlobalTime = 0;
+
         public void Execute()
         {
 
