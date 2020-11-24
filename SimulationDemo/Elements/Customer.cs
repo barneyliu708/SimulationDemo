@@ -86,6 +86,7 @@ namespace SimulationDemo.Elements
             return eNumOfCustomersAhead > eNumOfCustomers; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
+        // ToDO
         public void ChangeLine()
         {
             if (this.IsCheckoutStarted())
