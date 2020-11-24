@@ -24,10 +24,10 @@ namespace SimulationDemo.Elements
         {
             _arrivalTime = arrivalTime;
             _amountItems = (EventEnum)DistributionHelper.GetDistribution(EventEnum.BuyingItems).Sample();
-            _scanAndPackingTime = (int)DistributionHelper.GetDistribution(_amountItems).Sample();
-            _makePaymentTime = (int)DistributionHelper.GetDistribution(EventEnum.MakingPayment).Sample();
-            _maxToleranceTime = (int)DistributionHelper.GetDistribution(EventEnum.AngryDeparture).Sample();
-            _needHelpTime = (int)DistributionHelper.GetDistribution(EventEnum.FixingMachineError).Sample();
+            _scanAndPackingTime = Convert.ToInt32(DistributionHelper.GetDistribution(_amountItems).Sample());
+            _makePaymentTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.MakingPayment).Sample());
+            _maxToleranceTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.AngryDeparture).Sample());
+            _needHelpTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.FixingMachineError).Sample());
         }
 
         public bool IfShouldAngryDeparture()
@@ -61,7 +61,6 @@ namespace SimulationDemo.Elements
             return 1 + _joinedQueue.IndexOfCustomerInQueue(this);
         }
 
-        // TODO
         public bool IfShouldChangeLine()
         {
             if (this.IsCheckoutStarted())
@@ -72,7 +71,6 @@ namespace SimulationDemo.Elements
             return _checkoutArea.QuickestQueue() != _joinedQueue; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
-        // TODO
         public void ChangeLine()
         {
             if (this.IsCheckoutStarted())

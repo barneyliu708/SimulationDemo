@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SimulationDemo.Elements
@@ -10,7 +11,7 @@ namespace SimulationDemo.Elements
 
         public CashierQueue()
         {
-
+            _waitingqueue = new LinkedList<Customer>();
         }
 
         public IEnumerable<Customer> GetAllCustomers()
@@ -19,7 +20,7 @@ namespace SimulationDemo.Elements
             customers.Add(_currentInServiceCustomer);
             customers.AddRange(_waitingqueue);
 
-            return customers;
+            return customers.Where(c => c != null);
         }
 
         public bool IsCurrentCustomerFinished()
@@ -43,7 +44,8 @@ namespace SimulationDemo.Elements
 
             if (_waitingqueue.Count != 0) // if queue is empty, then _currentInServiceCustomer is null 
             {
-                _currentInServiceCustomer = _waitingqueue.First?.Value; 
+                _currentInServiceCustomer = _waitingqueue.First?.Value;
+                _currentInServiceCustomer.StartCheckout();
                 _waitingqueue.RemoveFirst();
             }
         }

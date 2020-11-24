@@ -6,6 +6,6 @@ namespace SimulationDemo.Randomness
 {
     public interface IDistribution
     {
-        object Sample();
+        ValueType Sample();
     }
 }

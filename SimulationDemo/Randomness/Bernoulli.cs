@@ -13,7 +13,7 @@ namespace SimulationDemo.Randomness
         {
             _probability = probability;
         }
-        public object Sample()
+        public ValueType Sample()
         {
             var bernoulli = new BernoulliDistribution(_probability);
             return bernoulli.Sample(rand);

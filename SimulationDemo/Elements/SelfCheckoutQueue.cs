@@ -2,6 +2,7 @@
 using SimulationDemo.Randomness;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace SimulationDemo.Elements
@@ -13,6 +14,8 @@ namespace SimulationDemo.Elements
 
         public SelfCheckoutQueue(int numOfMachines)
         {
+            _waitingqueue = new LinkedList<Customer>();
+
             if (numOfMachines <= 0)
             {
                 throw new Exception($"The number of self checkout machine should be greater than zero: numOfMachines = {numOfMachines}");
@@ -30,7 +33,7 @@ namespace SimulationDemo.Elements
             customers.AddRange(_currentInServiceCustomers);
             customers.AddRange(_waitingqueue);
 
-            return customers;
+            return customers.Where(c => c != null);
         }
 
         public bool IsCurrentCustomerFinished()

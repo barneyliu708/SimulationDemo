@@ -21,7 +21,7 @@ namespace SimulationDemo.Randomness
             _accumulateOutcome1 = pOutcome1;
             _accumulateOutcome2 = pOutcome1 + pOutcome2;
         }
-        public object Sample()
+        public ValueType Sample()
         {
             var uniformDistribution = new DiscreteUniformDistribution(100); //[0, maxValue)
             var randValue = uniformDistribution.Sample(rand) + 1; 

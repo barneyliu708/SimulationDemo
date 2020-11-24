@@ -15,7 +15,7 @@ namespace SimulationDemo.Randomness
             _mean = mean;
             _sd = sd;
         }
-        public object Sample()
+        public ValueType Sample()
         {
             //double u1 = 1.0 - rand.NextDouble(); //uniform(0,1] random doubles
             //double u2 = 1.0 - rand.NextDouble();

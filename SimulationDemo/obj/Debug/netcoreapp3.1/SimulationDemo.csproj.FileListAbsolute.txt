@@ -25,4 +25,9 @@ C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\appSettings.json
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.csproj.CoreCompileInputs.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\log4net.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.csprojAssemblyReference.cache
