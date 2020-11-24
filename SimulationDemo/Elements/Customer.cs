@@ -61,14 +61,29 @@ namespace SimulationDemo.Elements
             return 1 + _joinedQueue.IndexOfCustomerInQueue(this);
         }
 
+
         public bool IfShouldChangeLine()
         {
             if (this.IsCheckoutStarted())
             {
                 return false; // cannot change line anymore if the customer already start checking out.
             }
+            Type joinedQueueType = _joinedQueue.GetType();
+            int eNumOfCustomersAhead = this.NumOfWaitingCustomersAhead();
+            if (joinedQueueType == typeof(SelfCheckoutQueue))
+            {
+                eNumOfCustomersAhead = eNumOfCustomersAhead / _checkoutArea.NumMachine;
+            }
 
-            return _checkoutArea.QuickestQueue() != _joinedQueue; // if current joined queue is not the quickest queue in the check out area, then should change
+            IQueue quickestQueue = _checkoutArea.QuickestQueue();
+            Type quickestQueueType = quickestQueue.GetType();
+            int eNumOfCustomers = quickestQueue.NumOfWaitingCustomers();
+            if (quickestQueueType == typeof(SelfCheckoutQueue))
+            {
+                eNumOfCustomers = eNumOfCustomers / _checkoutArea.NumMachine;
+            }
+
+            return eNumOfCustomersAhead > eNumOfCustomers; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
         public void ChangeLine()

@@ -9,12 +9,17 @@ namespace SimulationDemo.Elements
     {
         private List<CashierQueue> _cashierQueues;
         private List<SelfCheckoutQueue> _selfCheckoutQueues;
+        private int _numMachine;
+
+        public int NumMachine { get => _numMachine; }
 
         public CheckoutArea(int numCashier, int numSelfChechout, int numMachine)
         {
             _cashierQueues = new List<CashierQueue>();
             _selfCheckoutQueues = new List<SelfCheckoutQueue>();
-            
+            _numMachine = numMachine;
+
+
             if (numCashier + numSelfChechout <= 0 && numCashier * numSelfChechout <= 0)
             {
                 throw new Exception($"At least one line should be opened: numCashier = {numCashier}, numSelfCheckout = {numSelfChechout}");
@@ -26,30 +31,33 @@ namespace SimulationDemo.Elements
             }
             for (int i = 0; i < numSelfChechout; i++)
             {
-                _selfCheckoutQueues.Add(new SelfCheckoutQueue(numMachine));
+                _selfCheckoutQueues.Add(new SelfCheckoutQueue(_numMachine));
             }
         }
 
         public IQueue QuickestQueue()
         {
-            IQueue ans = null;
-            foreach(var queue in _cashierQueues)
+            IQueue quickestCashier = null;
+            foreach (var currentQ in _cashierQueues)
             {
-                if (ans == null || ans.NumOfWaitingCustomers() >= queue.NumOfWaitingCustomers())
+                if (quickestCashier == null || quickestCashier.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
                 {
-                    ans = queue;
-                }
-            }
-            foreach (var queue in _selfCheckoutQueues)
-            {
-                if (ans == null || ans.NumOfWaitingCustomers() >= (queue.NumOfWaitingCustomers() / queue.NumOfMachines))
-                {
-                    ans = queue;
+                    quickestCashier = currentQ;
                 }
             }
 
-            return ans;
+            IQueue quickestSelfCheckout = null;
+            foreach (var currentQ in _selfCheckoutQueues)
+            {
+                if (quickestSelfCheckout == null || quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
+                {
+                    quickestSelfCheckout = currentQ;
+                }
+            }
+
+            return quickestCashier.NumOfWaitingCustomers() < (quickestSelfCheckout.NumOfWaitingCustomers() / _numMachine) ? quickestCashier : quickestSelfCheckout;
         }
+
 
         public IEnumerable<IQueue> GetAllQueues()
         {
