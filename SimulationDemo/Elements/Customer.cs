@@ -1,4 +1,5 @@
-﻿using SimulationDemo.Enums;
+﻿using Simulation.Logger;
+using SimulationDemo.Enums;
 using SimulationDemo.Randomness;
 using System;
 using System.Collections.Generic;
@@ -122,6 +123,7 @@ namespace SimulationDemo.Elements
         {
             _joinedQueue = queue;
             _joinedQueue.NewCustomersJoins(this);
+            SimLogger.Info($"Customer [{_customerId}] joined the queue {queue.QueueId}");
         }
 
         public void LeaveQueue()
@@ -130,7 +132,10 @@ namespace SimulationDemo.Elements
             {
                 throw new Exception($"The customer has not join any queue yet");
             }
+
             _joinedQueue.CustomerLeaves(this);
+            SimLogger.Info($"Customer [{_customerId}] leave the queue {_joinedQueue.QueueId}");
+
             _joinedQueue = null;
         }
 
@@ -145,7 +150,7 @@ namespace SimulationDemo.Elements
             {
                 throw new Exception($"Cannot departure since checkout is not finished yet");
             }
-            this.LeaveQueue();
+            // this.LeaveQueue(); // does not need to call leavQueue method as in-service customer is not defined as in-line customer
             this.DepatureCheckoutArea();
         }
 

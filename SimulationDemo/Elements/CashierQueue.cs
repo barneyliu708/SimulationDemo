@@ -41,6 +41,7 @@ namespace SimulationDemo.Elements
             }
 
             _currentInServiceCustomer?.DepartureAfterCheckout();
+            _currentInServiceCustomer = null;
 
             if (_waitingqueue.Count != 0) // if queue is empty, then _currentInServiceCustomer is null 
             {
@@ -52,12 +53,12 @@ namespace SimulationDemo.Elements
 
         public void PrintOut()
         {
-            Console.WriteLine($"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
+            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] |{new string('*', _waitingqueue.Count)}");
         }
 
-        public override string ToString()
-        {
-            return $"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}";
-        }
+        //public override string ToString()
+        //{
+        //    return $"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}";
+        //}
     }
 }

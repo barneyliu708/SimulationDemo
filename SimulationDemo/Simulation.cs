@@ -1,4 +1,5 @@
-﻿using SimulationDemo.Elements;
+﻿using Simulation.Logger;
+using SimulationDemo.Elements;
 using SimulationDemo.Enums;
 using SimulationDemo.Randomness;
 using System;
@@ -86,6 +87,7 @@ namespace SimulationDemo
 
         public void Execute()
         {
+            SimLogger.Info("Execution started");
             for (_globalTime = 1; _globalTime < _maxIteration; ++_globalTime)
             {
                 // the arrival of new customers

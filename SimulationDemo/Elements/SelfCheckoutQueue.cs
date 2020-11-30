@@ -60,6 +60,7 @@ namespace SimulationDemo.Elements
                 if (_currentInServiceCustomers[i] == null || _currentInServiceCustomers[i].IsCheckoutFinished()) //there is a self-checkout machine available
                 {
                     _currentInServiceCustomers[i]?.DepartureAfterCheckout();
+                    _currentInServiceCustomers[i] = null;
 
                     if (_waitingqueue.Count != 0)  // if queue is empty, then _currentInServiceCustomer is null 
                     {
@@ -81,7 +82,7 @@ namespace SimulationDemo.Elements
             Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
             for(int i = 0; i < _numOfMachines; i++)
             {
-                Console.WriteLine($"Machine {i+1}: Customer[{_currentInServiceCustomers[i]?.CustomerId}]");
+                Console.WriteLine($"Machine {i+1}: [{(_currentInServiceCustomers[i] != null ? _currentInServiceCustomers[i].CustomerId : "        ")}]");
             }
         }
     }

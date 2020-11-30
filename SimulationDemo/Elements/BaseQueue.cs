@@ -16,6 +16,8 @@ namespace SimulationDemo.Elements
 
         protected LinkedList<Customer> _waitingqueue;
 
+        public string QueueId { get => _queueId; }
+
         // customer will arrive and join at the end of the queue 
         public void NewCustomersJoins(Customer newCustomer)
         {

@@ -6,6 +6,7 @@ namespace SimulationDemo.Elements
 {
     public interface IQueue
     {
+        string QueueId { get; }
         int NumOfWaitingCustomers();
         void NewCustomersJoins(Customer newCustomer);
         void CustomerLeaves(Customer customer);

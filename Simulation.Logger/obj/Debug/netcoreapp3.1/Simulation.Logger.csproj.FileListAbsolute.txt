@@ -1,0 +1,9 @@
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\bin\Debug\netcoreapp3.1\Simulation.Logger.deps.json
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\bin\Debug\netcoreapp3.1\Simulation.Logger.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.csprojAssemblyReference.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.AssemblyInfoInputs.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.AssemblyInfo.cs
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\bin\Debug\netcoreapp3.1\Simulation.Logger.pdb
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.csproj.CoreCompileInputs.cache
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.dll
+C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Logger\obj\Debug\netcoreapp3.1\Simulation.Logger.pdb

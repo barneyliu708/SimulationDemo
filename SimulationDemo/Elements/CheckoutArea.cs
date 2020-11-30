@@ -55,7 +55,7 @@ namespace SimulationDemo.Elements
                 }
             }
 
-            return quickestCashier.NumOfWaitingCustomers() < (quickestSelfCheckout.NumOfWaitingCustomers() / _numMachine) ? quickestCashier : quickestSelfCheckout;
+            return quickestCashier.NumOfWaitingCustomers() <= (quickestSelfCheckout.NumOfWaitingCustomers() / (_numMachine - 2)) ? quickestCashier : quickestSelfCheckout;
         }
 
 
