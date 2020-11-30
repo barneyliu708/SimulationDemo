@@ -21,6 +21,17 @@ namespace SimulationDemo.Randomness
             _accumulateOutcome1 = pOutcome1;
             _accumulateOutcome2 = pOutcome1 + pOutcome2;
         }
+
+        public void PrintOut()
+        {
+            Console.WriteLine($"Three outcomes distribution with {EventEnum.ScaningSmallAmountItems}'s probability = {_accumulateOutcome1}; {EventEnum.ScaningMediumAmountItems}'s probability = {_accumulateOutcome2 - _accumulateOutcome1}; {EventEnum.ScaningLargeAmountItems}'s probability = {1 - _accumulateOutcome2};");
+        }
+
+        public override string ToString()
+        {
+            return $"Three outcomes distribution with {EventEnum.ScaningSmallAmountItems}'s probability = {_accumulateOutcome1}; {EventEnum.ScaningMediumAmountItems}'s probability = {_accumulateOutcome2 - _accumulateOutcome1}; {EventEnum.ScaningLargeAmountItems}'s probability = {1 - _accumulateOutcome2};";
+        }
+
         public ValueType Sample()
         {
             var uniformDistribution = new DiscreteUniformDistribution(100); //[0, maxValue)

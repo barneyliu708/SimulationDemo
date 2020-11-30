@@ -9,7 +9,7 @@ namespace SimulationDemo.Elements
     {
         private Customer _currentInServiceCustomer;
 
-        public CashierQueue()
+        public CashierQueue() : base()
         {
             _waitingqueue = new LinkedList<Customer>();
         }
@@ -48,6 +48,16 @@ namespace SimulationDemo.Elements
                 _currentInServiceCustomer.StartCheckout();
                 _waitingqueue.RemoveFirst();
             }
+        }
+
+        public void PrintOut()
+        {
+            Console.WriteLine($"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
+        }
+
+        public override string ToString()
+        {
+            return $"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}";
         }
     }
 }

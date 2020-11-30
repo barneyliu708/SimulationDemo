@@ -12,7 +12,7 @@ namespace SimulationDemo.Elements
         private int _numOfMachines;
         private Customer[] _currentInServiceCustomers;
 
-        public SelfCheckoutQueue(int numOfMachines)
+        public SelfCheckoutQueue(int numOfMachines) : base()
         {
             _waitingqueue = new LinkedList<Customer>();
 
@@ -60,18 +60,28 @@ namespace SimulationDemo.Elements
                 if (_currentInServiceCustomers[i] == null || _currentInServiceCustomers[i].IsCheckoutFinished()) //there is a self-checkout machine available
                 {
                     _currentInServiceCustomers[i]?.DepartureAfterCheckout();
-                }
-                if (_waitingqueue.Count != 0)  // if queue is empty, then _currentInServiceCustomer is null 
-                {
-                    _currentInServiceCustomers[i] = _waitingqueue.First.Value;
-                    _currentInServiceCustomers[i].StartCheckout();
 
-                    if ((int)DistributionHelper.GetDistribution(EventEnum.MachineError).Sample() == 1) // machine error occurs
+                    if (_waitingqueue.Count != 0)  // if queue is empty, then _currentInServiceCustomer is null 
                     {
-                        _currentInServiceCustomers[i].NeedHelpForSelfCheckout();
+                        _currentInServiceCustomers[i] = _waitingqueue.First.Value;
+                        _currentInServiceCustomers[i].StartCheckout();
+
+                        if ((int)DistributionHelper.GetDistribution(EventEnum.MachineError).Sample() == 1) // machine error occurs
+                        {
+                            _currentInServiceCustomers[i].NeedHelpForSelfCheckout();
+                        }
+                        _waitingqueue.RemoveFirst();
                     }
-                    _waitingqueue.RemoveFirst();
                 }
+            }
+        }
+
+        public void PrintOut()
+        {
+            Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
+            for(int i = 0; i < _numOfMachines; i++)
+            {
+                Console.WriteLine($"Machine {i+1}: Customer[{_currentInServiceCustomers[i]?.CustomerId}]");
             }
         }
     }

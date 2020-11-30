@@ -7,5 +7,6 @@ namespace SimulationDemo.Randomness
     public interface IDistribution
     {
         ValueType Sample();
+        void PrintOut();
     }
 }

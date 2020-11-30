@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimulationDemo.Randomness;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,6 +7,13 @@ namespace SimulationDemo.Elements
 {
     public abstract class BaseQueue
     {
+        public BaseQueue()
+        {
+            _queueId = RandomStrGenerator.GetRandomString();
+        }
+
+        protected string _queueId;
+
         protected LinkedList<Customer> _waitingqueue;
 
         // customer will arrive and join at the end of the queue 

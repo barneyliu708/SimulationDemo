@@ -9,7 +9,7 @@ namespace SimulationDemo.Randomness
     {
         private static Dictionary<EventEnum, IDistribution> _distribution = new Dictionary<EventEnum, IDistribution>()
         {
-            { EventEnum.Arrival, new Bernoulli(0.25) },
+            { EventEnum.Arrival, new Bernoulli(0.1) },
             { EventEnum.BuyingItems, new ThreeOutcomes(30, 40) },
             { EventEnum.ScaningSmallAmountItems, new Normal(2, 1) },
             { EventEnum.ScaningMediumAmountItems, new Normal(4, 1) },
@@ -23,6 +23,15 @@ namespace SimulationDemo.Randomness
         public static IDistribution GetDistribution(EventEnum eventType)
         {
             return _distribution[eventType];
+        }
+
+        public static void PrintOut()
+        {
+            Console.WriteLine("-- Randomness Settings --");
+            foreach (var kv in _distribution)
+            {
+                Console.WriteLine($"{kv.Key}: {kv.Value.ToString()}");
+            }
         }
     }
 }

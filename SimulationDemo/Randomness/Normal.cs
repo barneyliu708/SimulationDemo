@@ -15,6 +15,17 @@ namespace SimulationDemo.Randomness
             _mean = mean;
             _sd = sd;
         }
+
+        public void PrintOut()
+        {
+            Console.WriteLine($"Normal distribution with mane = {_mean}, standard deviation = {_sd}");
+        }
+
+        public override string ToString()
+        {
+            return $"Normal distribution with mane = {_mean}, standard deviation = {_sd}";
+        }
+
         public ValueType Sample()
         {
             //double u1 = 1.0 - rand.NextDouble(); //uniform(0,1] random doubles

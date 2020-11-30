@@ -13,6 +13,17 @@ namespace SimulationDemo.Randomness
         {
             _probability = probability;
         }
+
+        public void PrintOut()
+        {
+            Console.WriteLine($"Bernoulli distribution with probability = {_probability}");
+        }
+
+        public override string ToString()
+        {
+            return $"Bernoulli distribution with probability = {_probability}";
+        }
+
         public ValueType Sample()
         {
             var bernoulli = new BernoulliDistribution(_probability);

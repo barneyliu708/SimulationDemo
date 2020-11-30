@@ -77,5 +77,18 @@ namespace SimulationDemo.Elements
             }
             return allCustomers;
         }
+
+        public void PrintOut()
+        {
+            foreach(var q in _cashierQueues)
+            {
+                q.PrintOut();
+            }
+
+            foreach(var q in _selfCheckoutQueues)
+            {
+                q.PrintOut();
+            }
+        }
     }
 }

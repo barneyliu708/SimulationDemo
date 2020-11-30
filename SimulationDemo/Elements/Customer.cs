@@ -8,6 +8,8 @@ namespace SimulationDemo.Elements
 {
     public class Customer
     {
+        private string _customerId;
+
         private int _arrivalTime;
         private int _maxToleranceTime;
         private int _scanAndPackingTime;
@@ -20,8 +22,12 @@ namespace SimulationDemo.Elements
         private CheckoutArea _checkoutArea;
         private bool _isNeedHelpForSelfCheckout;
 
+        public string CustomerId { get => _customerId; }
+
         public Customer(int arrivalTime)
         {
+            _customerId = RandomStrGenerator.GetRandomString();
+
             _arrivalTime = arrivalTime;
             _amountItems = (EventEnum)DistributionHelper.GetDistribution(EventEnum.BuyingItems).Sample();
             _scanAndPackingTime = Convert.ToInt32(DistributionHelper.GetDistribution(_amountItems).Sample());
