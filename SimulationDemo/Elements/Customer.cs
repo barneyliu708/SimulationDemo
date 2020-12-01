@@ -1,5 +1,5 @@
-﻿using Simulation.Logger;
-using SimulationDemo.Enums;
+﻿using SimulationDemo.Enums;
+using SimulationDemo.Logger;
 using SimulationDemo.Randomness;
 using System;
 using System.Collections.Generic;
@@ -37,11 +37,6 @@ namespace SimulationDemo.Elements
             _needHelpTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.FixingMachineError).Sample());
         }
 
-        public bool IfShouldAngryDeparture()
-        {
-            return Simulation.GlobalTime >= _arrivalTime + _maxToleranceTime;
-        }
-
         public bool IsCheckoutFinished()
         {
             if (this.IsCheckoutStarted() == false)
@@ -68,6 +63,14 @@ namespace SimulationDemo.Elements
             return 1 + _joinedQueue.IndexOfCustomerInQueue(this);
         }
 
+        public bool IfShouldAngryDeparture()
+        {
+            if (this.IsCheckoutStarted())
+            {
+                return false;
+            }
+            return Simulation.GlobalTime >= _arrivalTime + _maxToleranceTime;
+        }
 
         public bool IfShouldChangeLine()
         {
@@ -90,7 +93,12 @@ namespace SimulationDemo.Elements
                 eNumOfCustomers = eNumOfCustomers / _checkoutArea.NumMachine;
             }
 
-            return eNumOfCustomersAhead > eNumOfCustomers; // if current joined queue is not the quickest queue in the check out area, then should change
+            var ifShouldChange = eNumOfCustomersAhead - eNumOfCustomers >= 3;
+            if(ifShouldChange)
+            {
+                SimLogger.Info($"Customer [{_customerId}] finds a quick queue: current has {eNumOfCustomersAhead} ahead in queue {_joinedQueue.QueueId}, while queue {quickestQueue.QueueId} has total {eNumOfCustomers} waiting customers");
+            }
+            return ifShouldChange; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
         // ToDO
@@ -141,6 +149,7 @@ namespace SimulationDemo.Elements
 
         public void StartCheckout()
         {
+            SimLogger.Info($"Customer [{_customerId}] start checking out at queue {_joinedQueue.QueueId}");
             _startCheckoutTime = Simulation.GlobalTime;
         }
 
@@ -151,6 +160,8 @@ namespace SimulationDemo.Elements
                 throw new Exception($"Cannot departure since checkout is not finished yet");
             }
             // this.LeaveQueue(); // does not need to call leavQueue method as in-service customer is not defined as in-line customer
+            SimLogger.Info($"Customer [{_customerId}] departure after checking out at queue {_joinedQueue.QueueId}");
+            _joinedQueue = null;
             this.DepatureCheckoutArea();
         }
 

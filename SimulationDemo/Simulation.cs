@@ -1,6 +1,6 @@
-﻿using Simulation.Logger;
-using SimulationDemo.Elements;
+﻿using SimulationDemo.Elements;
 using SimulationDemo.Enums;
+using SimulationDemo.Logger;
 using SimulationDemo.Randomness;
 using System;
 using System.Collections.Generic;
@@ -125,7 +125,7 @@ namespace SimulationDemo
                     }
                 }
 
-                Thread.Sleep(1000);
+                Thread.Sleep(500);
                 int cursorTop = Console.CursorTop;
                 Console.SetCursorPosition(0, 0);
                 for (int i = 0; i < cursorTop; i++)

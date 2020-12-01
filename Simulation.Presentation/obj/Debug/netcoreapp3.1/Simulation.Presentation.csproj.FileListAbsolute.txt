@@ -49,5 +49,3 @@ C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\bin\Debug\netc
 C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\obj\Debug\netcoreapp3.1\Simulation.Presentation.csproj.CoreCompileInputs.cache
 C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\bin\Debug\netcoreapp3.1\log4net.config
-C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\bin\Debug\netcoreapp3.1\Simulation.Logger.dll
-C:\Users\barne\GitHubRepos\SimulationDemo\Simulation.Presentation\bin\Debug\netcoreapp3.1\Simulation.Logger.pdb

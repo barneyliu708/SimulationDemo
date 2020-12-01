@@ -23,7 +23,7 @@ namespace SimulationDemo.Randomness
 
         public override string ToString()
         {
-            return $"Normal distribution with mane = {_mean}, standard deviation = {_sd}";
+            return $"Normal({_mean}, {_sd})";
         }
 
         public ValueType Sample()

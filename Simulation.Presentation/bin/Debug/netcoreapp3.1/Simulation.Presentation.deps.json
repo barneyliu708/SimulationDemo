@@ -10,7 +10,6 @@
         "dependencies": {
           "Microsoft.Extensions.Hosting": "3.1.1",
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0",
-          "Simulation.Logger": "1.0.0",
           "SimulationDemo": "1.0.0"
         },
         "runtime": {
@@ -632,14 +631,6 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
-      "Simulation.Logger/1.0.0": {
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0"
-        },
-        "runtime": {
-          "Simulation.Logger.dll": {}
-        }
-      },
       "SimulationDemo/1.0.0": {
         "dependencies": {
           "Extreme.Numerics": "7.0.16",
@@ -649,8 +640,8 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "Microsoft.Extensions.Hosting": "3.1.1",
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0",
           "Newtonsoft.Json": "12.0.3",
-          "Simulation.Logger": "1.0.0",
           "log4net": "2.0.12"
         },
         "runtime": {
@@ -1119,11 +1110,6 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
-    },
-    "Simulation.Logger/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "SimulationDemo/1.0.0": {
       "type": "project",

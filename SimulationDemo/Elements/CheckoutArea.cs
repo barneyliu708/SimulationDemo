@@ -40,7 +40,7 @@ namespace SimulationDemo.Elements
             IQueue quickestCashier = null;
             foreach (var currentQ in _cashierQueues)
             {
-                if (quickestCashier == null || quickestCashier.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
+                if (quickestCashier == null || currentQ.IfQueueIdle() || quickestCashier.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
                 {
                     quickestCashier = currentQ;
                 }
@@ -49,13 +49,13 @@ namespace SimulationDemo.Elements
             IQueue quickestSelfCheckout = null;
             foreach (var currentQ in _selfCheckoutQueues)
             {
-                if (quickestSelfCheckout == null || quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
+                if (quickestSelfCheckout == null || currentQ.IfQueueIdle() || quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
                 {
                     quickestSelfCheckout = currentQ;
                 }
             }
 
-            return quickestCashier.NumOfWaitingCustomers() <= (quickestSelfCheckout.NumOfWaitingCustomers() / (_numMachine - 2)) ? quickestCashier : quickestSelfCheckout;
+            return quickestCashier.NumOfWaitingCustomers() <= (quickestSelfCheckout.NumOfWaitingCustomers() / (_numMachine)) ? quickestCashier : quickestSelfCheckout;
         }
 
 
@@ -80,6 +80,7 @@ namespace SimulationDemo.Elements
 
         public void PrintOut()
         {
+            Console.WriteLine("--------------------------------------------------------------------------------------------");
             foreach(var q in _cashierQueues)
             {
                 q.PrintOut();

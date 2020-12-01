@@ -29,7 +29,7 @@ namespace SimulationDemo.Randomness
 
         public override string ToString()
         {
-            return $"Three outcomes distribution with {EventEnum.ScaningSmallAmountItems}'s probability = {_accumulateOutcome1}; {EventEnum.ScaningMediumAmountItems}'s probability = {_accumulateOutcome2 - _accumulateOutcome1}; {EventEnum.ScaningLargeAmountItems}'s probability = {1 - _accumulateOutcome2};";
+            return $"Three outcomes: ({EventEnum.ScaningSmallAmountItems} = {_accumulateOutcome1}%; {EventEnum.ScaningMediumAmountItems} = {_accumulateOutcome2 - _accumulateOutcome1}%; {EventEnum.ScaningLargeAmountItems} = {100 - _accumulateOutcome2}%;";
         }
 
         public ValueType Sample()

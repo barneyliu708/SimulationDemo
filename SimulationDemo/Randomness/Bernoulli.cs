@@ -21,7 +21,7 @@ namespace SimulationDemo.Randomness
 
         public override string ToString()
         {
-            return $"Bernoulli distribution with probability = {_probability}";
+            return $"Bernoulli({_probability})";
         }
 
         public ValueType Sample()

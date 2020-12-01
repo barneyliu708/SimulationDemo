@@ -12,7 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Simulation.Logger\Simulation.Logger.csproj" />
     <ProjectReference Include="..\SimulationDemo\SimulationDemo.csproj" />
   </ItemGroup>
 

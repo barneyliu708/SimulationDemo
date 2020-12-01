@@ -1,11 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using Simulation.Logger;
+using SimulationDemo.Logger;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Simulation.Presentation
@@ -43,8 +40,8 @@ namespace Simulation.Presentation
                     var logger = services.GetRequiredService<ILogger<Form1>>();
                     SimLogger.Logger = logger;
                     
-                    var form1 = services.GetRequiredService<Form1>();
-                    Application.Run(form1);
+                    //var form1 = services.GetRequiredService<Form1>();
+                    Application.Run(new Form1());
                 }
                 catch (Exception ex)
                 {

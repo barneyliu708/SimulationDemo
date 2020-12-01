@@ -82,8 +82,13 @@ namespace SimulationDemo.Elements
             Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
             for(int i = 0; i < _numOfMachines; i++)
             {
-                Console.WriteLine($"Machine {i+1}: [{(_currentInServiceCustomers[i] != null ? _currentInServiceCustomers[i].CustomerId : "        ")}]");
+                Console.WriteLine($" - Machine {i+1}: [{(_currentInServiceCustomers[i] != null ? _currentInServiceCustomers[i].CustomerId : "        ")}]");
             }
+        }
+
+        public bool IfQueueIdle()
+        {
+            return _currentInServiceCustomers.Any(x => x == null);
         }
     }
 }

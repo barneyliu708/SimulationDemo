@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Extensions.Logging;
-using Simulation.Logger;
-using SimulationDemo;
+using SimulationDemo.Enums;
+using SimulationDemo.Logger;
+using SimulationDemo.Randomness;
 
 namespace Simulation.Presentation
 {
@@ -19,15 +14,24 @@ namespace Simulation.Presentation
         private BackgroundWorker backgroundWorker1;
         private readonly ILogger<Form1> _logger;
 
-        public Form1(ILogger<Form1> logger)
-        {
-            _logger = logger;
-            _logger.LogInformation("logging test");
-            SimLogger.Info("Sim Logger Info");
+        //public Form1(ILogger<Form1> logger)
+        //{
+        //    _logger = logger;
+        //    _logger.LogInformation("logging test");
+        //    SimLogger.Info("Sim Logger Info");
 
+        //    InitializeComponent();
+        //    InitializeBackgroundWorker();
+        //    _sim = new SimulationDemo.Simulation(2, 1, 5);
+        //    _sim.Testfield = "test1";
+        //}
+        public Form1()
+        {
             InitializeComponent();
             InitializeBackgroundWorker();
-            _sim = new SimulationDemo.Simulation(2, 1, 5);
+
+            _sim = new SimulationDemo.Simulation(numCashier: 5, numSelfChechout: 1, numMachine: 5);
+
             _sim.Testfield = "test1";
         }
         private void InitializeBackgroundWorker()
@@ -53,14 +57,25 @@ namespace Simulation.Presentation
 
         private void startAsyncButton_Click(object sender, EventArgs e)
         {
-            _logger.LogInformation("started");
             // Start the asynchronous operation.
             backgroundWorker1.RunWorkerAsync();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            _sim.Testfield = "test2";
+            double arrPro = double.Parse(this.textBox1.Text);
+            IDistribution dist = new Bernoulli(arrPro);
+            DistributionHelper.UpdateDistribution(EventEnum.Arrival, dist);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

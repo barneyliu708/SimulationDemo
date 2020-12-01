@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 using System;
 
-namespace Simulation.Logger
+namespace SimulationDemo.Logger
 {
     public static class SimLogger
     {

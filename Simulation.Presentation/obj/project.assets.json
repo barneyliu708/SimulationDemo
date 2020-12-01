@@ -889,19 +889,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "Simulation.Logger/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0"
-        },
-        "compile": {
-          "bin/placeholder/Simulation.Logger.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Simulation.Logger.dll": {}
-        }
-      },
       "SimulationDemo/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -913,8 +900,8 @@
           "Microsoft.Extensions.Configuration.FileExtensions": "5.0.0",
           "Microsoft.Extensions.Configuration.Json": "5.0.0",
           "Microsoft.Extensions.Hosting": "3.1.1",
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0",
           "Newtonsoft.Json": "12.0.3",
-          "Simulation.Logger": "1.0.0",
           "log4net": "2.0.12"
         },
         "compile": {
@@ -3413,11 +3400,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "Simulation.Logger/1.0.0": {
-      "type": "project",
-      "path": "../Simulation.Logger/Simulation.Logger.csproj",
-      "msbuildProject": "../Simulation.Logger/Simulation.Logger.csproj"
-    },
     "SimulationDemo/1.0.0": {
       "type": "project",
       "path": "../SimulationDemo/SimulationDemo.csproj",
@@ -3428,7 +3410,6 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.Extensions.Hosting >= 3.1.1",
       "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 3.1.0",
-      "Simulation.Logger >= 1.0.0",
       "SimulationDemo >= 1.0.0"
     ]
   },
@@ -3458,9 +3439,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\Simulation.Logger\\Simulation.Logger.csproj": {
-              "projectPath": "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\Simulation.Logger\\Simulation.Logger.csproj"
-            },
             "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\SimulationDemo\\SimulationDemo.csproj": {
               "projectPath": "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\SimulationDemo\\SimulationDemo.csproj"
             }

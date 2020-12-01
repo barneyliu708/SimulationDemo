@@ -888,19 +888,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "Simulation.Logger/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "3.1.0"
-        },
-        "compile": {
-          "bin/placeholder/Simulation.Logger.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Simulation.Logger.dll": {}
-        }
       }
     }
   },
@@ -3390,11 +3377,6 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "Simulation.Logger/1.0.0": {
-      "type": "project",
-      "path": "../Simulation.Logger/Simulation.Logger.csproj",
-      "msbuildProject": "../Simulation.Logger/Simulation.Logger.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3406,8 +3388,8 @@
       "Microsoft.Extensions.Configuration.FileExtensions >= 5.0.0",
       "Microsoft.Extensions.Configuration.Json >= 5.0.0",
       "Microsoft.Extensions.Hosting >= 3.1.1",
+      "Microsoft.Extensions.Logging.Log4Net.AspNetCore >= 3.1.0",
       "Newtonsoft.Json >= 12.0.3",
-      "Simulation.Logger >= 1.0.0",
       "log4net >= 2.0.12"
     ]
   },
@@ -3436,11 +3418,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\Simulation.Logger\\Simulation.Logger.csproj": {
-              "projectPath": "C:\\Users\\barne\\GitHubRepos\\SimulationDemo\\Simulation.Logger\\Simulation.Logger.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -3479,6 +3457,10 @@
           "Microsoft.Extensions.Hosting": {
             "target": "Package",
             "version": "[3.1.1, )"
+          },
+          "Microsoft.Extensions.Logging.Log4Net.AspNetCore": {
+            "target": "Package",
+            "version": "[3.1.0, )"
           },
           "Newtonsoft.Json": {
             "target": "Package",

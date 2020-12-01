@@ -47,7 +47,5 @@ C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\System.Diagnostics.EventLog.dll
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.EventLog.dll
-C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.csproj.CoreCompileInputs.cache
 C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
-C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\Simulation.Logger.dll
-C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\bin\Debug\netcoreapp3.1\Simulation.Logger.pdb
+C:\Users\barne\GitHubRepos\SimulationDemo\SimulationDemo\obj\Debug\netcoreapp3.1\SimulationDemo.csproj.CoreCompileInputs.cache
