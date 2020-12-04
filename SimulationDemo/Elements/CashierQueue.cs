@@ -53,12 +53,18 @@ namespace SimulationDemo.Elements
 
         public void PrintOut()
         {
-            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] |{new string('*', _waitingqueue.Count)}");
+            StringBuilder builder = new StringBuilder();
+            foreach(var cur in _waitingqueue)
+            {
+                builder.Append($"[{cur.CustomerId}]");
+            }
+            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] |{builder.ToString()}");
+            //Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] |{new string('*', _waitingqueue.Count)}");
         }
 
-        public bool IfQueueIdle()
+        public bool IsQueueIdle()
         {
-            return _currentInServiceCustomer == null;
+            return _currentInServiceCustomer == null && _waitingqueue.Count == 0;
         }
 
         //public override string ToString()

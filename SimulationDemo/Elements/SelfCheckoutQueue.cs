@@ -79,16 +79,22 @@ namespace SimulationDemo.Elements
 
         public void PrintOut()
         {
-            Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}");
-            for(int i = 0; i < _numOfMachines; i++)
+            StringBuilder builder = new StringBuilder();
+            foreach (var cur in _waitingqueue)
+            {
+                builder.Append($"[{cur.CustomerId}]");
+            }
+            Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{builder.ToString()}");
+
+            for (int i = 0; i < _numOfMachines; i++)
             {
                 Console.WriteLine($" - Machine {i+1}: [{(_currentInServiceCustomers[i] != null ? _currentInServiceCustomers[i].CustomerId : "        ")}]");
             }
         }
 
-        public bool IfQueueIdle()
+        public bool IsQueueIdle()
         {
-            return _currentInServiceCustomers.Any(x => x == null);
+            return _currentInServiceCustomers.Any(x => x == null) && _waitingqueue.Count == 0;
         }
     }
 }

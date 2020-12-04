@@ -1,0 +1,923 @@
+2020-11-30 15:59:15,404  INFO - MESSAGE: Customer [6c7f6959] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:15,509  INFO - MESSAGE: Customer [3a7d0618] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:15,509  INFO - MESSAGE: Customer [d4212018] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:15,510  INFO - MESSAGE: Customer [8e63213f] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:16,102  INFO - MESSAGE: Customer [8b353c53] joined the queue 2cdd61d0
+ 2020-11-30 15:59:16,707  INFO - MESSAGE: Customer [2b9acff2] joined the queue 2cdd61d0
+ 2020-11-30 15:59:17,335  INFO - MESSAGE: Customer [ef7f6c70] joined the queue 664d1c70
+ 2020-11-30 15:59:17,903  INFO - MESSAGE: Customer [49314f34] joined the queue d4c85a05
+ 2020-11-30 15:59:17,903  INFO - MESSAGE: Customer [731d33ab] departure after checking out at queue c4b544c7
+ 2020-11-30 15:59:17,903  INFO - MESSAGE: Customer [6dd347a4] start checking out at queue c4b544c7
+ 2020-11-30 15:59:18,514  INFO - MESSAGE: Customer [60258007] joined the queue c4b544c7
+ 2020-11-30 15:59:18,514  INFO - MESSAGE: Customer [358eadfc] departure after checking out at queue d4c85a05
+ 2020-11-30 15:59:18,514  INFO - MESSAGE: Customer [171b811f] start checking out at queue d4c85a05
+ 2020-11-30 15:59:19,118  INFO - MESSAGE: Customer [6ff7d913] joined the queue d4c85a05
+ 2020-11-30 15:59:19,118  INFO - MESSAGE: Customer [0e5932f0] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:19,118  INFO - MESSAGE: Customer [72da89d3] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:19,118  INFO - MESSAGE: Customer [bc514d12] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:19,118  INFO - MESSAGE: Customer [2f04cf4d] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:19,723  INFO - MESSAGE: Customer [3c090082] joined the queue 2cdd61d0
+ 2020-11-30 15:59:20,342  INFO - MESSAGE: Customer [ce5071c1] joined the queue f9b7baa7
+ 2020-11-30 15:59:20,343  INFO - MESSAGE: Customer [ff620a43] leave the queue 2cdd61d0
+ 2020-11-30 15:59:20,882  INFO - MESSAGE: Customer [9418b784] joined the queue 2cdd61d0
+ 2020-11-30 15:59:21,603  INFO - MESSAGE: Customer [d7b5c754] joined the queue 2f66ee45
+ 2020-11-30 15:59:21,603  INFO - MESSAGE: Customer [36298ae0] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:21,603  INFO - MESSAGE: Customer [74e0a693] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:22,225  INFO - MESSAGE: Customer [82e99106] joined the queue 2cdd61d0
+ 2020-11-30 15:59:22,225  INFO - MESSAGE: Customer [305b2a13] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:22,225  INFO - MESSAGE: Customer [d74d7257] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:22,225  INFO - MESSAGE: Customer [6401a5ba] leave the queue 664d1c70
+ 2020-11-30 15:59:22,225  INFO - MESSAGE: Customer [33f51da4] leave the queue 664d1c70
+ 2020-11-30 15:59:22,899  INFO - MESSAGE: Customer [97cf8e0e] joined the queue 664d1c70
+ 2020-11-30 15:59:23,561  INFO - MESSAGE: Customer [42e3aaf8] joined the queue 2cdd61d0
+ 2020-11-30 15:59:24,179  INFO - MESSAGE: Customer [6d3e2dbe] joined the queue 664d1c70
+ 2020-11-30 15:59:24,872  INFO - MESSAGE: Customer [61978d63] joined the queue 2cdd61d0
+ 2020-11-30 15:59:24,872  INFO - MESSAGE: Customer [766239c3] departure after checking out at queue 664d1c70
+ 2020-11-30 15:59:24,872  INFO - MESSAGE: Customer [793b33b2] start checking out at queue 664d1c70
+ 2020-11-30 15:59:24,872  INFO - MESSAGE: Customer [8e63213f] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:24,872  INFO - MESSAGE: Customer [dd038b18] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:25,522  INFO - MESSAGE: Customer [8373ccb1] joined the queue 664d1c70
+ 2020-11-30 15:59:25,523  INFO - MESSAGE: Customer [842e5f02] departure after checking out at queue 2f66ee45
+ 2020-11-30 15:59:25,523  INFO - MESSAGE: Customer [fe6413e1] start checking out at queue 2f66ee45
+ 2020-11-30 15:59:25,523  INFO - MESSAGE: Customer [72da89d3] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:25,523  INFO - MESSAGE: Customer [b4e11fbc] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:26,186  INFO - MESSAGE: Customer [f1424074] joined the queue f9b7baa7
+ 2020-11-30 15:59:26,186  INFO - MESSAGE: Customer [74e0a693] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:26,186  INFO - MESSAGE: Customer [7705f3f5] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:26,817  INFO - MESSAGE: Customer [4700136e] joined the queue 2cdd61d0
+ 2020-11-30 15:59:26,818  INFO - MESSAGE: Customer [171b811f] departure after checking out at queue d4c85a05
+ 2020-11-30 15:59:26,818  INFO - MESSAGE: Customer [3566fb05] start checking out at queue d4c85a05
+ 2020-11-30 15:59:26,818  INFO - MESSAGE: Customer [6dd347a4] departure after checking out at queue c4b544c7
+ 2020-11-30 15:59:26,818  INFO - MESSAGE: Customer [82eccdcd] start checking out at queue c4b544c7
+ 2020-11-30 15:59:26,818  INFO - MESSAGE: Customer [81a560cd] leave the queue 2f66ee45
+ 2020-11-30 15:59:28,130  INFO - MESSAGE: Customer [ecd94ff9] joined the queue 2f66ee45
+ 2020-11-30 15:59:28,768  INFO - MESSAGE: Customer [14f3ee02] joined the queue c4b544c7
+ 2020-11-30 15:59:29,383  INFO - MESSAGE: Customer [898e20dc] joined the queue d4c85a05
+ 2020-11-30 15:59:29,384  INFO - MESSAGE: Customer [3a7d0618] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:29,384  INFO - MESSAGE: Customer [cb0e9c7f] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:29,998  INFO - MESSAGE: Customer [7ab6f6ec] joined the queue 2cdd61d0
+ 2020-11-30 15:59:30,607  INFO - MESSAGE: Customer [b625a7c2] joined the queue 2f66ee45
+ 2020-11-30 15:59:31,150  INFO - MESSAGE: Customer [8629b8e6] joined the queue 2cdd61d0
+ 2020-11-30 15:59:31,772  INFO - MESSAGE: Customer [0577baef] joined the queue 2cdd61d0
+ 2020-11-30 15:59:32,371  INFO - MESSAGE: Customer [aa1bf103] joined the queue 2cdd61d0
+ 2020-11-30 15:59:33,006  INFO - MESSAGE: Customer [50b69fad] joined the queue 2cdd61d0
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [793b33b2] departure after checking out at queue 664d1c70
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [9d60e11b] start checking out at queue 664d1c70
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [82eccdcd] departure after checking out at queue c4b544c7
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [dcd4873d] start checking out at queue c4b544c7
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [2f04cf4d] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [4e086b03] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [8c514721] leave the queue f9b7baa7
+ 2020-11-30 15:59:33,007  INFO - MESSAGE: Customer [4da418c3] leave the queue 2cdd61d0
+ 2020-11-30 15:59:33,605  INFO - MESSAGE: Customer [d9fbf4cf] joined the queue f9b7baa7
+ 2020-11-30 15:59:34,243  INFO - MESSAGE: Customer [e8b73a91] joined the queue c4b544c7
+ 2020-11-30 15:59:34,244  INFO - MESSAGE: Customer [b4e11fbc] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:34,244  INFO - MESSAGE: Customer [0bdad10f] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:34,868  INFO - MESSAGE: Customer [012c9066] joined the queue f9b7baa7
+ 2020-11-30 15:59:34,868  INFO - MESSAGE: Customer [264efbcb] leave the queue 2cdd61d0
+ 2020-11-30 15:59:35,574  INFO - MESSAGE: Customer [a2d1c055] joined the queue 664d1c70
+ 2020-11-30 15:59:35,574  INFO - MESSAGE: Customer [612ca578] leave the queue 2cdd61d0
+ 2020-11-30 15:59:36,236  INFO - MESSAGE: Customer [846f6adf] joined the queue 2cdd61d0
+ 2020-11-30 15:59:36,913  INFO - MESSAGE: Customer [d74d7257] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:36,913  INFO - MESSAGE: Customer [b1a8b013] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:37,508  INFO - MESSAGE: Customer [53a6275b] joined the queue 2cdd61d0
+ 2020-11-30 15:59:37,509  INFO - MESSAGE: Customer [fe6413e1] departure after checking out at queue 2f66ee45
+ 2020-11-30 15:59:37,509  INFO - MESSAGE: Customer [e5537f4c] start checking out at queue 2f66ee45
+ 2020-11-30 15:59:38,132  INFO - MESSAGE: Customer [88a996ad] joined the queue 2f66ee45
+ 2020-11-30 15:59:38,132  INFO - MESSAGE: Customer [0bdad10f] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:38,132  INFO - MESSAGE: Customer [d0334a53] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:38,822  INFO - MESSAGE: Customer [95cb2b9e] joined the queue f9b7baa7
+ 2020-11-30 15:59:38,822  INFO - MESSAGE: Customer [dd038b18] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:38,822  INFO - MESSAGE: Customer [056f3e69] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:39,467  INFO - MESSAGE: Customer [50ef76f1] joined the queue 2cdd61d0
+ 2020-11-30 15:59:39,477  INFO - MESSAGE: Customer [15321ffc] leave the queue 2cdd61d0
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [036babc6] joined the queue 2cdd61d0
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [3566fb05] departure after checking out at queue d4c85a05
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [cacdfff7] start checking out at queue d4c85a05
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [9d60e11b] departure after checking out at queue 664d1c70
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [51c29e78] start checking out at queue 664d1c70
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [7705f3f5] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [258ba3c9] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:40,009  INFO - MESSAGE: Customer [65f1ac1d] leave the queue 2cdd61d0
+ 2020-11-30 15:59:40,659  INFO - MESSAGE: Customer [04a57dd1] joined the queue 2cdd61d0
+ 2020-11-30 15:59:41,301  INFO - MESSAGE: Customer [4d954613] joined the queue 664d1c70
+ 2020-11-30 15:59:41,932  INFO - MESSAGE: Customer [83a4f7c7] joined the queue d4c85a05
+ 2020-11-30 15:59:41,932  INFO - MESSAGE: Customer [f0ff29ce] leave the queue c4b544c7
+ 2020-11-30 15:59:43,173  INFO - MESSAGE: Customer [58fbd2b5] joined the queue c4b544c7
+ 2020-11-30 15:59:43,173  INFO - MESSAGE: Customer [cb0e9c7f] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,173  INFO - MESSAGE: Customer [1c97da61] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,173  INFO - MESSAGE: Customer [4e086b03] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,173  INFO - MESSAGE: Customer [3cbc2466] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,801  INFO - MESSAGE: Customer [dbb1d9c8] joined the queue 2cdd61d0
+ 2020-11-30 15:59:43,801  INFO - MESSAGE: Customer [b1a8b013] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,801  INFO - MESSAGE: Customer [b30b6afc] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:43,801  INFO - MESSAGE: Customer [c62fb404] leave the queue c4b544c7
+ 2020-11-30 15:59:44,468  INFO - MESSAGE: Customer [d0334a53] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:44,468  INFO - MESSAGE: Customer [4ca284dd] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:44,468  INFO - MESSAGE: Customer [3998d7b5] leave the queue d4c85a05
+ 2020-11-30 15:59:45,126  INFO - MESSAGE: Customer [f7896dd5] joined the queue 2cdd61d0
+ 2020-11-30 15:59:45,803  INFO - MESSAGE: Customer [82a84b57] joined the queue 2cdd61d0
+ 2020-11-30 15:59:45,803  INFO - MESSAGE: Customer [8f115551] leave the queue 2f66ee45
+ 2020-11-30 15:59:46,527  INFO - MESSAGE: Customer [e5537f4c] departure after checking out at queue 2f66ee45
+ 2020-11-30 15:59:46,528  INFO - MESSAGE: Customer [9611f1c6] start checking out at queue 2f66ee45
+ 2020-11-30 15:59:46,528  INFO - MESSAGE: Customer [dcd4873d] departure after checking out at queue c4b544c7
+ 2020-11-30 15:59:46,528  INFO - MESSAGE: Customer [476b3c45] start checking out at queue c4b544c7
+ 2020-11-30 15:59:47,070  INFO - MESSAGE: Customer [51c29e78] departure after checking out at queue 664d1c70
+ 2020-11-30 15:59:47,070  INFO - MESSAGE: Customer [ef7f6c70] start checking out at queue 664d1c70
+ 2020-11-30 15:59:48,369  INFO - MESSAGE: Customer [258ba3c9] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:48,369  INFO - MESSAGE: Customer [4c517108] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:48,369  INFO - MESSAGE: Customer [93cad390] leave the queue d4c85a05
+ 2020-11-30 15:59:49,681  INFO - MESSAGE: Customer [cacdfff7] departure after checking out at queue d4c85a05
+ 2020-11-30 15:59:49,681  INFO - MESSAGE: Customer [49314f34] start checking out at queue d4c85a05
+ 2020-11-30 15:59:49,682  INFO - MESSAGE: Customer [cce66f98] leave the queue 2cdd61d0
+ 2020-11-30 15:59:50,242  INFO - MESSAGE: Customer [875f57d9] leave the queue 2cdd61d0
+ 2020-11-30 15:59:50,925  INFO - MESSAGE: Customer [4ca284dd] departure after checking out at queue f9b7baa7
+ 2020-11-30 15:59:50,926  INFO - MESSAGE: Customer [ce5071c1] start checking out at queue f9b7baa7
+ 2020-11-30 15:59:50,926  INFO - MESSAGE: Customer [1c97da61] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:50,926  INFO - MESSAGE: Customer [4993da27] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,139  INFO - MESSAGE: Customer [ef7f6c70] departure after checking out at queue 664d1c70
+ 2020-11-30 15:59:52,139  INFO - MESSAGE: Customer [97cf8e0e] start checking out at queue 664d1c70
+ 2020-11-30 15:59:52,139  INFO - MESSAGE: Customer [b30b6afc] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,139  INFO - MESSAGE: Customer [8b353c53] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,772  INFO - MESSAGE: Customer [056f3e69] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,772  INFO - MESSAGE: Customer [2b9acff2] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,772  INFO - MESSAGE: Customer [3cbc2466] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:52,772  INFO - MESSAGE: Customer [3c090082] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:54,579  INFO - MESSAGE: Customer [4c517108] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:54,579  INFO - MESSAGE: Customer [9418b784] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:55,229  INFO - MESSAGE: Customer [60258007] leave the queue c4b544c7
+ 2020-11-30 15:59:56,895  INFO - MESSAGE: Customer [8b353c53] departure after checking out at queue 2cdd61d0
+ 2020-11-30 15:59:56,895  INFO - MESSAGE: Customer [82e99106] start checking out at queue 2cdd61d0
+ 2020-11-30 15:59:56,895  INFO - MESSAGE: Customer [6ff7d913] leave the queue d4c85a05
+ 2020-11-30 16:00:05,479  INFO - MESSAGE: Customer [49314f34] departure after checking out at queue d4c85a05
+ 2020-11-30 16:00:05,479  INFO - MESSAGE: Customer [898e20dc] start checking out at queue d4c85a05
+ 2020-11-30 16:00:05,479  INFO - MESSAGE: Customer [88a996ad] finds a quick queue: current has 4 ahead in queue 2f66ee45, while queue d4c85a05 has total 1 waiting customers
+ 2020-11-30 16:00:05,480  INFO - MESSAGE: Customer [88a996ad] leave the queue 2f66ee45
+ 2020-11-30 16:00:05,480  INFO - MESSAGE: Customer [88a996ad] joined the queue d4c85a05
+ 2020-11-30 16:00:06,100  INFO - MESSAGE: Customer [4993da27] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:06,100  INFO - MESSAGE: Customer [42e3aaf8] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:07,336  INFO - MESSAGE: Customer [476b3c45] departure after checking out at queue c4b544c7
+ 2020-11-30 16:00:07,336  INFO - MESSAGE: Customer [14f3ee02] start checking out at queue c4b544c7
+ 2020-11-30 16:00:07,336  INFO - MESSAGE: Customer [ce5071c1] departure after checking out at queue f9b7baa7
+ 2020-11-30 16:00:07,337  INFO - MESSAGE: Customer [f1424074] start checking out at queue f9b7baa7
+ 2020-11-30 16:00:07,981  INFO - MESSAGE: Customer [9611f1c6] departure after checking out at queue 2f66ee45
+ 2020-11-30 16:00:07,981  INFO - MESSAGE: Customer [d7b5c754] start checking out at queue 2f66ee45
+ 2020-11-30 16:00:08,647  INFO - MESSAGE: Customer [3c090082] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:08,647  INFO - MESSAGE: Customer [61978d63] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:09,280  INFO - MESSAGE: Customer [97cf8e0e] departure after checking out at queue 664d1c70
+ 2020-11-30 16:00:09,280  INFO - MESSAGE: Customer [6d3e2dbe] start checking out at queue 664d1c70
+ 2020-11-30 16:00:09,280  INFO - MESSAGE: Customer [2b9acff2] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:09,280  INFO - MESSAGE: Customer [4700136e] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:10,373  INFO - MESSAGE: Customer [9418b784] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:10,373  INFO - MESSAGE: Customer [7ab6f6ec] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:10,953  INFO - MESSAGE: Customer [8373ccb1] leave the queue 664d1c70
+ 2020-11-30 16:00:12,038  INFO - MESSAGE: Customer [d7b5c754] departure after checking out at queue 2f66ee45
+ 2020-11-30 16:00:12,038  INFO - MESSAGE: Customer [ecd94ff9] start checking out at queue 2f66ee45
+ 2020-11-30 16:00:13,130  INFO - MESSAGE: Customer [898e20dc] departure after checking out at queue d4c85a05
+ 2020-11-30 16:00:13,130  INFO - MESSAGE: Customer [83a4f7c7] start checking out at queue d4c85a05
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [14f3ee02] departure after checking out at queue c4b544c7
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [e8b73a91] start checking out at queue c4b544c7
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [f1424074] departure after checking out at queue f9b7baa7
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [d9fbf4cf] start checking out at queue f9b7baa7
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [82e99106] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:14,220  INFO - MESSAGE: Customer [8629b8e6] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:14,762  INFO - MESSAGE: Customer [42e3aaf8] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:14,762  INFO - MESSAGE: Customer [0577baef] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:15,306  INFO - MESSAGE: Customer [6d3e2dbe] departure after checking out at queue 664d1c70
+ 2020-11-30 16:00:15,306  INFO - MESSAGE: Customer [a2d1c055] start checking out at queue 664d1c70
+ 2020-11-30 16:00:15,306  INFO - MESSAGE: Customer [61978d63] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:15,306  INFO - MESSAGE: Customer [aa1bf103] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:15,306  INFO - MESSAGE: Customer [b625a7c2] leave the queue 2f66ee45
+ 2020-11-30 16:00:17,481  INFO - MESSAGE: Customer [50b69fad] leave the queue 2cdd61d0
+ 2020-11-30 16:00:18,550  INFO - MESSAGE: Customer [012c9066] leave the queue f9b7baa7
+ 2020-11-30 16:00:19,098  INFO - MESSAGE: Customer [83a4f7c7] departure after checking out at queue d4c85a05
+ 2020-11-30 16:00:19,098  INFO - MESSAGE: Customer [88a996ad] start checking out at queue d4c85a05
+ 2020-11-30 16:00:19,639  INFO - MESSAGE: Customer [4700136e] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:19,639  INFO - MESSAGE: Customer [846f6adf] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:20,728  INFO - MESSAGE: Customer [53a6275b] leave the queue 2cdd61d0
+ 2020-11-30 16:00:21,270  INFO - MESSAGE: Customer [a2d1c055] departure after checking out at queue 664d1c70
+ 2020-11-30 16:00:21,270  INFO - MESSAGE: Customer [4d954613] start checking out at queue 664d1c70
+ 2020-11-30 16:00:21,270  INFO - MESSAGE: Customer [7ab6f6ec] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:21,271  INFO - MESSAGE: Customer [50ef76f1] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:21,271  INFO - MESSAGE: Customer [95cb2b9e] leave the queue f9b7baa7
+ 2020-11-30 16:00:21,815  INFO - MESSAGE: Customer [393987d4] joined the queue f9b7baa7
+ 2020-11-30 16:00:22,903  INFO - MESSAGE: Customer [ecd94ff9] departure after checking out at queue 2f66ee45
+ 2020-11-30 16:00:23,450  INFO - MESSAGE: Customer [036babc6] leave the queue 2cdd61d0
+ 2020-11-30 16:00:23,450  INFO - MESSAGE: Customer [04a57dd1] leave the queue 2cdd61d0
+ 2020-11-30 16:00:23,993  INFO - MESSAGE: Customer [e8b73a91] departure after checking out at queue c4b544c7
+ 2020-11-30 16:00:23,994  INFO - MESSAGE: Customer [58fbd2b5] start checking out at queue c4b544c7
+ 2020-11-30 16:00:23,994  INFO - MESSAGE: Customer [0577baef] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:23,994  INFO - MESSAGE: Customer [dbb1d9c8] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:25,048  INFO - MESSAGE: Customer [50ef76f1] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:25,049  INFO - MESSAGE: Customer [f7896dd5] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:25,049  INFO - MESSAGE: Customer [846f6adf] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:25,049  INFO - MESSAGE: Customer [82a84b57] start checking out at queue 2cdd61d0
+ 2020-11-30 16:00:25,591  INFO - MESSAGE: Customer [d9fbf4cf] departure after checking out at queue f9b7baa7
+ 2020-11-30 16:00:25,591  INFO - MESSAGE: Customer [393987d4] start checking out at queue f9b7baa7
+ 2020-11-30 16:00:26,162  INFO - MESSAGE: Customer [88a996ad] departure after checking out at queue d4c85a05
+ 2020-11-30 16:00:27,254  INFO - MESSAGE: Customer [8629b8e6] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:27,254  INFO - MESSAGE: Customer [aa1bf103] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:27,797  INFO - MESSAGE: Customer [4d954613] departure after checking out at queue 664d1c70
+ 2020-11-30 16:00:29,423  INFO - MESSAGE: Customer [dbb1d9c8] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:31,604  INFO - MESSAGE: Customer [82a84b57] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:00:32,688  INFO - MESSAGE: Customer [393987d4] departure after checking out at queue f9b7baa7
+ 2020-11-30 16:00:36,993  INFO - MESSAGE: Customer [58fbd2b5] departure after checking out at queue c4b544c7
+ 2020-11-30 16:00:37,543  INFO - MESSAGE: Customer [f7896dd5] departure after checking out at queue 2cdd61d0
+ 2020-11-30 16:58:47,548  INFO - MESSAGE: Execution started
+ 2020-11-30 16:58:47,648  INFO - MESSAGE: Customer [56562e0b] joined the queue 3c72f272
+ 2020-11-30 16:58:47,650  INFO - MESSAGE: Customer [56562e0b] start checking out at queue 3c72f272
+ 2020-11-30 16:58:48,233  INFO - MESSAGE: Customer [c31ba581] joined the queue 3c72f272
+ 2020-11-30 16:58:48,832  INFO - MESSAGE: Customer [e2c1f067] joined the queue 45642800
+ 2020-11-30 16:58:48,833  INFO - MESSAGE: Customer [e2c1f067] start checking out at queue 45642800
+ 2020-11-30 16:58:50,029  INFO - MESSAGE: Customer [bebf0ac0] joined the queue 45642800
+ 2020-11-30 16:58:50,732  INFO - MESSAGE: Customer [22619843] joined the queue e9f84818
+ 2020-11-30 16:58:50,735  INFO - MESSAGE: Customer [22619843] start checking out at queue e9f84818
+ 2020-11-30 16:58:51,322  INFO - MESSAGE: Customer [75197f8a] joined the queue e9f84818
+ 2020-11-30 16:58:51,867  INFO - MESSAGE: Customer [02d9ed47] joined the queue 925215d0
+ 2020-11-30 16:58:51,867  INFO - MESSAGE: Customer [02d9ed47] start checking out at queue 925215d0
+ 2020-11-30 16:58:52,412  INFO - MESSAGE: Customer [2f1659ce] joined the queue 925215d0
+ 2020-11-30 16:58:52,972  INFO - MESSAGE: Customer [68a3f9dd] joined the queue 32153bc4
+ 2020-11-30 16:58:52,974  INFO - MESSAGE: Customer [68a3f9dd] start checking out at queue 32153bc4
+ 2020-11-30 16:58:52,975  INFO - MESSAGE: Customer [56562e0b] departure after checking out at queue 3c72f272
+ 2020-11-30 16:58:52,975  INFO - MESSAGE: Customer [c31ba581] start checking out at queue 3c72f272
+ 2020-11-30 16:58:53,634  INFO - MESSAGE: Customer [2257f39c] joined the queue 3c72f272
+ 2020-11-30 16:58:54,193  INFO - MESSAGE: Customer [0c06b875] joined the queue 32153bc4
+ 2020-11-30 16:58:54,771  INFO - MESSAGE: Customer [8ec69153] joined the queue 876a4cd4
+ 2020-11-30 16:58:54,777  INFO - MESSAGE: Customer [8ec69153] start checking out at queue 876a4cd4
+ 2020-11-30 16:58:55,384  INFO - MESSAGE: Customer [258a0520] joined the queue 876a4cd4
+ 2020-11-30 16:58:55,398  INFO - MESSAGE: Customer [258a0520] start checking out at queue 876a4cd4
+ 2020-11-30 16:58:56,001  INFO - MESSAGE: Customer [00e386da] joined the queue 876a4cd4
+ 2020-11-30 16:58:56,001  INFO - MESSAGE: Customer [e2c1f067] departure after checking out at queue 45642800
+ 2020-11-30 16:58:56,009  INFO - MESSAGE: Customer [bebf0ac0] start checking out at queue 45642800
+ 2020-11-30 16:58:56,010  INFO - MESSAGE: Customer [00e386da] start checking out at queue 876a4cd4
+ 2020-11-30 16:58:56,797  INFO - MESSAGE: Customer [6fa44c01] joined the queue 45642800
+ 2020-11-30 16:58:57,607  INFO - MESSAGE: Customer [024fcd04] joined the queue 876a4cd4
+ 2020-11-30 16:58:57,607  INFO - MESSAGE: Customer [024fcd04] start checking out at queue 876a4cd4
+ 2020-11-30 16:58:58,159  INFO - MESSAGE: Customer [7e412522] joined the queue 876a4cd4
+ 2020-11-30 16:58:58,159  INFO - MESSAGE: Customer [02d9ed47] departure after checking out at queue 925215d0
+ 2020-11-30 16:58:58,160  INFO - MESSAGE: Customer [2f1659ce] start checking out at queue 925215d0
+ 2020-11-30 16:58:58,160  INFO - MESSAGE: Customer [7e412522] start checking out at queue 876a4cd4
+ 2020-11-30 16:58:58,813  INFO - MESSAGE: Customer [5c55a06e] joined the queue 925215d0
+ 2020-11-30 16:58:58,814  INFO - MESSAGE: Customer [22619843] departure after checking out at queue e9f84818
+ 2020-11-30 16:58:58,814  INFO - MESSAGE: Customer [75197f8a] start checking out at queue e9f84818
+ 2020-11-30 16:58:59,458  INFO - MESSAGE: Customer [b1217d83] joined the queue e9f84818
+ 2020-11-30 16:59:00,100  INFO - MESSAGE: Customer [70439288] joined the queue 876a4cd4
+ 2020-11-30 16:59:00,670  INFO - MESSAGE: Customer [d4b95e65] joined the queue 876a4cd4
+ 2020-11-30 16:59:00,671  INFO - MESSAGE: Customer [c31ba581] departure after checking out at queue 3c72f272
+ 2020-11-30 16:59:00,671  INFO - MESSAGE: Customer [2257f39c] start checking out at queue 3c72f272
+ 2020-11-30 16:59:01,322  INFO - MESSAGE: Customer [f7cdd8cf] joined the queue 3c72f272
+ 2020-11-30 16:59:01,322  INFO - MESSAGE: Customer [68a3f9dd] departure after checking out at queue 32153bc4
+ 2020-11-30 16:59:01,322  INFO - MESSAGE: Customer [0c06b875] start checking out at queue 32153bc4
+ 2020-11-30 16:59:01,915  INFO - MESSAGE: Customer [f6c514fe] joined the queue 32153bc4
+ 2020-11-30 16:59:02,511  INFO - MESSAGE: Customer [1a10abe7] joined the queue 876a4cd4
+ 2020-11-30 16:59:03,177  INFO - MESSAGE: Customer [91d3f515] joined the queue 876a4cd4
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [7fa50781] joined the queue 876a4cd4
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [bebf0ac0] departure after checking out at queue 45642800
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [6fa44c01] start checking out at queue 45642800
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [258a0520] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [70439288] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [00e386da] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:03,711  INFO - MESSAGE: Customer [d4b95e65] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:04,316  INFO - MESSAGE: Customer [f0e2c770] joined the queue 45642800
+ 2020-11-30 16:59:04,943  INFO - MESSAGE: Customer [58ba3bee] joined the queue 876a4cd4
+ 2020-11-30 16:59:05,551  INFO - MESSAGE: Customer [a15d0d5c] joined the queue 876a4cd4
+ 2020-11-30 16:59:05,552  INFO - MESSAGE: Customer [024fcd04] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:05,552  INFO - MESSAGE: Customer [1a10abe7] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:06,184  INFO - MESSAGE: Customer [30e22f94] joined the queue 876a4cd4
+ 2020-11-30 16:59:06,717  INFO - MESSAGE: Customer [78c0edcf] joined the queue 3c72f272
+ 2020-11-30 16:59:07,361  INFO - MESSAGE: Customer [a1e0f2fd] joined the queue 45642800
+ 2020-11-30 16:59:07,361  INFO - MESSAGE: Customer [75197f8a] departure after checking out at queue e9f84818
+ 2020-11-30 16:59:07,361  INFO - MESSAGE: Customer [b1217d83] start checking out at queue e9f84818
+ 2020-11-30 16:59:08,063  INFO - MESSAGE: Customer [051f723f] joined the queue e9f84818
+ 2020-11-30 16:59:08,634  INFO - MESSAGE: Customer [656a46f8] joined the queue e9f84818
+ 2020-11-30 16:59:08,634  INFO - MESSAGE: Customer [2257f39c] departure after checking out at queue 3c72f272
+ 2020-11-30 16:59:08,634  INFO - MESSAGE: Customer [f7cdd8cf] start checking out at queue 3c72f272
+ 2020-11-30 16:59:08,635  INFO - MESSAGE: Customer [8ec69153] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:08,635  INFO - MESSAGE: Customer [91d3f515] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:08,635  INFO - MESSAGE: Customer [7e412522] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:08,635  INFO - MESSAGE: Customer [7fa50781] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:09,214  INFO - MESSAGE: Customer [749b1968] joined the queue 876a4cd4
+ 2020-11-30 16:59:09,214  INFO - MESSAGE: Customer [2f1659ce] departure after checking out at queue 925215d0
+ 2020-11-30 16:59:09,214  INFO - MESSAGE: Customer [5c55a06e] start checking out at queue 925215d0
+ 2020-11-30 16:59:09,214  INFO - MESSAGE: Customer [d4b95e65] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:09,214  INFO - MESSAGE: Customer [58ba3bee] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:09,750  INFO - MESSAGE: Customer [e3032a8b] joined the queue 925215d0
+ 2020-11-30 16:59:10,325  INFO - MESSAGE: Customer [ec38d82a] joined the queue 876a4cd4
+ 2020-11-30 16:59:11,522  INFO - MESSAGE: Customer [a8ed08c1] joined the queue 876a4cd4
+ 2020-11-30 16:59:12,151  INFO - MESSAGE: Customer [4c60326d] joined the queue 3c72f272
+ 2020-11-30 16:59:12,152  INFO - MESSAGE: Customer [0c06b875] departure after checking out at queue 32153bc4
+ 2020-11-30 16:59:12,152  INFO - MESSAGE: Customer [f6c514fe] start checking out at queue 32153bc4
+ 2020-11-30 16:59:12,661  INFO - MESSAGE: Customer [9464e59b] joined the queue 32153bc4
+ 2020-11-30 16:59:13,171  INFO - MESSAGE: Customer [d5ed73ab] joined the queue 925215d0
+ 2020-11-30 16:59:13,171  INFO - MESSAGE: Customer [7fa50781] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:13,171  INFO - MESSAGE: Customer [a15d0d5c] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:13,708  INFO - MESSAGE: Customer [03c7943d] joined the queue 876a4cd4
+ 2020-11-30 16:59:14,256  INFO - MESSAGE: Customer [07b064db] joined the queue 32153bc4
+ 2020-11-30 16:59:14,800  INFO - MESSAGE: Customer [a9c97a9b] joined the queue 876a4cd4
+ 2020-11-30 16:59:14,801  INFO - MESSAGE: Customer [91d3f515] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:14,801  INFO - MESSAGE: Customer [30e22f94] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:15,386  INFO - MESSAGE: Customer [9592e088] joined the queue 876a4cd4
+ 2020-11-30 16:59:15,387  INFO - MESSAGE: Customer [6fa44c01] departure after checking out at queue 45642800
+ 2020-11-30 16:59:15,387  INFO - MESSAGE: Customer [f0e2c770] start checking out at queue 45642800
+ 2020-11-30 16:59:15,914  INFO - MESSAGE: Customer [0af4ba15] joined the queue 45642800
+ 2020-11-30 16:59:15,914  INFO - MESSAGE: Customer [70439288] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:15,914  INFO - MESSAGE: Customer [749b1968] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:16,501  INFO - MESSAGE: Customer [b1217d83] departure after checking out at queue e9f84818
+ 2020-11-30 16:59:16,501  INFO - MESSAGE: Customer [051f723f] start checking out at queue e9f84818
+ 2020-11-30 16:59:16,502  INFO - MESSAGE: Customer [1a10abe7] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:16,502  INFO - MESSAGE: Customer [ec38d82a] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:17,106  INFO - MESSAGE: Customer [b45ba8cb] joined the queue 876a4cd4
+ 2020-11-30 16:59:17,616  INFO - MESSAGE: Customer [c064162f] joined the queue e9f84818
+ 2020-11-30 16:59:17,616  INFO - MESSAGE: Customer [5c55a06e] departure after checking out at queue 925215d0
+ 2020-11-30 16:59:17,616  INFO - MESSAGE: Customer [e3032a8b] start checking out at queue 925215d0
+ 2020-11-30 16:59:17,617  INFO - MESSAGE: Customer [58ba3bee] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:17,617  INFO - MESSAGE: Customer [a8ed08c1] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:18,193  INFO - MESSAGE: Customer [ccc12606] joined the queue 876a4cd4
+ 2020-11-30 16:59:18,833  INFO - MESSAGE: Customer [92f60fa0] joined the queue 925215d0
+ 2020-11-30 16:59:19,467  INFO - MESSAGE: Customer [360bf08c] joined the queue 876a4cd4
+ 2020-11-30 16:59:20,084  INFO - MESSAGE: Customer [0ffa521b] joined the queue 876a4cd4
+ 2020-11-30 16:59:20,084  INFO - MESSAGE: Customer [f6c514fe] departure after checking out at queue 32153bc4
+ 2020-11-30 16:59:20,084  INFO - MESSAGE: Customer [9464e59b] start checking out at queue 32153bc4
+ 2020-11-30 16:59:20,685  INFO - MESSAGE: Customer [1ed0cc02] joined the queue 32153bc4
+ 2020-11-30 16:59:20,685  INFO - MESSAGE: Customer [f7cdd8cf] departure after checking out at queue 3c72f272
+ 2020-11-30 16:59:20,685  INFO - MESSAGE: Customer [78c0edcf] start checking out at queue 3c72f272
+ 2020-11-30 16:59:21,314  INFO - MESSAGE: Customer [e2351adc] joined the queue 3c72f272
+ 2020-11-30 16:59:21,314  INFO - MESSAGE: Customer [30e22f94] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:21,314  INFO - MESSAGE: Customer [03c7943d] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:21,934  INFO - MESSAGE: Customer [8cd31863] joined the queue 876a4cd4
+ 2020-11-30 16:59:22,606  INFO - MESSAGE: Customer [30eaf330] joined the queue 876a4cd4
+ 2020-11-30 16:59:22,606  INFO - MESSAGE: Customer [749b1968] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:22,606  INFO - MESSAGE: Customer [a9c97a9b] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:23,206  INFO - MESSAGE: Customer [526c8078] joined the queue 876a4cd4
+ 2020-11-30 16:59:23,805  INFO - MESSAGE: Customer [11217b84] joined the queue 876a4cd4
+ 2020-11-30 16:59:24,381  INFO - MESSAGE: Customer [66e6ba5a] joined the queue 876a4cd4
+ 2020-11-30 16:59:25,027  INFO - MESSAGE: Customer [a8ed08c1] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:25,027  INFO - MESSAGE: Customer [9592e088] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:25,665  INFO - MESSAGE: Customer [e3a576a1] joined the queue 876a4cd4
+ 2020-11-30 16:59:25,665  INFO - MESSAGE: Customer [a15d0d5c] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:25,666  INFO - MESSAGE: Customer [b45ba8cb] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:26,236  INFO - MESSAGE: Customer [38100936] joined the queue 876a4cd4
+ 2020-11-30 16:59:26,236  INFO - MESSAGE: Customer [e3032a8b] departure after checking out at queue 925215d0
+ 2020-11-30 16:59:26,236  INFO - MESSAGE: Customer [d5ed73ab] start checking out at queue 925215d0
+ 2020-11-30 16:59:26,844  INFO - MESSAGE: Customer [50b661fb] joined the queue 925215d0
+ 2020-11-30 16:59:27,445  INFO - MESSAGE: Customer [7d3386b9] joined the queue 3c72f272
+ 2020-11-30 16:59:27,446  INFO - MESSAGE: Customer [a9c97a9b] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:27,446  INFO - MESSAGE: Customer [ccc12606] start checking out at queue 876a4cd4
+ 2020-11-30 16:59:28,065  INFO - MESSAGE: Customer [408e4033] joined the queue 876a4cd4
+ 2020-11-30 16:59:28,065  INFO - MESSAGE: Customer [9464e59b] departure after checking out at queue 32153bc4
+ 2020-11-30 16:59:28,065  INFO - MESSAGE: Customer [07b064db] start checking out at queue 32153bc4
+ 2020-11-30 16:59:28,678  INFO - MESSAGE: Customer [dbf2d1ee] joined the queue 32153bc4
+ 2020-11-30 16:59:28,678  INFO - MESSAGE: Customer [f0e2c770] departure after checking out at queue 45642800
+ 2020-11-30 16:59:28,678  INFO - MESSAGE: Customer [a1e0f2fd] start checking out at queue 45642800
+ 2020-11-30 16:59:28,678  INFO - MESSAGE: Customer [ec38d82a] departure after checking out at queue 876a4cd4
+ 2020-11-30 16:59:28,678  INFO - MESSAGE: Customer [360bf08c] start checking out at queue 876a4cd4
+ 2020-11-30 17:33:16,286  INFO - MESSAGE: Execution started
+ 2020-11-30 17:33:16,417  INFO - MESSAGE: Customer [02859db8] joined the queue 605a3d52
+ 2020-11-30 17:33:16,418  INFO - MESSAGE: Customer [02859db8] start checking out at queue 605a3d52
+ 2020-11-30 17:33:16,938  INFO - MESSAGE: Customer [a86844d2] joined the queue 605a3d52
+ 2020-11-30 17:33:17,469  INFO - MESSAGE: Customer [ee14a060] joined the queue e4331f92
+ 2020-11-30 17:33:17,471  INFO - MESSAGE: Customer [ee14a060] start checking out at queue e4331f92
+ 2020-11-30 17:33:18,600  INFO - MESSAGE: Customer [0f9612b4] joined the queue e4331f92
+ 2020-11-30 17:33:19,636  INFO - MESSAGE: Customer [41fb91ff] joined the queue ccf4e15b
+ 2020-11-30 17:33:19,637  INFO - MESSAGE: Customer [41fb91ff] start checking out at queue ccf4e15b
+ 2020-11-30 17:33:20,155  INFO - MESSAGE: Customer [02e4406e] joined the queue ccf4e15b
+ 2020-11-30 17:33:20,680  INFO - MESSAGE: Customer [5fd9c91a] joined the queue 80f54c04
+ 2020-11-30 17:33:20,680  INFO - MESSAGE: Customer [5fd9c91a] start checking out at queue 80f54c04
+ 2020-11-30 17:33:21,356  INFO - MESSAGE: Customer [b117d762] joined the queue 80f54c04
+ 2020-11-30 17:33:21,916  INFO - MESSAGE: Customer [10cc7ca9] joined the queue 65f46e7c
+ 2020-11-30 17:33:21,917  INFO - MESSAGE: Customer [10cc7ca9] start checking out at queue 65f46e7c
+ 2020-11-30 17:33:22,440  INFO - MESSAGE: Customer [b4710b4b] joined the queue 65f46e7c
+ 2020-11-30 17:33:22,961  INFO - MESSAGE: Customer [09bce984] joined the queue 018fd197
+ 2020-11-30 17:33:22,961  INFO - MESSAGE: Customer [09bce984] start checking out at queue 018fd197
+ 2020-11-30 17:33:23,495  INFO - MESSAGE: Customer [a2000936] joined the queue 018fd197
+ 2020-11-30 17:33:23,497  INFO - MESSAGE: Customer [02859db8] departure after checking out at queue 605a3d52
+ 2020-11-30 17:33:23,499  INFO - MESSAGE: Customer [a86844d2] start checking out at queue 605a3d52
+ 2020-11-30 17:33:23,499  INFO - MESSAGE: Customer [a2000936] start checking out at queue 018fd197
+ 2020-11-30 17:33:24,044  INFO - MESSAGE: Customer [8835ebde] joined the queue 605a3d52
+ 2020-11-30 17:33:24,664  INFO - MESSAGE: Customer [d2e489c0] joined the queue 018fd197
+ 2020-11-30 17:33:24,665  INFO - MESSAGE: Customer [d2e489c0] start checking out at queue 018fd197
+ 2020-11-30 17:33:25,291  INFO - MESSAGE: Customer [d27f0e17] joined the queue 018fd197
+ 2020-11-30 17:33:25,291  INFO - MESSAGE: Customer [d27f0e17] start checking out at queue 018fd197
+ 2020-11-30 17:33:25,816  INFO - MESSAGE: Customer [d888bfe5] joined the queue 018fd197
+ 2020-11-30 17:33:25,817  INFO - MESSAGE: Customer [d888bfe5] start checking out at queue 018fd197
+ 2020-11-30 17:33:26,327  INFO - MESSAGE: Customer [a9b9f75d] joined the queue 018fd197
+ 2020-11-30 17:33:26,327  INFO - MESSAGE: Customer [ee14a060] departure after checking out at queue e4331f92
+ 2020-11-30 17:33:26,328  INFO - MESSAGE: Customer [0f9612b4] start checking out at queue e4331f92
+ 2020-11-30 17:33:26,921  INFO - MESSAGE: Customer [c944d1e6] joined the queue e4331f92
+ 2020-11-30 17:33:27,442  INFO - MESSAGE: Customer [c5490234] joined the queue 018fd197
+ 2020-11-30 17:33:27,443  INFO - MESSAGE: Customer [a2000936] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:27,443  INFO - MESSAGE: Customer [a9b9f75d] start checking out at queue 018fd197
+ 2020-11-30 17:33:27,995  INFO - MESSAGE: Customer [f6698872] joined the queue 018fd197
+ 2020-11-30 17:33:27,995  INFO - MESSAGE: Customer [10cc7ca9] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:33:27,995  INFO - MESSAGE: Customer [b4710b4b] start checking out at queue 65f46e7c
+ 2020-11-30 17:33:27,995  INFO - MESSAGE: Customer [5fd9c91a] departure after checking out at queue 80f54c04
+ 2020-11-30 17:33:27,995  INFO - MESSAGE: Customer [b117d762] start checking out at queue 80f54c04
+ 2020-11-30 17:33:29,139  INFO - MESSAGE: Customer [635abf2c] joined the queue 80f54c04
+ 2020-11-30 17:33:29,727  INFO - MESSAGE: Customer [6ee43912] joined the queue 65f46e7c
+ 2020-11-30 17:33:29,727  INFO - MESSAGE: Customer [09bce984] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:29,727  INFO - MESSAGE: Customer [c5490234] start checking out at queue 018fd197
+ 2020-11-30 17:33:30,251  INFO - MESSAGE: Customer [a1ae2dbb] joined the queue 018fd197
+ 2020-11-30 17:33:30,251  INFO - MESSAGE: Customer [d27f0e17] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:30,251  INFO - MESSAGE: Customer [f6698872] start checking out at queue 018fd197
+ 2020-11-30 17:33:30,760  INFO - MESSAGE: Customer [f87338c4] joined the queue 018fd197
+ 2020-11-30 17:33:31,351  INFO - MESSAGE: Customer [5e452c32] joined the queue 018fd197
+ 2020-11-30 17:33:31,906  INFO - MESSAGE: Customer [02dd1439] joined the queue 018fd197
+ 2020-11-30 17:33:32,461  INFO - MESSAGE: Customer [d09bb4bc] joined the queue 018fd197
+ 2020-11-30 17:33:32,461  INFO - MESSAGE: Customer [41fb91ff] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:33:32,461  INFO - MESSAGE: Customer [02e4406e] start checking out at queue ccf4e15b
+ 2020-11-30 17:33:32,970  INFO - MESSAGE: Customer [03c25300] joined the queue ccf4e15b
+ 2020-11-30 17:33:33,565  INFO - MESSAGE: Customer [28945afb] joined the queue 605a3d52
+ 2020-11-30 17:33:33,565  INFO - MESSAGE: Customer [0f9612b4] departure after checking out at queue e4331f92
+ 2020-11-30 17:33:33,565  INFO - MESSAGE: Customer [c944d1e6] start checking out at queue e4331f92
+ 2020-11-30 17:33:34,112  INFO - MESSAGE: Customer [66e9187f] joined the queue e4331f92
+ 2020-11-30 17:33:34,622  INFO - MESSAGE: Customer [b4adb4f9] joined the queue e4331f92
+ 2020-11-30 17:33:34,622  INFO - MESSAGE: Customer [b4710b4b] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:33:34,622  INFO - MESSAGE: Customer [6ee43912] start checking out at queue 65f46e7c
+ 2020-11-30 17:33:34,622  INFO - MESSAGE: Customer [a86844d2] departure after checking out at queue 605a3d52
+ 2020-11-30 17:33:34,622  INFO - MESSAGE: Customer [8835ebde] start checking out at queue 605a3d52
+ 2020-11-30 17:33:35,175  INFO - MESSAGE: Customer [1fdf6131] joined the queue 65f46e7c
+ 2020-11-30 17:33:35,175  INFO - MESSAGE: Customer [a9b9f75d] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:35,175  INFO - MESSAGE: Customer [a1ae2dbb] start checking out at queue 018fd197
+ 2020-11-30 17:33:35,175  INFO - MESSAGE: Customer [d2e489c0] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:35,176  INFO - MESSAGE: Customer [f87338c4] start checking out at queue 018fd197
+ 2020-11-30 17:33:35,779  INFO - MESSAGE: Customer [e8157e74] joined the queue 018fd197
+ 2020-11-30 17:33:35,779  INFO - MESSAGE: Customer [b117d762] departure after checking out at queue 80f54c04
+ 2020-11-30 17:33:35,779  INFO - MESSAGE: Customer [635abf2c] start checking out at queue 80f54c04
+ 2020-11-30 17:33:35,779  INFO - MESSAGE: Customer [c5490234] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:35,779  INFO - MESSAGE: Customer [5e452c32] start checking out at queue 018fd197
+ 2020-11-30 17:33:36,288  INFO - MESSAGE: Customer [e9192d00] joined the queue 80f54c04
+ 2020-11-30 17:33:36,837  INFO - MESSAGE: Customer [62a00be4] joined the queue 018fd197
+ 2020-11-30 17:33:37,362  INFO - MESSAGE: Customer [7fa5b0fd] joined the queue 018fd197
+ 2020-11-30 17:33:37,362  INFO - MESSAGE: Customer [c944d1e6] departure after checking out at queue e4331f92
+ 2020-11-30 17:33:37,363  INFO - MESSAGE: Customer [66e9187f] start checking out at queue e4331f92
+ 2020-11-30 17:33:37,363  INFO - MESSAGE: Customer [d888bfe5] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:37,363  INFO - MESSAGE: Customer [02dd1439] start checking out at queue 018fd197
+ 2020-11-30 17:33:37,872  INFO - MESSAGE: Customer [8e5608b8] joined the queue 018fd197
+ 2020-11-30 17:33:38,475  INFO - MESSAGE: Customer [08e0a822] joined the queue 605a3d52
+ 2020-11-30 17:33:38,985  INFO - MESSAGE: Customer [2bda4995] joined the queue e4331f92
+ 2020-11-30 17:33:38,985  INFO - MESSAGE: Customer [02e4406e] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:33:38,985  INFO - MESSAGE: Customer [03c25300] start checking out at queue ccf4e15b
+ 2020-11-30 17:33:39,495  INFO - MESSAGE: Customer [23b6db00] joined the queue ccf4e15b
+ 2020-11-30 17:33:39,495  INFO - MESSAGE: Customer [6ee43912] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:33:39,495  INFO - MESSAGE: Customer [1fdf6131] start checking out at queue 65f46e7c
+ 2020-11-30 17:33:39,495  INFO - MESSAGE: Customer [5e452c32] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:39,495  INFO - MESSAGE: Customer [d09bb4bc] start checking out at queue 018fd197
+ 2020-11-30 17:33:40,004  INFO - MESSAGE: Customer [b53536b2] joined the queue 65f46e7c
+ 2020-11-30 17:33:40,526  INFO - MESSAGE: Customer [635abf2c] departure after checking out at queue 80f54c04
+ 2020-11-30 17:33:40,526  INFO - MESSAGE: Customer [e9192d00] start checking out at queue 80f54c04
+ 2020-11-30 17:33:41,048  INFO - MESSAGE: Customer [e60e1b53] joined the queue 80f54c04
+ 2020-11-30 17:33:41,048  INFO - MESSAGE: Customer [02dd1439] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:41,048  INFO - MESSAGE: Customer [e8157e74] start checking out at queue 018fd197
+ 2020-11-30 17:33:41,577  INFO - MESSAGE: Customer [8835ebde] departure after checking out at queue 605a3d52
+ 2020-11-30 17:33:41,577  INFO - MESSAGE: Customer [28945afb] start checking out at queue 605a3d52
+ 2020-11-30 17:33:42,095  INFO - MESSAGE: Customer [6dc3d7af] joined the queue 018fd197
+ 2020-11-30 17:33:42,095  INFO - MESSAGE: Customer [a1ae2dbb] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:42,095  INFO - MESSAGE: Customer [62a00be4] start checking out at queue 018fd197
+ 2020-11-30 17:33:42,627  INFO - MESSAGE: Customer [f6698872] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:42,627  INFO - MESSAGE: Customer [7fa5b0fd] start checking out at queue 018fd197
+ 2020-11-30 17:33:43,145  INFO - MESSAGE: Customer [0b370ca3] joined the queue 018fd197
+ 2020-11-30 17:33:43,716  INFO - MESSAGE: Customer [a4a14522] joined the queue 018fd197
+ 2020-11-30 17:33:44,741  INFO - MESSAGE: Customer [cf082bb6] joined the queue 018fd197
+ 2020-11-30 17:33:45,340  INFO - MESSAGE: Customer [909d2ead] joined the queue 605a3d52
+ 2020-11-30 17:33:45,341  INFO - MESSAGE: Customer [03c25300] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:33:45,341  INFO - MESSAGE: Customer [23b6db00] start checking out at queue ccf4e15b
+ 2020-11-30 17:33:45,341  INFO - MESSAGE: Customer [66e9187f] departure after checking out at queue e4331f92
+ 2020-11-30 17:33:45,341  INFO - MESSAGE: Customer [b4adb4f9] start checking out at queue e4331f92
+ 2020-11-30 17:33:45,897  INFO - MESSAGE: Customer [93b9a5ec] joined the queue ccf4e15b
+ 2020-11-30 17:33:45,897  INFO - MESSAGE: Customer [d09bb4bc] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:45,897  INFO - MESSAGE: Customer [8e5608b8] start checking out at queue 018fd197
+ 2020-11-30 17:33:45,897  INFO - MESSAGE: Customer [f87338c4] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:45,897  INFO - MESSAGE: Customer [6dc3d7af] start checking out at queue 018fd197
+ 2020-11-30 17:33:46,447  INFO - MESSAGE: Customer [f53062e1] joined the queue 018fd197
+ 2020-11-30 17:33:46,981  INFO - MESSAGE: Customer [5e432c30] joined the queue 018fd197
+ 2020-11-30 17:33:47,501  INFO - MESSAGE: Customer [60e72aa1] joined the queue e4331f92
+ 2020-11-30 17:33:47,502  INFO - MESSAGE: Customer [7fa5b0fd] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:47,502  INFO - MESSAGE: Customer [0b370ca3] start checking out at queue 018fd197
+ 2020-11-30 17:33:48,104  INFO - MESSAGE: Customer [0cf5870b] joined the queue 018fd197
+ 2020-11-30 17:33:48,624  INFO - MESSAGE: Customer [c3117c1d] joined the queue ccf4e15b
+ 2020-11-30 17:33:49,130  INFO - MESSAGE: Customer [34a0c1c7] joined the queue 80f54c04
+ 2020-11-30 17:33:49,130  INFO - MESSAGE: Customer [28945afb] departure after checking out at queue 605a3d52
+ 2020-11-30 17:33:49,130  INFO - MESSAGE: Customer [08e0a822] start checking out at queue 605a3d52
+ 2020-11-30 17:33:49,652  INFO - MESSAGE: Customer [a042ebfe] joined the queue 605a3d52
+ 2020-11-30 17:33:50,161  INFO - MESSAGE: Customer [03455d58] joined the queue 65f46e7c
+ 2020-11-30 17:33:50,161  INFO - MESSAGE: Customer [1fdf6131] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:33:50,161  INFO - MESSAGE: Customer [b53536b2] start checking out at queue 65f46e7c
+ 2020-11-30 17:33:50,671  INFO - MESSAGE: Customer [3e9b895e] joined the queue 65f46e7c
+ 2020-11-30 17:33:51,280  INFO - MESSAGE: Customer [1e57bdfb] joined the queue 018fd197
+ 2020-11-30 17:33:51,281  INFO - MESSAGE: Customer [e9192d00] departure after checking out at queue 80f54c04
+ 2020-11-30 17:33:51,281  INFO - MESSAGE: Customer [e60e1b53] start checking out at queue 80f54c04
+ 2020-11-30 17:33:51,917  INFO - MESSAGE: Customer [84d1fee7] joined the queue 80f54c04
+ 2020-11-30 17:33:52,458  INFO - MESSAGE: Customer [331e84fa] joined the queue 018fd197
+ 2020-11-30 17:33:52,458  INFO - MESSAGE: Customer [23b6db00] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:33:52,459  INFO - MESSAGE: Customer [93b9a5ec] start checking out at queue ccf4e15b
+ 2020-11-30 17:33:52,459  INFO - MESSAGE: Customer [8e5608b8] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:52,459  INFO - MESSAGE: Customer [a4a14522] start checking out at queue 018fd197
+ 2020-11-30 17:33:52,459  INFO - MESSAGE: Customer [e8157e74] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:52,459  INFO - MESSAGE: Customer [cf082bb6] start checking out at queue 018fd197
+ 2020-11-30 17:33:53,074  INFO - MESSAGE: Customer [1507f014] joined the queue ccf4e15b
+ 2020-11-30 17:33:53,074  INFO - MESSAGE: Customer [62a00be4] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:53,074  INFO - MESSAGE: Customer [f53062e1] start checking out at queue 018fd197
+ 2020-11-30 17:33:53,074  INFO - MESSAGE: Customer [6dc3d7af] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:53,074  INFO - MESSAGE: Customer [5e432c30] start checking out at queue 018fd197
+ 2020-11-30 17:33:53,646  INFO - MESSAGE: Customer [f7c51f12] joined the queue 018fd197
+ 2020-11-30 17:33:54,305  INFO - MESSAGE: Customer [e3620f50] joined the queue 018fd197
+ 2020-11-30 17:33:54,854  INFO - MESSAGE: Customer [b79aea95] joined the queue 018fd197
+ 2020-11-30 17:33:55,378  INFO - MESSAGE: Customer [3483f0a4] joined the queue 018fd197
+ 2020-11-30 17:33:55,896  INFO - MESSAGE: Customer [e60e1b53] departure after checking out at queue 80f54c04
+ 2020-11-30 17:33:55,896  INFO - MESSAGE: Customer [34a0c1c7] start checking out at queue 80f54c04
+ 2020-11-30 17:33:56,413  INFO - MESSAGE: Customer [c4ef6202] joined the queue 80f54c04
+ 2020-11-30 17:33:56,413  INFO - MESSAGE: Customer [08e0a822] departure after checking out at queue 605a3d52
+ 2020-11-30 17:33:56,413  INFO - MESSAGE: Customer [909d2ead] start checking out at queue 605a3d52
+ 2020-11-30 17:33:57,005  INFO - MESSAGE: Customer [3e64a927] joined the queue 605a3d52
+ 2020-11-30 17:33:57,005  INFO - MESSAGE: Customer [b4adb4f9] departure after checking out at queue e4331f92
+ 2020-11-30 17:33:57,005  INFO - MESSAGE: Customer [2bda4995] start checking out at queue e4331f92
+ 2020-11-30 17:33:58,663  INFO - MESSAGE: Customer [907e561a] joined the queue e4331f92
+ 2020-11-30 17:33:58,663  INFO - MESSAGE: Customer [5e432c30] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:58,663  INFO - MESSAGE: Customer [0cf5870b] start checking out at queue 018fd197
+ 2020-11-30 17:33:58,663  INFO - MESSAGE: Customer [0b370ca3] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:58,663  INFO - MESSAGE: Customer [1e57bdfb] start checking out at queue 018fd197
+ 2020-11-30 17:33:59,191  INFO - MESSAGE: Customer [a4a14522] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:59,191  INFO - MESSAGE: Customer [331e84fa] start checking out at queue 018fd197
+ 2020-11-30 17:33:59,722  INFO - MESSAGE: Customer [9afeb5bf] joined the queue 018fd197
+ 2020-11-30 17:33:59,722  INFO - MESSAGE: Customer [f53062e1] departure after checking out at queue 018fd197
+ 2020-11-30 17:33:59,722  INFO - MESSAGE: Customer [f7c51f12] start checking out at queue 018fd197
+ 2020-11-30 17:34:00,335  INFO - MESSAGE: Customer [fd0d1fde] joined the queue 018fd197
+ 2020-11-30 17:34:00,873  INFO - MESSAGE: Customer [e6afda0b] joined the queue 018fd197
+ 2020-11-30 17:34:00,874  INFO - MESSAGE: Customer [93b9a5ec] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:34:00,874  INFO - MESSAGE: Customer [c3117c1d] start checking out at queue ccf4e15b
+ 2020-11-30 17:34:01,489  INFO - MESSAGE: Customer [97de5044] joined the queue ccf4e15b
+ 2020-11-30 17:34:01,489  INFO - MESSAGE: Customer [b53536b2] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:34:01,489  INFO - MESSAGE: Customer [03455d58] start checking out at queue 65f46e7c
+ 2020-11-30 17:34:01,489  INFO - MESSAGE: Customer [cf082bb6] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:01,489  INFO - MESSAGE: Customer [e3620f50] start checking out at queue 018fd197
+ 2020-11-30 17:34:02,602  INFO - MESSAGE: Customer [180a4252] joined the queue 65f46e7c
+ 2020-11-30 17:34:02,602  INFO - MESSAGE: Customer [2bda4995] departure after checking out at queue e4331f92
+ 2020-11-30 17:34:02,602  INFO - MESSAGE: Customer [60e72aa1] start checking out at queue e4331f92
+ 2020-11-30 17:34:03,320  INFO - MESSAGE: Customer [34a0c1c7] departure after checking out at queue 80f54c04
+ 2020-11-30 17:34:03,321  INFO - MESSAGE: Customer [84d1fee7] start checking out at queue 80f54c04
+ 2020-11-30 17:34:03,321  INFO - MESSAGE: Customer [331e84fa] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:03,321  INFO - MESSAGE: Customer [b79aea95] start checking out at queue 018fd197
+ 2020-11-30 17:34:04,340  INFO - MESSAGE: Customer [909d2ead] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:04,340  INFO - MESSAGE: Customer [a042ebfe] start checking out at queue 605a3d52
+ 2020-11-30 17:34:04,871  INFO - MESSAGE: Customer [8f02f4cc] joined the queue 018fd197
+ 2020-11-30 17:34:05,996  INFO - MESSAGE: Customer [0cf5870b] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:05,996  INFO - MESSAGE: Customer [3483f0a4] start checking out at queue 018fd197
+ 2020-11-30 17:34:06,637  INFO - MESSAGE: Customer [c3117c1d] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:34:06,637  INFO - MESSAGE: Customer [1507f014] start checking out at queue ccf4e15b
+ 2020-11-30 17:34:07,239  INFO - MESSAGE: Customer [1e57bdfb] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:07,239  INFO - MESSAGE: Customer [9afeb5bf] start checking out at queue 018fd197
+ 2020-11-30 17:34:08,399  INFO - MESSAGE: Customer [84d1fee7] departure after checking out at queue 80f54c04
+ 2020-11-30 17:34:08,400  INFO - MESSAGE: Customer [c4ef6202] start checking out at queue 80f54c04
+ 2020-11-30 17:34:08,400  INFO - MESSAGE: Customer [f7c51f12] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:08,400  INFO - MESSAGE: Customer [fd0d1fde] start checking out at queue 018fd197
+ 2020-11-30 17:34:10,074  INFO - MESSAGE: Customer [03455d58] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:34:10,075  INFO - MESSAGE: Customer [3e9b895e] start checking out at queue 65f46e7c
+ 2020-11-30 17:34:10,075  INFO - MESSAGE: Customer [e3620f50] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:10,075  INFO - MESSAGE: Customer [e6afda0b] start checking out at queue 018fd197
+ 2020-11-30 17:34:11,110  INFO - MESSAGE: Customer [2d7a1f5b] joined the queue 80f54c04
+ 2020-11-30 17:34:11,110  INFO - MESSAGE: Customer [b79aea95] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:11,110  INFO - MESSAGE: Customer [8f02f4cc] start checking out at queue 018fd197
+ 2020-11-30 17:34:11,638  INFO - MESSAGE: Customer [1507f014] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:34:11,638  INFO - MESSAGE: Customer [97de5044] start checking out at queue ccf4e15b
+ 2020-11-30 17:34:11,638  INFO - MESSAGE: Customer [9afeb5bf] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:12,146  INFO - MESSAGE: Customer [a042ebfe] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:12,146  INFO - MESSAGE: Customer [3e64a927] start checking out at queue 605a3d52
+ 2020-11-30 17:34:13,200  INFO - MESSAGE: Customer [3483f0a4] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:14,457  INFO - MESSAGE: Customer [fd0d1fde] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:14,981  INFO - MESSAGE: Customer [60e72aa1] departure after checking out at queue e4331f92
+ 2020-11-30 17:34:14,981  INFO - MESSAGE: Customer [907e561a] start checking out at queue e4331f92
+ 2020-11-30 17:34:15,627  INFO - MESSAGE: Customer [d819bd48] joined the queue 605a3d52
+ 2020-11-30 17:34:16,942  INFO - MESSAGE: Customer [c5454e2b] joined the queue e4331f92
+ 2020-11-30 17:34:16,943  INFO - MESSAGE: Customer [97de5044] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:34:17,451  INFO - MESSAGE: Customer [3e64a927] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:17,451  INFO - MESSAGE: Customer [d819bd48] start checking out at queue 605a3d52
+ 2020-11-30 17:34:18,579  INFO - MESSAGE: Customer [c4ef6202] departure after checking out at queue 80f54c04
+ 2020-11-30 17:34:18,580  INFO - MESSAGE: Customer [2d7a1f5b] start checking out at queue 80f54c04
+ 2020-11-30 17:34:21,533  INFO - MESSAGE: Customer [907e561a] departure after checking out at queue e4331f92
+ 2020-11-30 17:34:21,533  INFO - MESSAGE: Customer [c5454e2b] start checking out at queue e4331f92
+ 2020-11-30 17:34:21,533  INFO - MESSAGE: Customer [8f02f4cc] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:22,185  INFO - MESSAGE: Customer [d819bd48] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:22,186  INFO - MESSAGE: Customer [e6afda0b] departure after checking out at queue 018fd197
+ 2020-11-30 17:34:22,694  INFO - MESSAGE: Customer [23879d15] joined the queue 605a3d52
+ 2020-11-30 17:34:22,694  INFO - MESSAGE: Customer [3e9b895e] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:34:22,694  INFO - MESSAGE: Customer [180a4252] start checking out at queue 65f46e7c
+ 2020-11-30 17:34:22,694  INFO - MESSAGE: Customer [23879d15] start checking out at queue 605a3d52
+ 2020-11-30 17:34:25,804  INFO - MESSAGE: Customer [2d7a1f5b] departure after checking out at queue 80f54c04
+ 2020-11-30 17:34:26,334  INFO - MESSAGE: Customer [180a4252] departure after checking out at queue 65f46e7c
+ 2020-11-30 17:34:27,394  INFO - MESSAGE: Customer [f0b9ec22] joined the queue 605a3d52
+ 2020-11-30 17:34:29,554  INFO - MESSAGE: Customer [23879d15] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:29,554  INFO - MESSAGE: Customer [f0b9ec22] start checking out at queue 605a3d52
+ 2020-11-30 17:34:30,779  INFO - MESSAGE: Customer [6a93768a] joined the queue 605a3d52
+ 2020-11-30 17:34:32,910  INFO - MESSAGE: Customer [c5454e2b] departure after checking out at queue e4331f92
+ 2020-11-30 17:34:37,809  INFO - MESSAGE: Customer [f0b9ec22] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:37,809  INFO - MESSAGE: Customer [6a93768a] start checking out at queue 605a3d52
+ 2020-11-30 17:34:50,101  INFO - MESSAGE: Customer [6a93768a] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:51,711  INFO - MESSAGE: Customer [8d9c963d] joined the queue 605a3d52
+ 2020-11-30 17:34:51,711  INFO - MESSAGE: Customer [8d9c963d] start checking out at queue 605a3d52
+ 2020-11-30 17:34:52,752  INFO - MESSAGE: Customer [1ba2561a] joined the queue 605a3d52
+ 2020-11-30 17:34:58,311  INFO - MESSAGE: Customer [8d9c963d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:34:58,311  INFO - MESSAGE: Customer [1ba2561a] start checking out at queue 605a3d52
+ 2020-11-30 17:35:00,534  INFO - MESSAGE: Customer [eb2a6a8c] joined the queue 605a3d52
+ 2020-11-30 17:35:04,882  INFO - MESSAGE: Customer [c4ff0e57] joined the queue e4331f92
+ 2020-11-30 17:35:04,882  INFO - MESSAGE: Customer [c4ff0e57] start checking out at queue e4331f92
+ 2020-11-30 17:35:04,882  INFO - MESSAGE: Customer [1ba2561a] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:04,882  INFO - MESSAGE: Customer [eb2a6a8c] start checking out at queue 605a3d52
+ 2020-11-30 17:35:07,153  INFO - MESSAGE: Customer [124d08f8] joined the queue 605a3d52
+ 2020-11-30 17:35:08,343  INFO - MESSAGE: Customer [42721801] joined the queue e4331f92
+ 2020-11-30 17:35:13,416  INFO - MESSAGE: Customer [c4ff0e57] departure after checking out at queue e4331f92
+ 2020-11-30 17:35:13,416  INFO - MESSAGE: Customer [42721801] start checking out at queue e4331f92
+ 2020-11-30 17:35:13,416  INFO - MESSAGE: Customer [eb2a6a8c] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:13,416  INFO - MESSAGE: Customer [124d08f8] start checking out at queue 605a3d52
+ 2020-11-30 17:35:16,632  INFO - MESSAGE: Customer [bd35ea5d] joined the queue 605a3d52
+ 2020-11-30 17:35:17,243  INFO - MESSAGE: Customer [57eaa74d] joined the queue e4331f92
+ 2020-11-30 17:35:18,925  INFO - MESSAGE: Customer [42721801] departure after checking out at queue e4331f92
+ 2020-11-30 17:35:18,925  INFO - MESSAGE: Customer [57eaa74d] start checking out at queue e4331f92
+ 2020-11-30 17:35:24,541  INFO - MESSAGE: Customer [5f9da2fd] joined the queue e4331f92
+ 2020-11-30 17:35:25,683  INFO - MESSAGE: Customer [57eaa74d] departure after checking out at queue e4331f92
+ 2020-11-30 17:35:25,683  INFO - MESSAGE: Customer [5f9da2fd] start checking out at queue e4331f92
+ 2020-11-30 17:35:25,683  INFO - MESSAGE: Customer [124d08f8] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:25,683  INFO - MESSAGE: Customer [bd35ea5d] start checking out at queue 605a3d52
+ 2020-11-30 17:35:30,209  INFO - MESSAGE: Customer [bd35ea5d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:36,894  INFO - MESSAGE: Customer [5f9da2fd] departure after checking out at queue e4331f92
+ 2020-11-30 17:35:41,273  INFO - MESSAGE: Customer [a16810f8] joined the queue 605a3d52
+ 2020-11-30 17:35:41,273  INFO - MESSAGE: Customer [a16810f8] start checking out at queue 605a3d52
+ 2020-11-30 17:35:44,614  INFO - MESSAGE: Customer [46b6b5de] joined the queue 605a3d52
+ 2020-11-30 17:35:45,238  INFO - MESSAGE: Customer [a16810f8] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:45,238  INFO - MESSAGE: Customer [46b6b5de] start checking out at queue 605a3d52
+ 2020-11-30 17:35:45,767  INFO - MESSAGE: Customer [8d5fb5f8] joined the queue 605a3d52
+ 2020-11-30 17:35:48,932  INFO - MESSAGE: Customer [59d38f03] joined the queue e4331f92
+ 2020-11-30 17:35:48,932  INFO - MESSAGE: Customer [59d38f03] start checking out at queue e4331f92
+ 2020-11-30 17:35:49,488  INFO - MESSAGE: Customer [80337402] joined the queue e4331f92
+ 2020-11-30 17:35:50,011  INFO - MESSAGE: Customer [d22f9786] joined the queue ccf4e15b
+ 2020-11-30 17:35:50,011  INFO - MESSAGE: Customer [d22f9786] start checking out at queue ccf4e15b
+ 2020-11-30 17:35:53,157  INFO - MESSAGE: Customer [8fe6c25d] joined the queue ccf4e15b
+ 2020-11-30 17:35:56,893  INFO - MESSAGE: Customer [045ce2ac] joined the queue 80f54c04
+ 2020-11-30 17:35:56,894  INFO - MESSAGE: Customer [045ce2ac] start checking out at queue 80f54c04
+ 2020-11-30 17:35:57,526  INFO - MESSAGE: Customer [46b6b5de] departure after checking out at queue 605a3d52
+ 2020-11-30 17:35:57,526  INFO - MESSAGE: Customer [8d5fb5f8] start checking out at queue 605a3d52
+ 2020-11-30 17:36:00,251  INFO - MESSAGE: Customer [59d38f03] departure after checking out at queue e4331f92
+ 2020-11-30 17:36:00,252  INFO - MESSAGE: Customer [80337402] start checking out at queue e4331f92
+ 2020-11-30 17:36:02,421  INFO - MESSAGE: Customer [d22f9786] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:36:02,421  INFO - MESSAGE: Customer [8fe6c25d] start checking out at queue ccf4e15b
+ 2020-11-30 17:36:05,789  INFO - MESSAGE: Customer [8d5fb5f8] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:06,885  INFO - MESSAGE: Customer [a6ebff25] joined the queue 605a3d52
+ 2020-11-30 17:36:06,885  INFO - MESSAGE: Customer [a6ebff25] start checking out at queue 605a3d52
+ 2020-11-30 17:36:07,970  INFO - MESSAGE: Customer [8fe6c25d] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:36:09,002  INFO - MESSAGE: Customer [045ce2ac] departure after checking out at queue 80f54c04
+ 2020-11-30 17:36:12,416  INFO - MESSAGE: Customer [80337402] departure after checking out at queue e4331f92
+ 2020-11-30 17:36:14,601  INFO - MESSAGE: Customer [a6ebff25] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:20,063  INFO - MESSAGE: Customer [7f8748f1] joined the queue 605a3d52
+ 2020-11-30 17:36:20,063  INFO - MESSAGE: Customer [7f8748f1] start checking out at queue 605a3d52
+ 2020-11-30 17:36:21,731  INFO - MESSAGE: Customer [0af77592] joined the queue 605a3d52
+ 2020-11-30 17:36:29,919  INFO - MESSAGE: Customer [9dd69df6] joined the queue e4331f92
+ 2020-11-30 17:36:29,919  INFO - MESSAGE: Customer [9dd69df6] start checking out at queue e4331f92
+ 2020-11-30 17:36:32,177  INFO - MESSAGE: Customer [7f8748f1] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:32,177  INFO - MESSAGE: Customer [0af77592] start checking out at queue 605a3d52
+ 2020-11-30 17:36:32,721  INFO - MESSAGE: Customer [193f36ac] joined the queue 605a3d52
+ 2020-11-30 17:36:33,820  INFO - MESSAGE: Customer [9dd69df6] departure after checking out at queue e4331f92
+ 2020-11-30 17:36:36,742  INFO - MESSAGE: Customer [5abdb079] joined the queue e4331f92
+ 2020-11-30 17:36:36,742  INFO - MESSAGE: Customer [5abdb079] start checking out at queue e4331f92
+ 2020-11-30 17:36:39,592  INFO - MESSAGE: Customer [0af77592] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:39,592  INFO - MESSAGE: Customer [193f36ac] start checking out at queue 605a3d52
+ 2020-11-30 17:36:48,418  INFO - MESSAGE: Customer [b64d299d] joined the queue 605a3d52
+ 2020-11-30 17:36:48,418  INFO - MESSAGE: Customer [5abdb079] departure after checking out at queue e4331f92
+ 2020-11-30 17:36:51,247  INFO - MESSAGE: Customer [193f36ac] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:51,247  INFO - MESSAGE: Customer [b64d299d] start checking out at queue 605a3d52
+ 2020-11-30 17:36:53,387  INFO - MESSAGE: Customer [9afb6ef7] joined the queue 605a3d52
+ 2020-11-30 17:36:58,307  INFO - MESSAGE: Customer [b64d299d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:36:58,307  INFO - MESSAGE: Customer [9afb6ef7] start checking out at queue 605a3d52
+ 2020-11-30 17:37:00,525  INFO - MESSAGE: Customer [cbbe704e] joined the queue 605a3d52
+ 2020-11-30 17:37:03,827  INFO - MESSAGE: Customer [5cc3a666] joined the queue e4331f92
+ 2020-11-30 17:37:03,827  INFO - MESSAGE: Customer [5cc3a666] start checking out at queue e4331f92
+ 2020-11-30 17:37:09,450  INFO - MESSAGE: Customer [5cc3a666] departure after checking out at queue e4331f92
+ 2020-11-30 17:37:09,982  INFO - MESSAGE: Customer [9afb6ef7] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:09,983  INFO - MESSAGE: Customer [cbbe704e] start checking out at queue 605a3d52
+ 2020-11-30 17:37:16,384  INFO - MESSAGE: Customer [aff0a768] joined the queue 605a3d52
+ 2020-11-30 17:37:16,961  INFO - MESSAGE: Customer [cbbe704e] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:16,961  INFO - MESSAGE: Customer [aff0a768] start checking out at queue 605a3d52
+ 2020-11-30 17:37:17,479  INFO - MESSAGE: Customer [6445f262] joined the queue 605a3d52
+ 2020-11-30 17:37:21,920  INFO - MESSAGE: Customer [fecb2782] joined the queue e4331f92
+ 2020-11-30 17:37:21,920  INFO - MESSAGE: Customer [fecb2782] start checking out at queue e4331f92
+ 2020-11-30 17:37:27,870  INFO - MESSAGE: Customer [aff0a768] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:27,870  INFO - MESSAGE: Customer [6445f262] start checking out at queue 605a3d52
+ 2020-11-30 17:37:28,386  INFO - MESSAGE: Customer [fecb2782] departure after checking out at queue e4331f92
+ 2020-11-30 17:37:29,475  INFO - MESSAGE: Customer [ea16630d] joined the queue 605a3d52
+ 2020-11-30 17:37:38,775  INFO - MESSAGE: Customer [6445f262] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:38,775  INFO - MESSAGE: Customer [ea16630d] start checking out at queue 605a3d52
+ 2020-11-30 17:37:43,162  INFO - MESSAGE: Customer [ea16630d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:53,661  INFO - MESSAGE: Customer [84d27d6b] joined the queue 605a3d52
+ 2020-11-30 17:37:53,661  INFO - MESSAGE: Customer [84d27d6b] start checking out at queue 605a3d52
+ 2020-11-30 17:37:57,080  INFO - MESSAGE: Customer [c9e02934] joined the queue 605a3d52
+ 2020-11-30 17:37:57,599  INFO - MESSAGE: Customer [e28290ce] joined the queue e4331f92
+ 2020-11-30 17:37:57,599  INFO - MESSAGE: Customer [e28290ce] start checking out at queue e4331f92
+ 2020-11-30 17:37:59,788  INFO - MESSAGE: Customer [84d27d6b] departure after checking out at queue 605a3d52
+ 2020-11-30 17:37:59,788  INFO - MESSAGE: Customer [c9e02934] start checking out at queue 605a3d52
+ 2020-11-30 17:38:00,817  INFO - MESSAGE: Customer [221df411] joined the queue 605a3d52
+ 2020-11-30 17:38:01,453  INFO - MESSAGE: Customer [93931c4d] joined the queue e4331f92
+ 2020-11-30 17:38:07,518  INFO - MESSAGE: Customer [c9e02934] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:07,518  INFO - MESSAGE: Customer [221df411] start checking out at queue 605a3d52
+ 2020-11-30 17:38:08,036  INFO - MESSAGE: Customer [e28290ce] departure after checking out at queue e4331f92
+ 2020-11-30 17:38:08,036  INFO - MESSAGE: Customer [93931c4d] start checking out at queue e4331f92
+ 2020-11-30 17:38:12,905  INFO - MESSAGE: Customer [221df411] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:13,476  INFO - MESSAGE: Customer [bbc7b3f9] joined the queue 605a3d52
+ 2020-11-30 17:38:13,476  INFO - MESSAGE: Customer [bbc7b3f9] start checking out at queue 605a3d52
+ 2020-11-30 17:38:19,379  INFO - MESSAGE: Customer [93931c4d] departure after checking out at queue e4331f92
+ 2020-11-30 17:38:20,554  INFO - MESSAGE: Customer [bbc7b3f9] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:31,768  INFO - MESSAGE: Customer [2ca8f1b8] joined the queue 605a3d52
+ 2020-11-30 17:38:31,768  INFO - MESSAGE: Customer [2ca8f1b8] start checking out at queue 605a3d52
+ 2020-11-30 17:38:35,036  INFO - MESSAGE: Customer [e172218f] joined the queue 605a3d52
+ 2020-11-30 17:38:35,545  INFO - MESSAGE: Customer [2ca8f1b8] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:35,545  INFO - MESSAGE: Customer [e172218f] start checking out at queue 605a3d52
+ 2020-11-30 17:38:36,071  INFO - MESSAGE: Customer [f3bae14c] joined the queue 605a3d52
+ 2020-11-30 17:38:37,721  INFO - MESSAGE: Customer [e172218f] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:37,721  INFO - MESSAGE: Customer [f3bae14c] start checking out at queue 605a3d52
+ 2020-11-30 17:38:42,276  INFO - MESSAGE: Customer [1ae1f5aa] joined the queue 605a3d52
+ 2020-11-30 17:38:44,997  INFO - MESSAGE: Customer [f3bae14c] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:44,997  INFO - MESSAGE: Customer [1ae1f5aa] start checking out at queue 605a3d52
+ 2020-11-30 17:38:51,780  INFO - MESSAGE: Customer [7dede997] joined the queue 605a3d52
+ 2020-11-30 17:38:51,781  INFO - MESSAGE: Customer [1ae1f5aa] departure after checking out at queue 605a3d52
+ 2020-11-30 17:38:51,781  INFO - MESSAGE: Customer [7dede997] start checking out at queue 605a3d52
+ 2020-11-30 17:38:56,799  INFO - MESSAGE: Customer [7dede997] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:01,727  INFO - MESSAGE: Customer [3ed3b780] joined the queue 605a3d52
+ 2020-11-30 17:39:01,728  INFO - MESSAGE: Customer [3ed3b780] start checking out at queue 605a3d52
+ 2020-11-30 17:39:03,928  INFO - MESSAGE: Customer [f1187051] joined the queue 605a3d52
+ 2020-11-30 17:39:08,190  INFO - MESSAGE: Customer [3ed3b780] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:08,190  INFO - MESSAGE: Customer [f1187051] start checking out at queue 605a3d52
+ 2020-11-30 17:39:10,403  INFO - MESSAGE: Customer [eecf542e] joined the queue 605a3d52
+ 2020-11-30 17:39:10,923  INFO - MESSAGE: Customer [afaf1d1a] joined the queue e4331f92
+ 2020-11-30 17:39:10,924  INFO - MESSAGE: Customer [afaf1d1a] start checking out at queue e4331f92
+ 2020-11-30 17:39:11,445  INFO - MESSAGE: Customer [398878ca] joined the queue e4331f92
+ 2020-11-30 17:39:15,357  INFO - MESSAGE: Customer [f1187051] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:15,357  INFO - MESSAGE: Customer [eecf542e] start checking out at queue 605a3d52
+ 2020-11-30 17:39:19,127  INFO - MESSAGE: Customer [afaf1d1a] departure after checking out at queue e4331f92
+ 2020-11-30 17:39:19,127  INFO - MESSAGE: Customer [398878ca] start checking out at queue e4331f92
+ 2020-11-30 17:39:21,841  INFO - MESSAGE: Customer [574ce3e4] joined the queue 605a3d52
+ 2020-11-30 17:39:23,540  INFO - MESSAGE: Customer [398878ca] departure after checking out at queue e4331f92
+ 2020-11-30 17:39:27,470  INFO - MESSAGE: Customer [9c81a792] joined the queue e4331f92
+ 2020-11-30 17:39:27,470  INFO - MESSAGE: Customer [9c81a792] start checking out at queue e4331f92
+ 2020-11-30 17:39:27,470  INFO - MESSAGE: Customer [eecf542e] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:27,470  INFO - MESSAGE: Customer [574ce3e4] start checking out at queue 605a3d52
+ 2020-11-30 17:39:29,709  INFO - MESSAGE: Customer [4d52e143] joined the queue 605a3d52
+ 2020-11-30 17:39:34,031  INFO - MESSAGE: Customer [9c81a792] departure after checking out at queue e4331f92
+ 2020-11-30 17:39:35,698  INFO - MESSAGE: Customer [574ce3e4] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:35,698  INFO - MESSAGE: Customer [4d52e143] start checking out at queue 605a3d52
+ 2020-11-30 17:39:42,196  INFO - MESSAGE: Customer [4d52e143] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:45,976  INFO - MESSAGE: Customer [42a3cad7] joined the queue 605a3d52
+ 2020-11-30 17:39:45,976  INFO - MESSAGE: Customer [42a3cad7] start checking out at queue 605a3d52
+ 2020-11-30 17:39:50,400  INFO - MESSAGE: Customer [94bba128] joined the queue 605a3d52
+ 2020-11-30 17:39:53,722  INFO - MESSAGE: Customer [42a3cad7] departure after checking out at queue 605a3d52
+ 2020-11-30 17:39:53,722  INFO - MESSAGE: Customer [94bba128] start checking out at queue 605a3d52
+ 2020-11-30 17:39:55,932  INFO - MESSAGE: Customer [d9f135a3] joined the queue 605a3d52
+ 2020-11-30 17:39:56,950  INFO - MESSAGE: Customer [533b42a4] joined the queue e4331f92
+ 2020-11-30 17:39:56,950  INFO - MESSAGE: Customer [533b42a4] start checking out at queue e4331f92
+ 2020-11-30 17:40:00,637  INFO - MESSAGE: Customer [533b42a4] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:01,153  INFO - MESSAGE: Customer [f9f81e9c] joined the queue e4331f92
+ 2020-11-30 17:40:01,153  INFO - MESSAGE: Customer [f9f81e9c] start checking out at queue e4331f92
+ 2020-11-30 17:40:05,096  INFO - MESSAGE: Customer [94bba128] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:05,096  INFO - MESSAGE: Customer [d9f135a3] start checking out at queue 605a3d52
+ 2020-11-30 17:40:07,877  INFO - MESSAGE: Customer [25e8027c] joined the queue 605a3d52
+ 2020-11-30 17:40:08,387  INFO - MESSAGE: Customer [dbb2a183] joined the queue e4331f92
+ 2020-11-30 17:40:12,881  INFO - MESSAGE: Customer [d9f135a3] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:12,882  INFO - MESSAGE: Customer [25e8027c] start checking out at queue 605a3d52
+ 2020-11-30 17:40:13,400  INFO - MESSAGE: Customer [f9f81e9c] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:13,400  INFO - MESSAGE: Customer [dbb2a183] start checking out at queue e4331f92
+ 2020-11-30 17:40:14,517  INFO - MESSAGE: Customer [f71d11d9] joined the queue 605a3d52
+ 2020-11-30 17:40:15,593  INFO - MESSAGE: Customer [b2318c83] joined the queue e4331f92
+ 2020-11-30 17:40:17,191  INFO - MESSAGE: Customer [57e0bd9e] joined the queue ccf4e15b
+ 2020-11-30 17:40:17,191  INFO - MESSAGE: Customer [57e0bd9e] start checking out at queue ccf4e15b
+ 2020-11-30 17:40:20,546  INFO - MESSAGE: Customer [25e8027c] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:20,546  INFO - MESSAGE: Customer [f71d11d9] start checking out at queue 605a3d52
+ 2020-11-30 17:40:21,182  INFO - MESSAGE: Customer [57e0bd9e] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:40:25,035  INFO - MESSAGE: Customer [1a726a87] joined the queue 605a3d52
+ 2020-11-30 17:40:26,164  INFO - MESSAGE: Customer [dbb2a183] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:26,164  INFO - MESSAGE: Customer [b2318c83] start checking out at queue e4331f92
+ 2020-11-30 17:40:27,292  INFO - MESSAGE: Customer [f71d11d9] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:27,293  INFO - MESSAGE: Customer [1a726a87] start checking out at queue 605a3d52
+ 2020-11-30 17:40:28,324  INFO - MESSAGE: Customer [34267ea1] joined the queue 605a3d52
+ 2020-11-30 17:40:29,937  INFO - MESSAGE: Customer [1d21dfb4] joined the queue e4331f92
+ 2020-11-30 17:40:31,549  INFO - MESSAGE: Customer [1a726a87] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:31,549  INFO - MESSAGE: Customer [34267ea1] start checking out at queue 605a3d52
+ 2020-11-30 17:40:32,677  INFO - MESSAGE: Customer [785ed2c5] joined the queue 605a3d52
+ 2020-11-30 17:40:35,958  INFO - MESSAGE: Customer [b2318c83] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:35,958  INFO - MESSAGE: Customer [1d21dfb4] start checking out at queue e4331f92
+ 2020-11-30 17:40:37,027  INFO - MESSAGE: Customer [089ccd10] joined the queue e4331f92
+ 2020-11-30 17:40:38,646  INFO - MESSAGE: Customer [34267ea1] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:38,646  INFO - MESSAGE: Customer [785ed2c5] start checking out at queue 605a3d52
+ 2020-11-30 17:40:42,422  INFO - MESSAGE: Customer [1d21dfb4] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:42,422  INFO - MESSAGE: Customer [089ccd10] start checking out at queue e4331f92
+ 2020-11-30 17:40:43,562  INFO - MESSAGE: Customer [bc1b52ec] joined the queue 605a3d52
+ 2020-11-30 17:40:46,301  INFO - MESSAGE: Customer [089ccd10] departure after checking out at queue e4331f92
+ 2020-11-30 17:40:46,883  INFO - MESSAGE: Customer [785ed2c5] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:46,883  INFO - MESSAGE: Customer [bc1b52ec] start checking out at queue 605a3d52
+ 2020-11-30 17:40:49,020  INFO - MESSAGE: Customer [c0b713f9] joined the queue 605a3d52
+ 2020-11-30 17:40:51,258  INFO - MESSAGE: Customer [60f5717a] joined the queue e4331f92
+ 2020-11-30 17:40:51,258  INFO - MESSAGE: Customer [60f5717a] start checking out at queue e4331f92
+ 2020-11-30 17:40:51,258  INFO - MESSAGE: Customer [bc1b52ec] departure after checking out at queue 605a3d52
+ 2020-11-30 17:40:51,258  INFO - MESSAGE: Customer [c0b713f9] start checking out at queue 605a3d52
+ 2020-11-30 17:40:52,830  INFO - MESSAGE: Customer [8599fc99] joined the queue 605a3d52
+ 2020-11-30 17:41:01,245  INFO - MESSAGE: Customer [26a06d5f] joined the queue e4331f92
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [40b85e58] joined the queue ccf4e15b
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [40b85e58] start checking out at queue ccf4e15b
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [60f5717a] departure after checking out at queue e4331f92
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [26a06d5f] start checking out at queue e4331f92
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [c0b713f9] departure after checking out at queue 605a3d52
+ 2020-11-30 17:41:03,014  INFO - MESSAGE: Customer [8599fc99] start checking out at queue 605a3d52
+ 2020-11-30 17:41:07,236  INFO - MESSAGE: Customer [40b85e58] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:41:11,596  INFO - MESSAGE: Customer [8599fc99] departure after checking out at queue 605a3d52
+ 2020-11-30 17:41:13,144  INFO - MESSAGE: Customer [26a06d5f] departure after checking out at queue e4331f92
+ 2020-11-30 17:41:20,624  INFO - MESSAGE: Customer [12eb3543] joined the queue 605a3d52
+ 2020-11-30 17:41:20,624  INFO - MESSAGE: Customer [12eb3543] start checking out at queue 605a3d52
+ 2020-11-30 17:41:21,737  INFO - MESSAGE: Customer [c16b79f0] joined the queue 605a3d52
+ 2020-11-30 17:41:25,594  INFO - MESSAGE: Customer [ab9ae0ee] joined the queue e4331f92
+ 2020-11-30 17:41:25,594  INFO - MESSAGE: Customer [ab9ae0ee] start checking out at queue e4331f92
+ 2020-11-30 17:41:27,284  INFO - MESSAGE: Customer [7edbd223] joined the queue e4331f92
+ 2020-11-30 17:41:31,481  INFO - MESSAGE: Customer [12eb3543] departure after checking out at queue 605a3d52
+ 2020-11-30 17:41:31,481  INFO - MESSAGE: Customer [c16b79f0] start checking out at queue 605a3d52
+ 2020-11-30 17:41:32,001  INFO - MESSAGE: Customer [ab9ae0ee] departure after checking out at queue e4331f92
+ 2020-11-30 17:41:32,001  INFO - MESSAGE: Customer [7edbd223] start checking out at queue e4331f92
+ 2020-11-30 17:41:35,716  INFO - MESSAGE: Customer [d9cc9faf] joined the queue 605a3d52
+ 2020-11-30 17:41:36,299  INFO - MESSAGE: Customer [7edbd223] departure after checking out at queue e4331f92
+ 2020-11-30 17:41:40,777  INFO - MESSAGE: Customer [c9053fb6] joined the queue e4331f92
+ 2020-11-30 17:41:40,777  INFO - MESSAGE: Customer [c9053fb6] start checking out at queue e4331f92
+ 2020-11-30 17:41:43,623  INFO - MESSAGE: Customer [52b153ea] joined the queue e4331f92
+ 2020-11-30 17:41:44,702  INFO - MESSAGE: Customer [c16b79f0] departure after checking out at queue 605a3d52
+ 2020-11-30 17:41:44,702  INFO - MESSAGE: Customer [d9cc9faf] start checking out at queue 605a3d52
+ 2020-11-30 17:41:50,709  INFO - MESSAGE: Customer [31ef5296] joined the queue 605a3d52
+ 2020-11-30 17:41:51,795  INFO - MESSAGE: Customer [c9053fb6] departure after checking out at queue e4331f92
+ 2020-11-30 17:41:51,796  INFO - MESSAGE: Customer [52b153ea] start checking out at queue e4331f92
+ 2020-11-30 17:41:55,040  INFO - MESSAGE: Customer [d9cc9faf] departure after checking out at queue 605a3d52
+ 2020-11-30 17:41:55,040  INFO - MESSAGE: Customer [31ef5296] start checking out at queue 605a3d52
+ 2020-11-30 17:41:56,670  INFO - MESSAGE: Customer [9f8f4481] joined the queue 605a3d52
+ 2020-11-30 17:41:57,194  INFO - MESSAGE: Customer [39d3e48f] joined the queue e4331f92
+ 2020-11-30 17:42:02,178  INFO - MESSAGE: Customer [31ef5296] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:02,178  INFO - MESSAGE: Customer [9f8f4481] start checking out at queue 605a3d52
+ 2020-11-30 17:42:02,731  INFO - MESSAGE: Customer [1cb94d71] joined the queue 605a3d52
+ 2020-11-30 17:42:03,748  INFO - MESSAGE: Customer [0785f0d5] joined the queue ccf4e15b
+ 2020-11-30 17:42:03,748  INFO - MESSAGE: Customer [0785f0d5] start checking out at queue ccf4e15b
+ 2020-11-30 17:42:03,748  INFO - MESSAGE: Customer [52b153ea] departure after checking out at queue e4331f92
+ 2020-11-30 17:42:03,748  INFO - MESSAGE: Customer [39d3e48f] start checking out at queue e4331f92
+ 2020-11-30 17:42:08,197  INFO - MESSAGE: Customer [d87d257d] joined the queue e4331f92
+ 2020-11-30 17:42:09,274  INFO - MESSAGE: Customer [9f8f4481] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:09,274  INFO - MESSAGE: Customer [1cb94d71] start checking out at queue 605a3d52
+ 2020-11-30 17:42:09,800  INFO - MESSAGE: Customer [0785f0d5] departure after checking out at queue ccf4e15b
+ 2020-11-30 17:42:11,423  INFO - MESSAGE: Customer [39d3e48f] departure after checking out at queue e4331f92
+ 2020-11-30 17:42:11,423  INFO - MESSAGE: Customer [d87d257d] start checking out at queue e4331f92
+ 2020-11-30 17:42:16,771  INFO - MESSAGE: Customer [9ca4065a] joined the queue 605a3d52
+ 2020-11-30 17:42:17,332  INFO - MESSAGE: Customer [6638a7d3] joined the queue e4331f92
+ 2020-11-30 17:42:19,387  INFO - MESSAGE: Customer [1cb94d71] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:19,387  INFO - MESSAGE: Customer [9ca4065a] start checking out at queue 605a3d52
+ 2020-11-30 17:42:22,702  INFO - MESSAGE: Customer [d87d257d] departure after checking out at queue e4331f92
+ 2020-11-30 17:42:22,702  INFO - MESSAGE: Customer [6638a7d3] start checking out at queue e4331f92
+ 2020-11-30 17:42:23,768  INFO - MESSAGE: Customer [9ca4065a] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:29,272  INFO - MESSAGE: Customer [6638a7d3] departure after checking out at queue e4331f92
+ 2020-11-30 17:42:31,426  INFO - MESSAGE: Customer [0c859b61] joined the queue 605a3d52
+ 2020-11-30 17:42:31,426  INFO - MESSAGE: Customer [0c859b61] start checking out at queue 605a3d52
+ 2020-11-30 17:42:36,434  INFO - MESSAGE: Customer [f8da0fc6] joined the queue 605a3d52
+ 2020-11-30 17:42:42,338  INFO - MESSAGE: Customer [0c859b61] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:42,338  INFO - MESSAGE: Customer [f8da0fc6] start checking out at queue 605a3d52
+ 2020-11-30 17:42:43,390  INFO - MESSAGE: Customer [067418a1] joined the queue 605a3d52
+ 2020-11-30 17:42:49,617  INFO - MESSAGE: Customer [2c1a1419] joined the queue e4331f92
+ 2020-11-30 17:42:49,617  INFO - MESSAGE: Customer [2c1a1419] start checking out at queue e4331f92
+ 2020-11-30 17:42:51,337  INFO - MESSAGE: Customer [087280e6] joined the queue e4331f92
+ 2020-11-30 17:42:52,989  INFO - MESSAGE: Customer [f8da0fc6] departure after checking out at queue 605a3d52
+ 2020-11-30 17:42:52,989  INFO - MESSAGE: Customer [067418a1] start checking out at queue 605a3d52
+ 2020-11-30 17:42:56,942  INFO - MESSAGE: Customer [2c1a1419] departure after checking out at queue e4331f92
+ 2020-11-30 17:42:56,943  INFO - MESSAGE: Customer [087280e6] start checking out at queue e4331f92
+ 2020-11-30 17:43:00,086  INFO - MESSAGE: Customer [067418a1] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:05,499  INFO - MESSAGE: Customer [087280e6] departure after checking out at queue e4331f92
+ 2020-11-30 17:43:13,302  INFO - MESSAGE: Customer [733f250d] joined the queue 605a3d52
+ 2020-11-30 17:43:13,302  INFO - MESSAGE: Customer [733f250d] start checking out at queue 605a3d52
+ 2020-11-30 17:43:18,474  INFO - MESSAGE: Customer [b38e9e44] joined the queue 605a3d52
+ 2020-11-30 17:43:21,059  INFO - MESSAGE: Customer [b2f9e3a3] joined the queue e4331f92
+ 2020-11-30 17:43:21,059  INFO - MESSAGE: Customer [b2f9e3a3] start checking out at queue e4331f92
+ 2020-11-30 17:43:22,129  INFO - MESSAGE: Customer [19beec01] joined the queue e4331f92
+ 2020-11-30 17:43:26,081  INFO - MESSAGE: Customer [733f250d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:26,081  INFO - MESSAGE: Customer [b38e9e44] start checking out at queue 605a3d52
+ 2020-11-30 17:43:27,829  INFO - MESSAGE: Customer [b2f9e3a3] departure after checking out at queue e4331f92
+ 2020-11-30 17:43:27,829  INFO - MESSAGE: Customer [19beec01] start checking out at queue e4331f92
+ 2020-11-30 17:43:30,061  INFO - MESSAGE: Customer [3ffa6207] joined the queue 605a3d52
+ 2020-11-30 17:43:31,772  INFO - MESSAGE: Customer [b38e9e44] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:31,772  INFO - MESSAGE: Customer [3ffa6207] start checking out at queue 605a3d52
+ 2020-11-30 17:43:36,532  INFO - MESSAGE: Customer [2d9059d1] joined the queue 605a3d52
+ 2020-11-30 17:43:38,804  INFO - MESSAGE: Customer [3ffa6207] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:38,804  INFO - MESSAGE: Customer [2d9059d1] start checking out at queue 605a3d52
+ 2020-11-30 17:43:40,339  INFO - MESSAGE: Customer [19beec01] departure after checking out at queue e4331f92
+ 2020-11-30 17:43:43,997  INFO - MESSAGE: Customer [2d9059d1] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:45,078  INFO - MESSAGE: Customer [99c940fd] joined the queue 605a3d52
+ 2020-11-30 17:43:45,078  INFO - MESSAGE: Customer [99c940fd] start checking out at queue 605a3d52
+ 2020-11-30 17:43:51,544  INFO - MESSAGE: Customer [84d22061] joined the queue 605a3d52
+ 2020-11-30 17:43:51,544  INFO - MESSAGE: Customer [99c940fd] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:51,544  INFO - MESSAGE: Customer [84d22061] start checking out at queue 605a3d52
+ 2020-11-30 17:43:57,625  INFO - MESSAGE: Customer [84d22061] departure after checking out at queue 605a3d52
+ 2020-11-30 17:43:59,807  INFO - MESSAGE: Customer [7248b96d] joined the queue 605a3d52
+ 2020-11-30 17:43:59,807  INFO - MESSAGE: Customer [7248b96d] start checking out at queue 605a3d52
+ 2020-11-30 17:44:05,013  INFO - MESSAGE: Customer [7248b96d] departure after checking out at queue 605a3d52
+ 2020-11-30 17:44:09,340  INFO - MESSAGE: Customer [81121bd0] joined the queue 605a3d52
+ 2020-11-30 17:44:09,340  INFO - MESSAGE: Customer [81121bd0] start checking out at queue 605a3d52
+ 2020-11-30 17:44:09,942  INFO - MESSAGE: Customer [18128aa5] joined the queue 605a3d52
+ 2020-11-30 17:44:19,363  INFO - MESSAGE: Customer [bbcc829e] joined the queue e4331f92
+ 2020-11-30 17:44:19,364  INFO - MESSAGE: Customer [bbcc829e] start checking out at queue e4331f92
+ 2020-11-30 17:44:20,919  INFO - MESSAGE: Customer [81121bd0] departure after checking out at queue 605a3d52
+ 2020-11-30 17:44:20,919  INFO - MESSAGE: Customer [18128aa5] start checking out at queue 605a3d52
+ 2020-11-30 17:44:21,444  INFO - MESSAGE: Customer [743f674c] joined the queue 605a3d52
+ 

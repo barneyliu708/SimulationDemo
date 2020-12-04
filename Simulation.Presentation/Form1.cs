@@ -31,8 +31,6 @@ namespace Simulation.Presentation
             InitializeBackgroundWorker();
 
             _sim = new SimulationDemo.Simulation(numCashier: 5, numSelfChechout: 1, numMachine: 5);
-
-            _sim.Testfield = "test1";
         }
         private void InitializeBackgroundWorker()
         {
@@ -76,6 +74,21 @@ namespace Simulation.Presentation
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void AddOneCashier_Click(object sender, EventArgs e)
+        {
+            _sim.CheckoutArea.AddOneNewCashier();
+        }
+
+        private void SpeedUp_Click(object sender, EventArgs e)
+        {
+            _sim.SpeedUp();
+        }
+
+        private void SlowDown_Click(object sender, EventArgs e)
+        {
+            _sim.SlowDown();
         }
     }
 }

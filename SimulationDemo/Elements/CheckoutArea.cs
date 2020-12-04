@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ namespace SimulationDemo.Elements
 {
     public class CheckoutArea
     {
-        private List<CashierQueue> _cashierQueues;
+        private ConcurrentBag<CashierQueue> _cashierQueues;
         private List<SelfCheckoutQueue> _selfCheckoutQueues;
         private int _numMachine;
 
@@ -15,7 +16,7 @@ namespace SimulationDemo.Elements
 
         public CheckoutArea(int numCashier, int numSelfChechout, int numMachine)
         {
-            _cashierQueues = new List<CashierQueue>();
+            _cashierQueues = new ConcurrentBag<CashierQueue>();
             _selfCheckoutQueues = new List<SelfCheckoutQueue>();
             _numMachine = numMachine;
 
@@ -35,12 +36,19 @@ namespace SimulationDemo.Elements
             }
         }
 
+        public void AddOneNewCashier()
+        {
+            _cashierQueues.Add(new CashierQueue());
+        }
+
         public IQueue QuickestQueue()
         {
             IQueue quickestCashier = null;
             foreach (var currentQ in _cashierQueues)
             {
-                if (quickestCashier == null || currentQ.IfQueueIdle() || quickestCashier.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
+                if (quickestCashier == null || 
+                    currentQ.IsQueueIdle() || 
+                    (!currentQ.IsQueueIdle() && !quickestCashier.IsQueueIdle() && quickestCashier.NumOfWaitingCustomers() > currentQ.NumOfWaitingCustomers()))
                 {
                     quickestCashier = currentQ;
                 }
@@ -49,10 +57,22 @@ namespace SimulationDemo.Elements
             IQueue quickestSelfCheckout = null;
             foreach (var currentQ in _selfCheckoutQueues)
             {
-                if (quickestSelfCheckout == null || currentQ.IfQueueIdle() || quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers())
+                if (quickestSelfCheckout == null || 
+                    currentQ.IsQueueIdle() || 
+                    (!currentQ.IsQueueIdle() && !quickestSelfCheckout.IsQueueIdle() && quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers()))
                 {
                     quickestSelfCheckout = currentQ;
                 }
+            }
+
+            if (quickestSelfCheckout.IsQueueIdle())
+            {
+                return quickestSelfCheckout;
+            }
+
+            if (quickestCashier.IsQueueIdle())
+            {
+                return quickestCashier;
             }
 
             return quickestCashier.NumOfWaitingCustomers() <= (quickestSelfCheckout.NumOfWaitingCustomers() / (_numMachine)) ? quickestCashier : quickestSelfCheckout;

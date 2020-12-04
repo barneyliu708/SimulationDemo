@@ -72,12 +72,14 @@ namespace SimulationDemo.Elements
             return Simulation.GlobalTime >= _arrivalTime + _maxToleranceTime;
         }
 
-        public bool IfShouldChangeLine()
+        public bool IfShouldChangeLine(out IQueue newqueue)
         {
+            newqueue = null;
             if (this.IsCheckoutStarted())
             {
                 return false; // cannot change line anymore if the customer already start checking out.
             }
+
             Type joinedQueueType = _joinedQueue.GetType();
             int eNumOfCustomersAhead = this.NumOfWaitingCustomersAhead();
             if (joinedQueueType == typeof(SelfCheckoutQueue))
@@ -94,22 +96,29 @@ namespace SimulationDemo.Elements
             }
 
             var ifShouldChange = eNumOfCustomersAhead - eNumOfCustomers >= 3;
+            
+            if (quickestQueue.IsQueueIdle())
+            {
+                ifShouldChange = true;
+            }
+
             if(ifShouldChange)
             {
+                newqueue = quickestQueue;
                 SimLogger.Info($"Customer [{_customerId}] finds a quick queue: current has {eNumOfCustomersAhead} ahead in queue {_joinedQueue.QueueId}, while queue {quickestQueue.QueueId} has total {eNumOfCustomers} waiting customers");
             }
             return ifShouldChange; // if current joined queue is not the quickest queue in the check out area, then should change
         }
 
         // ToDO
-        public void ChangeLine()
+        public void ChangeLine(IQueue newqueue)
         {
             if (this.IsCheckoutStarted())
             {
                 throw new Exception("Cannot change line anymore if the customer already start checking out.");
             }
             this.LeaveQueue();
-            this.JoinQueue(_checkoutArea.QuickestQueue());
+            this.JoinQueue(newqueue);
         }
 
         public void NeedHelpForSelfCheckout()
