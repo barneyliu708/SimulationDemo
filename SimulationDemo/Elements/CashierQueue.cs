@@ -58,7 +58,7 @@ namespace SimulationDemo.Elements
             {
                 builder.Append($"[{cur.CustomerId}]");
             }
-            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] |{builder}");
+            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}]  ||{builder}");
         }
 
         public bool IsQueueIdle()

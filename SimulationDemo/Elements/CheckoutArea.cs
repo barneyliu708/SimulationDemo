@@ -108,7 +108,6 @@ namespace SimulationDemo.Elements
             return quickestCashier.NumOfWaitingCustomers() <= (quickestSelfCheckout.NumOfWaitingCustomers() / (_numMachine)) ? quickestCashier : quickestSelfCheckout;
         }
 
-
         public IEnumerable<IQueue> GetAllQueues()
         {
             List<IQueue> allQueues = new List<IQueue>();

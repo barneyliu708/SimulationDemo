@@ -81,14 +81,6 @@ namespace SimulationDemo
                 }
 
                 Thread.Sleep(_sleepmillesecond);
-                //int cursorTop = Console.CursorTop;
-                //Console.SetCursorPosition(0, 0);
-                //for (int i = 0; i < cursorTop; i++)
-                //{
-                //    Console.WriteLine(new string(' ', 200));
-                //}
-
-                //Console.SetCursorPosition(0, 0);
 
                 this.PrintOut();
                 

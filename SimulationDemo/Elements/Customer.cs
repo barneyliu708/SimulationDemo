@@ -61,7 +61,7 @@ namespace SimulationDemo.Elements
 
         public int NumOfWaitingCustomersAhead()
         {
-            return 1 + _joinedQueue.IndexOfCustomerInQueue(this);
+            return _joinedQueue.IndexOfCustomerInQueue(this);
         }
 
         public bool IfShouldAngryDeparture()
@@ -96,7 +96,7 @@ namespace SimulationDemo.Elements
                 eNumOfCustomers = eNumOfCustomers / _checkoutArea.NumMachine;
             }
 
-            var ifShouldChange = eNumOfCustomersAhead - eNumOfCustomers >= 3;
+            var ifShouldChange = eNumOfCustomersAhead - eNumOfCustomers >= 2;
             
             if (quickestQueue.IsQueueIdle())
             {

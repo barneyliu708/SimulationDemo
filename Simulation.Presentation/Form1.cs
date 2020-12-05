@@ -20,6 +20,7 @@ namespace Simulation.Presentation
             InitializeBackgroundWorker();
 
             _sim = new SimulationDemo.Simulation(numCashier: 5, numSelfChechout: 1, numMachine: 5);
+            SimLogger.SetSimOjb(_sim);
         }
         private void InitializeBackgroundWorker()
         {

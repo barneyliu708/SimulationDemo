@@ -9,7 +9,7 @@ namespace SimulationDemo.Logger
 
         public static void Info(string info)
         {
-            Logger.LogInformation(info);
+            Logger.LogInformation($"Iteration {Simulation.GlobalTime} - {info}");
         }
     }
 }

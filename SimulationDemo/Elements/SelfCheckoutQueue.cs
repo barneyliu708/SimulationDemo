@@ -84,7 +84,7 @@ namespace SimulationDemo.Elements
             {
                 builder.Append($"[{cur.CustomerId}]");
             }
-            Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] |{builder.ToString()}");
+            Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}]  ||{builder.ToString()}");
 
             for (int i = 0; i < _numOfMachines; i++)
             {
