@@ -24,6 +24,7 @@ namespace SimulationDemo.Elements
         private bool _isNeedHelpForSelfCheckout;
 
         public string CustomerId { get => _customerId; }
+        public EventEnum AmountItems { get => _amountItems; }
 
         public Customer(int arrivalTime)
         {
@@ -87,7 +88,7 @@ namespace SimulationDemo.Elements
                 eNumOfCustomersAhead = eNumOfCustomersAhead / _checkoutArea.NumMachine;
             }
 
-            IQueue quickestQueue = _checkoutArea.QuickestQueue();
+            IQueue quickestQueue = _checkoutArea.QuickestQueue(this);
             Type quickestQueueType = quickestQueue.GetType();
             int eNumOfCustomers = quickestQueue.NumOfWaitingCustomers();
             if (quickestQueueType == typeof(SelfCheckoutQueue))

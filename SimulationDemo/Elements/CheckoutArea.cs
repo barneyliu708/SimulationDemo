@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SimulationDemo.Enums;
+using System;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,14 +39,32 @@ namespace SimulationDemo.Elements
 
         public void AddOneNewCashier()
         {
-            _cashierQueues.Add(new CashierQueue());
+            var closedQueue = _cashierQueues.FirstOrDefault(q => q.IsQueueOpened == false);
+            if (closedQueue != null)
+            {
+                closedQueue.OpenQueue();
+            }
+            else
+            {
+                _cashierQueues.Add(new CashierQueue());
+            }
         }
 
-        public IQueue QuickestQueue()
+        public void CloseOneCashier()
+        {
+            _cashierQueues.FirstOrDefault(q => q.IsQueueOpened)?.CloseQueue();
+        }
+
+        public IQueue QuickestQueue(Customer customer)
         {
             IQueue quickestCashier = null;
             foreach (var currentQ in _cashierQueues)
             {
+                if (currentQ.IsQueueOpened == false)
+                {
+                    continue;
+                }
+
                 if (quickestCashier == null || 
                     currentQ.IsQueueIdle() || 
                     (!currentQ.IsQueueIdle() && !quickestCashier.IsQueueIdle() && quickestCashier.NumOfWaitingCustomers() > currentQ.NumOfWaitingCustomers()))
@@ -57,12 +76,23 @@ namespace SimulationDemo.Elements
             IQueue quickestSelfCheckout = null;
             foreach (var currentQ in _selfCheckoutQueues)
             {
+                if (currentQ.IsQueueOpened == false)
+                {
+                    continue;
+                }
+
                 if (quickestSelfCheckout == null || 
                     currentQ.IsQueueIdle() || 
                     (!currentQ.IsQueueIdle() && !quickestSelfCheckout.IsQueueIdle() && quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers()))
                 {
                     quickestSelfCheckout = currentQ;
                 }
+            }
+
+            // -- only the customers with small or medium amount of items are allowed to use self-checkout area
+            if (customer.AmountItems == EventEnum.ScaningLargeAmountItems)
+            {
+                return quickestCashier;
             }
 
             if (quickestSelfCheckout.IsQueueIdle())

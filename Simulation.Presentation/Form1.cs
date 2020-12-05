@@ -14,17 +14,6 @@ namespace Simulation.Presentation
         private BackgroundWorker backgroundWorker1;
         private readonly ILogger<Form1> _logger;
 
-        //public Form1(ILogger<Form1> logger)
-        //{
-        //    _logger = logger;
-        //    _logger.LogInformation("logging test");
-        //    SimLogger.Info("Sim Logger Info");
-
-        //    InitializeComponent();
-        //    InitializeBackgroundWorker();
-        //    _sim = new SimulationDemo.Simulation(2, 1, 5);
-        //    _sim.Testfield = "test1";
-        //}
         public Form1()
         {
             InitializeComponent();
@@ -59,7 +48,7 @@ namespace Simulation.Presentation
             backgroundWorker1.RunWorkerAsync();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void UpdateArrivalRate_Click(object sender, EventArgs e)
         {
             double arrPro = double.Parse(this.textBox1.Text);
             IDistribution dist = new Bernoulli(arrPro);
@@ -79,6 +68,11 @@ namespace Simulation.Presentation
         private void AddOneCashier_Click(object sender, EventArgs e)
         {
             _sim.CheckoutArea.AddOneNewCashier();
+        }
+
+        private void CloseOneCashier_Click(object sender, EventArgs e)
+        {
+            _sim.CheckoutArea.CloseOneCashier();
         }
 
         private void SpeedUp_Click(object sender, EventArgs e)

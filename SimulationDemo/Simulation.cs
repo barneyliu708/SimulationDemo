@@ -51,7 +51,7 @@ namespace SimulationDemo
                     Customer newCustomer = new Customer(_globalTime);
                     newCustomer.ArriveCheckoutArea(_checkoutArea);
 
-                    IQueue quickestQueue = _checkoutArea.QuickestQueue();
+                    IQueue quickestQueue = _checkoutArea.QuickestQueue(newCustomer);
                     newCustomer.JoinQueue(quickestQueue);
                 }
 

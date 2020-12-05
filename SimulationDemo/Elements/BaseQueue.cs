@@ -10,13 +10,28 @@ namespace SimulationDemo.Elements
         public BaseQueue()
         {
             _queueId = RandomStrGenerator.GetRandomString();
+            _isQueueOpened = true;
         }
 
         protected string _queueId;
 
+        protected bool _isQueueOpened;
+
         protected LinkedList<Customer> _waitingqueue;
 
         public string QueueId { get => _queueId; }
+
+        public bool IsQueueOpened { get => _isQueueOpened; }
+
+        public void CloseQueue()
+        {
+            _isQueueOpened = false;
+        }
+
+        public void OpenQueue()
+        {
+            _isQueueOpened = true;
+        }
 
         // customer will arrive and join at the end of the queue 
         public void NewCustomersJoins(Customer newCustomer)
