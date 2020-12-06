@@ -12,14 +12,16 @@ namespace Simulation.Presentation
     {
         private SimulationDemo.Simulation _sim;
         private BackgroundWorker backgroundWorker1;
-        private readonly ILogger<Form1> _logger;
 
         public Form1()
         {
             InitializeComponent();
             InitializeBackgroundWorker();
 
-            _sim = new SimulationDemo.Simulation(numCashier: 5, numSelfChechout: 1, numMachine: 5);
+            this.numOfCashierTextBox.Text = "10";
+            this.numOfSelfCheckoutTextBox.Text = "1";
+            this.numOfSelfCheckMachineTextBox.Text = "5";
+            this.arrivalRateTextBox.Text = "0.2";
         }
         private void InitializeBackgroundWorker()
         {
@@ -44,15 +46,38 @@ namespace Simulation.Presentation
 
         private void startAsyncButton_Click(object sender, EventArgs e)
         {
-            // Start the asynchronous operation.
-            backgroundWorker1.RunWorkerAsync();
+            int numOfCashier = 0;
+            int numOfSelfCheckout = 0;
+            int numOfMachines = 0;
+            double arrPro = 0;
+
+            if (int.TryParse(this.numOfCashierTextBox.Text, out numOfCashier) &&
+                int.TryParse(this.numOfSelfCheckoutTextBox.Text, out numOfSelfCheckout) &&
+                int.TryParse(this.numOfSelfCheckMachineTextBox.Text, out numOfMachines) &&
+                double.TryParse(this.arrivalRateTextBox.Text, out arrPro))
+            {
+                _sim = new SimulationDemo.Simulation(numCashier: numOfCashier, numSelfChechout: numOfSelfCheckout, numMachine: numOfMachines);
+
+                IDistribution dist = new Poison(arrPro);
+                DistributionHelper.UpdateDistribution(EventEnum.Arrival, dist);
+
+                // Start the asynchronous operation.
+                backgroundWorker1.RunWorkerAsync();
+                this.startbutton.Enabled = false;
+                this.numOfCashierTextBox.Enabled = false;
+                this.numOfSelfCheckoutTextBox.Enabled = false;
+                this.numOfSelfCheckMachineTextBox.Enabled = false;
+            }
         }
 
         private void UpdateArrivalRate_Click(object sender, EventArgs e)
         {
-            double arrPro = double.Parse(this.textBox1.Text);
-            IDistribution dist = new Bernoulli(arrPro);
-            DistributionHelper.UpdateDistribution(EventEnum.Arrival, dist);
+            double arrPro = 0;
+            if (double.TryParse(this.arrivalRateTextBox.Text, out arrPro)) 
+            {
+                IDistribution dist = new Poison(arrPro);
+                DistributionHelper.UpdateDistribution(EventEnum.Arrival, dist);
+            };
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

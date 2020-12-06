@@ -19,8 +19,7 @@ namespace SimulationDemo.Elements
         private int _totalArrivalCustomerCount;
         private int _totalDepartureCustomerCount;
         private int _totalChangeLineCount;
-        private int[] _last10waitingtime;
-        private int _idx;
+        private LinkedList<int> _last10waitingtime;
 
         public int NumMachine { get => _numMachine; }
 
@@ -29,8 +28,7 @@ namespace SimulationDemo.Elements
             _cashierQueues = new ConcurrentBag<CashierQueue>();
             _selfCheckoutQueues = new List<SelfCheckoutQueue>();
             _numMachine = numMachine;
-            _last10waitingtime = new int[10];
-            _idx = 0;
+            _last10waitingtime = new LinkedList<int>();
 
 
             if (numCashier + numSelfChechout <= 0 && numCashier * numSelfChechout <= 0)
@@ -164,8 +162,11 @@ namespace SimulationDemo.Elements
             }
 
             _totalWaitingTime += newWaitingTime;
-            _last10waitingtime[_idx++] = newWaitingTime;
-            _idx %= _last10waitingtime.Length;
+            _last10waitingtime.AddLast(newWaitingTime);
+            if(_last10waitingtime.Count > 10)
+            {
+                _last10waitingtime.RemoveFirst();
+            }
             _avgWaitingTime = _totalWaitingTime / _totalDepartureCustomerCount;
         }
         public void PrintOut()
@@ -182,7 +183,8 @@ namespace SimulationDemo.Elements
             {
                 sb.Append($"{n}, ");
             }
-            Console.WriteLine($"Avg. Waiting Time of Lastest {_last10waitingtime.Length} Customers: [{sb.ToString(0, sb.Length - 2)}]");
+            Console.WriteLine($"Waiting Time of Lastest {_last10waitingtime.Count} Customers: [{(_last10waitingtime.Count == 0 ? "" : sb.ToString())}]");
+            
             Console.WriteLine();
             Console.WriteLine("-------------------------------Checkout Area------------------------------------------------");
             foreach (var q in _cashierQueues)

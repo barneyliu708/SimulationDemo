@@ -1,289 +1,127 @@
-2020-12-05 21:01:23,008  INFO - MESSAGE: Iteration 603 - Customer [40d3b08b] joined the queue 73bd6869
- 2020-12-05 21:01:23,442  INFO - MESSAGE: Iteration 604 - Customer [d19a7c6f] joined the queue 90481011
- 2020-12-05 21:01:23,442  INFO - MESSAGE: Iteration 604 - Customer [40d3b08b] start checking out at queue 73bd6869
- 2020-12-05 21:01:23,442  INFO - MESSAGE: Iteration 604 - Customer [07c82249] departure after checking out at queue f3d66ef1
- 2020-12-05 21:01:23,442  INFO - MESSAGE: Iteration 604 - Customer [d19a7c6f] finds a quick queue: current has 0 ahead in queue 90481011, while queue f3d66ef1 has total 0 waiting customers
- 2020-12-05 21:01:23,444  INFO - MESSAGE: Iteration 604 - Customer [d19a7c6f] leave the queue 90481011
- 2020-12-05 21:01:23,444  INFO - MESSAGE: Iteration 604 - Customer [d19a7c6f] joined the queue f3d66ef1
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [186f3880] joined the queue 90481011
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [76c18f1e] departure after checking out at queue 4e5548c8
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [d19a7c6f] start checking out at queue f3d66ef1
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [186f3880] finds a quick queue: current has 0 ahead in queue 90481011, while queue 4e5548c8 has total 0 waiting customers
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [186f3880] leave the queue 90481011
- 2020-12-05 21:01:23,853  INFO - MESSAGE: Iteration 605 - Customer [186f3880] joined the queue 4e5548c8
- 2020-12-05 21:01:24,276  INFO - MESSAGE: Iteration 606 - Customer [186f3880] start checking out at queue 4e5548c8
- 2020-12-05 21:01:24,276  INFO - MESSAGE: Iteration 606 - Customer [f4f17bf9] departure after checking out at queue f3d66ef1
- 2020-12-05 21:01:24,670  INFO - MESSAGE: Iteration 607 - Customer [59e8ffa5] joined the queue f3d66ef1
- 2020-12-05 21:01:24,670  INFO - MESSAGE: Iteration 607 - Customer [59e8ffa5] start checking out at queue f3d66ef1
- 2020-12-05 21:01:25,097  INFO - MESSAGE: Iteration 608 - Customer [1ee18eaf] joined the queue 90481011
- 2020-12-05 21:01:25,097  INFO - MESSAGE: Iteration 608 - Customer [9c2ccf53] departure after checking out at queue 88c2860b
- 2020-12-05 21:01:25,097  INFO - MESSAGE: Iteration 608 - Customer [1ee18eaf] finds a quick queue: current has 0 ahead in queue 90481011, while queue 88c2860b has total 0 waiting customers
- 2020-12-05 21:01:25,097  INFO - MESSAGE: Iteration 608 - Customer [1ee18eaf] leave the queue 90481011
- 2020-12-05 21:01:25,097  INFO - MESSAGE: Iteration 608 - Customer [1ee18eaf] joined the queue 88c2860b
- 2020-12-05 21:02:11,560  INFO - MESSAGE: Iteration 0 - Execution started
- 2020-12-05 21:02:11,628  INFO - MESSAGE: Iteration 1 - Customer [db0b89b9] joined the queue 242c084a
- 2020-12-05 21:02:11,630  INFO - MESSAGE: Iteration 1 - Customer [db0b89b9] start checking out at queue 242c084a
- 2020-12-05 21:02:12,388  INFO - MESSAGE: Iteration 2 - Customer [a08f33b2] joined the queue ddea4fe0
- 2020-12-05 21:02:12,389  INFO - MESSAGE: Iteration 2 - Customer [a08f33b2] start checking out at queue ddea4fe0
- 2020-12-05 21:02:13,843  INFO - MESSAGE: Iteration 4 - Customer [e76bf7a4] joined the queue bd7ade1b
- 2020-12-05 21:02:13,844  INFO - MESSAGE: Iteration 4 - Customer [e76bf7a4] start checking out at queue bd7ade1b
- 2020-12-05 21:02:14,630  INFO - MESSAGE: Iteration 5 - Customer [4b1ea860] joined the queue c8f1d000
- 2020-12-05 21:02:14,631  INFO - MESSAGE: Iteration 5 - Customer [4b1ea860] start checking out at queue c8f1d000
- 2020-12-05 21:02:15,353  INFO - MESSAGE: Iteration 6 - Customer [37507ab6] joined the queue c8f1d000
- 2020-12-05 21:02:15,353  INFO - MESSAGE: Iteration 6 - Customer [37507ab6] start checking out at queue c8f1d000
- 2020-12-05 21:02:16,041  INFO - MESSAGE: Iteration 7 - Customer [257be388] joined the queue c8f1d000
- 2020-12-05 21:02:16,042  INFO - MESSAGE: Iteration 7 - Customer [257be388] start checking out at queue c8f1d000
- 2020-12-05 21:02:16,734  INFO - MESSAGE: Iteration 8 - Customer [06d8b9ca] joined the queue c8f1d000
- 2020-12-05 21:02:16,734  INFO - MESSAGE: Iteration 8 - Customer [06d8b9ca] start checking out at queue c8f1d000
- 2020-12-05 21:02:17,431  INFO - MESSAGE: Iteration 9 - Customer [1b624cbf] joined the queue c8f1d000
- 2020-12-05 21:02:17,432  INFO - MESSAGE: Iteration 9 - Customer [1b624cbf] start checking out at queue c8f1d000
- 2020-12-05 21:02:18,120  INFO - MESSAGE: Iteration 10 - Customer [c4c29db2] joined the queue 5f35a799
- 2020-12-05 21:02:18,121  INFO - MESSAGE: Iteration 10 - Customer [c4c29db2] start checking out at queue 5f35a799
- 2020-12-05 21:02:18,810  INFO - MESSAGE: Iteration 11 - Customer [a1355173] joined the queue d12503e1
- 2020-12-05 21:02:18,811  INFO - MESSAGE: Iteration 11 - Customer [a1355173] start checking out at queue d12503e1
- 2020-12-05 21:02:19,501  INFO - MESSAGE: Iteration 12 - Customer [215e41da] joined the queue d12503e1
- 2020-12-05 21:02:20,884  INFO - MESSAGE: Iteration 14 - Customer [f9ea707c] joined the queue 5f35a799
- 2020-12-05 21:02:20,884  INFO - MESSAGE: Iteration 14 - Customer [37507ab6] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:20,885  INFO - MESSAGE: Iteration 14 - Customer [215e41da] finds a quick queue: current has 0 ahead in queue d12503e1, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:20,889  INFO - MESSAGE: Iteration 14 - Customer [215e41da] leave the queue d12503e1
- 2020-12-05 21:02:20,889  INFO - MESSAGE: Iteration 14 - Customer [215e41da] joined the queue c8f1d000
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [e28a588d] joined the queue d12503e1
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [4b1ea860] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [215e41da] start checking out at queue c8f1d000
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [06d8b9ca] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [f9ea707c] finds a quick queue: current has 0 ahead in queue 5f35a799, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [f9ea707c] leave the queue 5f35a799
- 2020-12-05 21:02:21,582  INFO - MESSAGE: Iteration 15 - Customer [f9ea707c] joined the queue c8f1d000
- 2020-12-05 21:02:22,280  INFO - MESSAGE: Iteration 16 - Customer [1bc22602] joined the queue 5f35a799
- 2020-12-05 21:02:22,280  INFO - MESSAGE: Iteration 16 - Customer [f9ea707c] start checking out at queue c8f1d000
- 2020-12-05 21:02:22,281  INFO - MESSAGE: Iteration 16 - Customer [1bc22602] finds a quick queue: current has 0 ahead in queue 5f35a799, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:22,281  INFO - MESSAGE: Iteration 16 - Customer [1bc22602] leave the queue 5f35a799
- 2020-12-05 21:02:22,281  INFO - MESSAGE: Iteration 16 - Customer [1bc22602] joined the queue c8f1d000
- 2020-12-05 21:02:22,971  INFO - MESSAGE: Iteration 17 - Customer [0ec949f1] joined the queue 5f35a799
- 2020-12-05 21:02:22,972  INFO - MESSAGE: Iteration 17 - Customer [1bc22602] start checking out at queue c8f1d000
- 2020-12-05 21:02:23,673  INFO - MESSAGE: Iteration 18 - Customer [d88daa59] joined the queue bd7ade1b
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [9118bbb4] joined the queue ddea4fe0
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [db0b89b9] departure after checking out at queue 242c084a
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [1b624cbf] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [e28a588d] finds a quick queue: current has 0 ahead in queue d12503e1, while queue 242c084a has total 0 waiting customers
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [e28a588d] leave the queue d12503e1
- 2020-12-05 21:02:24,363  INFO - MESSAGE: Iteration 19 - Customer [e28a588d] joined the queue 242c084a
- 2020-12-05 21:02:24,364  INFO - MESSAGE: Iteration 19 - Customer [d88daa59] finds a quick queue: current has 0 ahead in queue bd7ade1b, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:24,364  INFO - MESSAGE: Iteration 19 - Customer [d88daa59] leave the queue bd7ade1b
- 2020-12-05 21:02:24,364  INFO - MESSAGE: Iteration 19 - Customer [d88daa59] joined the queue c8f1d000
- 2020-12-05 21:02:25,061  INFO - MESSAGE: Iteration 20 - Customer [b266cde1] joined the queue d12503e1
- 2020-12-05 21:02:25,061  INFO - MESSAGE: Iteration 20 - Customer [a08f33b2] departure after checking out at queue ddea4fe0
- 2020-12-05 21:02:25,061  INFO - MESSAGE: Iteration 20 - Customer [9118bbb4] start checking out at queue ddea4fe0
- 2020-12-05 21:02:25,061  INFO - MESSAGE: Iteration 20 - Customer [e28a588d] start checking out at queue 242c084a
- 2020-12-05 21:02:25,061  INFO - MESSAGE: Iteration 20 - Customer [d88daa59] start checking out at queue c8f1d000
- 2020-12-05 21:02:25,749  INFO - MESSAGE: Iteration 21 - Customer [5235223b] joined the queue bd7ade1b
- 2020-12-05 21:02:26,451  INFO - MESSAGE: Iteration 22 - Customer [46b1dd14] joined the queue ddea4fe0
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [73864ed1] joined the queue 242c084a
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [215e41da] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [257be388] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [b266cde1] finds a quick queue: current has 0 ahead in queue d12503e1, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [b266cde1] leave the queue d12503e1
- 2020-12-05 21:02:27,145  INFO - MESSAGE: Iteration 23 - Customer [b266cde1] joined the queue c8f1d000
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [2305283c] joined the queue d12503e1
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [e76bf7a4] departure after checking out at queue bd7ade1b
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [5235223b] start checking out at queue bd7ade1b
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [b266cde1] start checking out at queue c8f1d000
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [2305283c] finds a quick queue: current has 0 ahead in queue d12503e1, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [2305283c] leave the queue d12503e1
- 2020-12-05 21:02:27,845  INFO - MESSAGE: Iteration 24 - Customer [2305283c] joined the queue c8f1d000
- 2020-12-05 21:02:28,539  INFO - MESSAGE: Iteration 25 - Customer [e287a21c] joined the queue d12503e1
- 2020-12-05 21:02:28,539  INFO - MESSAGE: Iteration 25 - Customer [2305283c] start checking out at queue c8f1d000
- 2020-12-05 21:02:29,229  INFO - MESSAGE: Iteration 26 - Customer [4550afda] joined the queue bd7ade1b
- 2020-12-05 21:02:29,918  INFO - MESSAGE: Iteration 27 - Customer [6d0a1490] joined the queue c8f1d000
- 2020-12-05 21:02:29,918  INFO - MESSAGE: Iteration 27 - Customer [d88daa59] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:29,918  INFO - MESSAGE: Iteration 27 - Customer [6d0a1490] start checking out at queue c8f1d000
- 2020-12-05 21:02:30,613  INFO - MESSAGE: Iteration 28 - Customer [2c2a8d89] joined the queue c8f1d000
- 2020-12-05 21:02:30,613  INFO - MESSAGE: Iteration 28 - Customer [a1355173] departure after checking out at queue d12503e1
- 2020-12-05 21:02:30,613  INFO - MESSAGE: Iteration 28 - Customer [e287a21c] start checking out at queue d12503e1
- 2020-12-05 21:02:30,613  INFO - MESSAGE: Iteration 28 - Customer [f9ea707c] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:30,613  INFO - MESSAGE: Iteration 28 - Customer [2c2a8d89] start checking out at queue c8f1d000
- 2020-12-05 21:02:31,306  INFO - MESSAGE: Iteration 29 - Customer [77a17649] joined the queue d12503e1
- 2020-12-05 21:02:31,306  INFO - MESSAGE: Iteration 29 - Customer [c4c29db2] departure after checking out at queue 5f35a799
- 2020-12-05 21:02:31,306  INFO - MESSAGE: Iteration 29 - Customer [0ec949f1] start checking out at queue 5f35a799
- 2020-12-05 21:02:31,993  INFO - MESSAGE: Iteration 30 - Customer [d207480c] joined the queue 5f35a799
- 2020-12-05 21:02:31,993  INFO - MESSAGE: Iteration 30 - Customer [1bc22602] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:31,993  INFO - MESSAGE: Iteration 30 - Customer [d207480c] finds a quick queue: current has 0 ahead in queue 5f35a799, while queue c8f1d000 has total 0 waiting customers
- 2020-12-05 21:02:31,993  INFO - MESSAGE: Iteration 30 - Customer [d207480c] leave the queue 5f35a799
- 2020-12-05 21:02:31,993  INFO - MESSAGE: Iteration 30 - Customer [d207480c] joined the queue c8f1d000
- 2020-12-05 21:02:32,683  INFO - MESSAGE: Iteration 31 - Customer [1d3cf914] joined the queue 5f35a799
- 2020-12-05 21:02:32,684  INFO - MESSAGE: Iteration 31 - Customer [d207480c] start checking out at queue c8f1d000
- 2020-12-05 21:02:33,382  INFO - MESSAGE: Iteration 32 - Customer [28acb51a] joined the queue c8f1d000
- 2020-12-05 21:02:34,071  INFO - MESSAGE: Iteration 33 - Customer [96982900] joined the queue c8f1d000
- 2020-12-05 21:02:34,071  INFO - MESSAGE: Iteration 33 - Customer [9118bbb4] departure after checking out at queue ddea4fe0
- 2020-12-05 21:02:34,071  INFO - MESSAGE: Iteration 33 - Customer [46b1dd14] start checking out at queue ddea4fe0
- 2020-12-05 21:02:34,071  INFO - MESSAGE: Iteration 33 - Customer [2305283c] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:34,071  INFO - MESSAGE: Iteration 33 - Customer [28acb51a] start checking out at queue c8f1d000
- 2020-12-05 21:02:34,766  INFO - MESSAGE: Iteration 34 - Customer [8db5a2fe] joined the queue ddea4fe0
- 2020-12-05 21:02:34,766  INFO - MESSAGE: Iteration 34 - Customer [2c2a8d89] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:34,766  INFO - MESSAGE: Iteration 34 - Customer [96982900] start checking out at queue c8f1d000
- 2020-12-05 21:02:35,458  INFO - MESSAGE: Iteration 35 - Customer [b51fcd9c] joined the queue c8f1d000
- 2020-12-05 21:02:36,151  INFO - MESSAGE: Iteration 36 - Customer [d8bee3ab] joined the queue d12503e1
- 2020-12-05 21:02:36,151  INFO - MESSAGE: Iteration 36 - Customer [b266cde1] departure after checking out at queue c8f1d000
- 2020-12-05 21:02:36,152  INFO - MESSAGE: Iteration 36 - Customer [b51fcd9c] start checking out at queue c8f1d000
- 2020-12-05 21:02:36,879  INFO - MESSAGE: Iteration 37 - Customer [c89a17f4] joined the queue c8f1d000
- 2020-12-05 21:02:37,565  INFO - MESSAGE: Iteration 38 - Customer [5caf4352] joined the queue c8f1d000
- 2020-12-05 21:03:05,377  INFO - MESSAGE: Iteration 0 - Execution started
- 2020-12-05 21:03:05,448  INFO - MESSAGE: Iteration 1 - Customer [b839e62d] joined the queue 9f205228
- 2020-12-05 21:03:05,450  INFO - MESSAGE: Iteration 1 - Customer [b839e62d] start checking out at queue 9f205228
- 2020-12-05 21:03:06,193  INFO - MESSAGE: Iteration 2 - Customer [1e73d9fb] joined the queue e52e85fb
- 2020-12-05 21:03:06,194  INFO - MESSAGE: Iteration 2 - Customer [1e73d9fb] start checking out at queue e52e85fb
- 2020-12-05 21:03:06,953  INFO - MESSAGE: Iteration 3 - Customer [ee28fe22] joined the queue e52e85fb
- 2020-12-05 21:03:06,954  INFO - MESSAGE: Iteration 3 - Customer [ee28fe22] start checking out at queue e52e85fb
- 2020-12-05 21:03:07,735  INFO - MESSAGE: Iteration 4 - Customer [306e6bec] joined the queue e52e85fb
- 2020-12-05 21:03:07,736  INFO - MESSAGE: Iteration 4 - Customer [306e6bec] start checking out at queue e52e85fb
- 2020-12-05 21:03:08,486  INFO - MESSAGE: Iteration 5 - Customer [e6e3c56f] joined the queue 0417786a
- 2020-12-05 21:03:08,487  INFO - MESSAGE: Iteration 5 - Customer [e6e3c56f] start checking out at queue 0417786a
- 2020-12-05 21:03:09,275  INFO - MESSAGE: Iteration 6 - Customer [804f81f8] joined the queue e52e85fb
- 2020-12-05 21:03:09,276  INFO - MESSAGE: Iteration 6 - Customer [804f81f8] start checking out at queue e52e85fb
- 2020-12-05 21:03:09,995  INFO - MESSAGE: Iteration 7 - Customer [2922e220] joined the queue e52e85fb
- 2020-12-05 21:03:09,995  INFO - MESSAGE: Iteration 7 - Customer [2922e220] start checking out at queue e52e85fb
- 2020-12-05 21:03:10,730  INFO - MESSAGE: Iteration 8 - Customer [95331f2f] joined the queue 4f73b8ba
- 2020-12-05 21:03:10,730  INFO - MESSAGE: Iteration 8 - Customer [95331f2f] start checking out at queue 4f73b8ba
- 2020-12-05 21:03:12,256  INFO - MESSAGE: Iteration 10 - Customer [deb28057] joined the queue fb73db3a
- 2020-12-05 21:03:12,257  INFO - MESSAGE: Iteration 10 - Customer [deb28057] start checking out at queue fb73db3a
- 2020-12-05 21:03:13,020  INFO - MESSAGE: Iteration 11 - Customer [161d78dd] joined the queue 17166cc2
- 2020-12-05 21:03:13,020  INFO - MESSAGE: Iteration 11 - Customer [161d78dd] start checking out at queue 17166cc2
- 2020-12-05 21:03:13,760  INFO - MESSAGE: Iteration 12 - Customer [d1506f47] joined the queue 17166cc2
- 2020-12-05 21:03:14,511  INFO - MESSAGE: Iteration 13 - Customer [2340b911] joined the queue fb73db3a
- 2020-12-05 21:03:14,512  INFO - MESSAGE: Iteration 13 - Customer [306e6bec] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:14,517  INFO - MESSAGE: Iteration 13 - Customer [2340b911] finds a quick queue: current has 0 ahead in queue fb73db3a, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:14,519  INFO - MESSAGE: Iteration 13 - Customer [2340b911] leave the queue fb73db3a
- 2020-12-05 21:03:14,519  INFO - MESSAGE: Iteration 13 - Customer [2340b911] joined the queue e52e85fb
- 2020-12-05 21:03:15,272  INFO - MESSAGE: Iteration 14 - Customer [fb5d77c4] joined the queue fb73db3a
- 2020-12-05 21:03:15,272  INFO - MESSAGE: Iteration 14 - Customer [2340b911] start checking out at queue e52e85fb
- 2020-12-05 21:03:16,007  INFO - MESSAGE: Iteration 15 - Customer [d0f22a25] joined the queue 4f73b8ba
- 2020-12-05 21:03:16,008  INFO - MESSAGE: Iteration 15 - Customer [1e73d9fb] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:16,008  INFO - MESSAGE: Iteration 15 - Customer [fb5d77c4] finds a quick queue: current has 0 ahead in queue fb73db3a, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:16,008  INFO - MESSAGE: Iteration 15 - Customer [fb5d77c4] leave the queue fb73db3a
- 2020-12-05 21:03:16,008  INFO - MESSAGE: Iteration 15 - Customer [fb5d77c4] joined the queue e52e85fb
- 2020-12-05 21:03:16,699  INFO - MESSAGE: Iteration 16 - Customer [0fed1320] joined the queue fb73db3a
- 2020-12-05 21:03:16,700  INFO - MESSAGE: Iteration 16 - Customer [fb5d77c4] start checking out at queue e52e85fb
- 2020-12-05 21:03:16,700  INFO - MESSAGE: Iteration 16 - Customer [804f81f8] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:16,700  INFO - MESSAGE: Iteration 16 - Customer [d0f22a25] finds a quick queue: current has 0 ahead in queue 4f73b8ba, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:16,700  INFO - MESSAGE: Iteration 16 - Customer [d0f22a25] leave the queue 4f73b8ba
- 2020-12-05 21:03:16,700  INFO - MESSAGE: Iteration 16 - Customer [d0f22a25] joined the queue e52e85fb
- 2020-12-05 21:03:17,391  INFO - MESSAGE: Iteration 17 - Customer [09452463] joined the queue 4f73b8ba
- 2020-12-05 21:03:17,391  INFO - MESSAGE: Iteration 17 - Customer [95331f2f] departure after checking out at queue 4f73b8ba
- 2020-12-05 21:03:17,391  INFO - MESSAGE: Iteration 17 - Customer [09452463] start checking out at queue 4f73b8ba
- 2020-12-05 21:03:17,391  INFO - MESSAGE: Iteration 17 - Customer [d0f22a25] start checking out at queue e52e85fb
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [5d2265ff] joined the queue 4f73b8ba
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [b839e62d] departure after checking out at queue 9f205228
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [ee28fe22] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [2922e220] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [d1506f47] finds a quick queue: current has 0 ahead in queue 17166cc2, while queue 9f205228 has total 0 waiting customers
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [d1506f47] leave the queue 17166cc2
- 2020-12-05 21:03:18,086  INFO - MESSAGE: Iteration 18 - Customer [d1506f47] joined the queue 9f205228
- 2020-12-05 21:03:18,786  INFO - MESSAGE: Iteration 19 - Customer [f0c381a3] joined the queue e52e85fb
- 2020-12-05 21:03:18,786  INFO - MESSAGE: Iteration 19 - Customer [deb28057] departure after checking out at queue fb73db3a
- 2020-12-05 21:03:18,786  INFO - MESSAGE: Iteration 19 - Customer [0fed1320] start checking out at queue fb73db3a
- 2020-12-05 21:03:18,786  INFO - MESSAGE: Iteration 19 - Customer [d1506f47] start checking out at queue 9f205228
- 2020-12-05 21:03:18,786  INFO - MESSAGE: Iteration 19 - Customer [f0c381a3] start checking out at queue e52e85fb
- 2020-12-05 21:03:19,474  INFO - MESSAGE: Iteration 20 - Customer [2043e43c] joined the queue e52e85fb
- 2020-12-05 21:03:19,474  INFO - MESSAGE: Iteration 20 - Customer [2340b911] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:19,474  INFO - MESSAGE: Iteration 20 - Customer [2043e43c] start checking out at queue e52e85fb
- 2020-12-05 21:03:20,164  INFO - MESSAGE: Iteration 21 - Customer [9aee1e9a] joined the queue 17166cc2
- 2020-12-05 21:03:20,857  INFO - MESSAGE: Iteration 22 - Customer [54371370] joined the queue e52e85fb
- 2020-12-05 21:03:20,857  INFO - MESSAGE: Iteration 22 - Customer [161d78dd] departure after checking out at queue 17166cc2
- 2020-12-05 21:03:20,857  INFO - MESSAGE: Iteration 22 - Customer [9aee1e9a] start checking out at queue 17166cc2
- 2020-12-05 21:03:20,857  INFO - MESSAGE: Iteration 22 - Customer [54371370] start checking out at queue e52e85fb
- 2020-12-05 21:03:21,542  INFO - MESSAGE: Iteration 23 - Customer [6baeaecc] joined the queue 17166cc2
- 2020-12-05 21:03:22,234  INFO - MESSAGE: Iteration 24 - Customer [1463cdf5] joined the queue fb73db3a
- 2020-12-05 21:03:22,234  INFO - MESSAGE: Iteration 24 - Customer [e6e3c56f] departure after checking out at queue 0417786a
- 2020-12-05 21:03:22,234  INFO - MESSAGE: Iteration 24 - Customer [6baeaecc] finds a quick queue: current has 0 ahead in queue 17166cc2, while queue 0417786a has total 0 waiting customers
- 2020-12-05 21:03:22,234  INFO - MESSAGE: Iteration 24 - Customer [6baeaecc] leave the queue 17166cc2
- 2020-12-05 21:03:22,234  INFO - MESSAGE: Iteration 24 - Customer [6baeaecc] joined the queue 0417786a
- 2020-12-05 21:03:22,927  INFO - MESSAGE: Iteration 25 - Customer [91cb7dc9] joined the queue 17166cc2
- 2020-12-05 21:03:22,927  INFO - MESSAGE: Iteration 25 - Customer [6baeaecc] start checking out at queue 0417786a
- 2020-12-05 21:03:23,622  INFO - MESSAGE: Iteration 26 - Customer [f270a6a0] joined the queue 0417786a
- 2020-12-05 21:03:24,314  INFO - MESSAGE: Iteration 27 - Customer [3e61113d] joined the queue 9f205228
- 2020-12-05 21:03:25,006  INFO - MESSAGE: Iteration 28 - Customer [de54420d] joined the queue e52e85fb
- 2020-12-05 21:03:25,007  INFO - MESSAGE: Iteration 28 - Customer [d0f22a25] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:25,007  INFO - MESSAGE: Iteration 28 - Customer [de54420d] start checking out at queue e52e85fb
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [19ac2d3f] joined the queue e52e85fb
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [f0c381a3] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [19ac2d3f] start checking out at queue e52e85fb
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [54371370] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [91cb7dc9] finds a quick queue: current has 0 ahead in queue 17166cc2, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [91cb7dc9] leave the queue 17166cc2
- 2020-12-05 21:03:25,705  INFO - MESSAGE: Iteration 29 - Customer [91cb7dc9] joined the queue e52e85fb
- 2020-12-05 21:03:26,396  INFO - MESSAGE: Iteration 30 - Customer [1fcc4d61] joined the queue 17166cc2
- 2020-12-05 21:03:26,396  INFO - MESSAGE: Iteration 30 - Customer [fb5d77c4] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:26,396  INFO - MESSAGE: Iteration 30 - Customer [91cb7dc9] start checking out at queue e52e85fb
- 2020-12-05 21:03:26,397  INFO - MESSAGE: Iteration 30 - Customer [1463cdf5] finds a quick queue: current has 0 ahead in queue fb73db3a, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:26,397  INFO - MESSAGE: Iteration 30 - Customer [1463cdf5] leave the queue fb73db3a
- 2020-12-05 21:03:26,397  INFO - MESSAGE: Iteration 30 - Customer [1463cdf5] joined the queue e52e85fb
- 2020-12-05 21:03:27,093  INFO - MESSAGE: Iteration 31 - Customer [9cbca457] joined the queue fb73db3a
- 2020-12-05 21:03:27,093  INFO - MESSAGE: Iteration 31 - Customer [1463cdf5] start checking out at queue e52e85fb
- 2020-12-05 21:03:27,790  INFO - MESSAGE: Iteration 32 - Customer [3450aa50] joined the queue e52e85fb
- 2020-12-05 21:03:27,790  INFO - MESSAGE: Iteration 32 - Customer [2043e43c] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:27,790  INFO - MESSAGE: Iteration 32 - Customer [3450aa50] start checking out at queue e52e85fb
- 2020-12-05 21:03:28,478  INFO - MESSAGE: Iteration 33 - Customer [5e0e489c] joined the queue e52e85fb
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [88fd6afd] joined the queue e52e85fb
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [0fed1320] departure after checking out at queue fb73db3a
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [9cbca457] start checking out at queue fb73db3a
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [09452463] departure after checking out at queue 4f73b8ba
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [5d2265ff] start checking out at queue 4f73b8ba
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [de54420d] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:30,589  INFO - MESSAGE: Iteration 36 - Customer [5e0e489c] start checking out at queue e52e85fb
- 2020-12-05 21:03:31,302  INFO - MESSAGE: Iteration 37 - Customer [33e72d13] joined the queue fb73db3a
- 2020-12-05 21:03:31,302  INFO - MESSAGE: Iteration 37 - Customer [d1506f47] departure after checking out at queue 9f205228
- 2020-12-05 21:03:31,302  INFO - MESSAGE: Iteration 37 - Customer [3e61113d] start checking out at queue 9f205228
- 2020-12-05 21:03:31,989  INFO - MESSAGE: Iteration 38 - Customer [9ab8d987] joined the queue 4f73b8ba
- 2020-12-05 21:03:31,989  INFO - MESSAGE: Iteration 38 - Customer [9aee1e9a] departure after checking out at queue 17166cc2
- 2020-12-05 21:03:31,989  INFO - MESSAGE: Iteration 38 - Customer [1fcc4d61] start checking out at queue 17166cc2
- 2020-12-05 21:03:31,989  INFO - MESSAGE: Iteration 38 - Customer [6baeaecc] departure after checking out at queue 0417786a
- 2020-12-05 21:03:31,989  INFO - MESSAGE: Iteration 38 - Customer [f270a6a0] start checking out at queue 0417786a
- 2020-12-05 21:03:32,687  INFO - MESSAGE: Iteration 39 - Customer [39641782] joined the queue 17166cc2
- 2020-12-05 21:03:32,687  INFO - MESSAGE: Iteration 39 - Customer [19ac2d3f] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:32,687  INFO - MESSAGE: Iteration 39 - Customer [88fd6afd] start checking out at queue e52e85fb
- 2020-12-05 21:03:33,388  INFO - MESSAGE: Iteration 40 - Customer [76e11229] joined the queue 0417786a
- 2020-12-05 21:03:34,072  INFO - MESSAGE: Iteration 41 - Customer [6b9c0c31] joined the queue 9f205228
- 2020-12-05 21:03:35,465  INFO - MESSAGE: Iteration 43 - Customer [37846629] joined the queue 17166cc2
- 2020-12-05 21:03:35,465  INFO - MESSAGE: Iteration 43 - Customer [5e0e489c] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:35,466  INFO - MESSAGE: Iteration 43 - Customer [39641782] finds a quick queue: current has 0 ahead in queue 17166cc2, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:35,466  INFO - MESSAGE: Iteration 43 - Customer [39641782] leave the queue 17166cc2
- 2020-12-05 21:03:35,466  INFO - MESSAGE: Iteration 43 - Customer [39641782] joined the queue e52e85fb
- 2020-12-05 21:03:36,154  INFO - MESSAGE: Iteration 44 - Customer [9aee0a26] joined the queue e52e85fb
- 2020-12-05 21:03:36,154  INFO - MESSAGE: Iteration 44 - Customer [39641782] start checking out at queue e52e85fb
- 2020-12-05 21:03:36,154  INFO - MESSAGE: Iteration 44 - Customer [1463cdf5] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:36,154  INFO - MESSAGE: Iteration 44 - Customer [9aee0a26] start checking out at queue e52e85fb
- 2020-12-05 21:03:36,844  INFO - MESSAGE: Iteration 45 - Customer [e9b2a717] joined the queue e52e85fb
- 2020-12-05 21:03:36,844  INFO - MESSAGE: Iteration 45 - Customer [3e61113d] departure after checking out at queue 9f205228
- 2020-12-05 21:03:36,844  INFO - MESSAGE: Iteration 45 - Customer [6b9c0c31] start checking out at queue 9f205228
- 2020-12-05 21:03:36,844  INFO - MESSAGE: Iteration 45 - Customer [91cb7dc9] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:36,844  INFO - MESSAGE: Iteration 45 - Customer [e9b2a717] start checking out at queue e52e85fb
- 2020-12-05 21:03:37,533  INFO - MESSAGE: Iteration 46 - Customer [3450aa50] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:37,534  INFO - MESSAGE: Iteration 46 - Customer [33e72d13] finds a quick queue: current has 0 ahead in queue fb73db3a, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:37,534  INFO - MESSAGE: Iteration 46 - Customer [33e72d13] leave the queue fb73db3a
- 2020-12-05 21:03:37,534  INFO - MESSAGE: Iteration 46 - Customer [33e72d13] joined the queue e52e85fb
- 2020-12-05 21:03:38,227  INFO - MESSAGE: Iteration 47 - Customer [33e72d13] start checking out at queue e52e85fb
- 2020-12-05 21:03:39,614  INFO - MESSAGE: Iteration 49 - Customer [7803ddb9] joined the queue fb73db3a
- 2020-12-05 21:03:40,303  INFO - MESSAGE: Iteration 50 - Customer [300b6cb9] joined the queue 9f205228
- 2020-12-05 21:03:40,303  INFO - MESSAGE: Iteration 50 - Customer [9cbca457] departure after checking out at queue fb73db3a
- 2020-12-05 21:03:40,303  INFO - MESSAGE: Iteration 50 - Customer [7803ddb9] start checking out at queue fb73db3a
- 2020-12-05 21:03:40,992  INFO - MESSAGE: Iteration 51 - Customer [cf359f40] joined the queue fb73db3a
- 2020-12-05 21:03:40,992  INFO - MESSAGE: Iteration 51 - Customer [f270a6a0] departure after checking out at queue 0417786a
- 2020-12-05 21:03:40,992  INFO - MESSAGE: Iteration 51 - Customer [76e11229] start checking out at queue 0417786a
- 2020-12-05 21:03:41,688  INFO - MESSAGE: Iteration 52 - Customer [0304180c] joined the queue 0417786a
- 2020-12-05 21:03:41,688  INFO - MESSAGE: Iteration 52 - Customer [88fd6afd] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:41,688  INFO - MESSAGE: Iteration 52 - Customer [9ab8d987] finds a quick queue: current has 0 ahead in queue 4f73b8ba, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:41,688  INFO - MESSAGE: Iteration 52 - Customer [9ab8d987] leave the queue 4f73b8ba
- 2020-12-05 21:03:41,688  INFO - MESSAGE: Iteration 52 - Customer [9ab8d987] joined the queue e52e85fb
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [f0b93baf] joined the queue 4f73b8ba
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [9ab8d987] start checking out at queue e52e85fb
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [9aee0a26] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [f0b93baf] finds a quick queue: current has 0 ahead in queue 4f73b8ba, while queue e52e85fb has total 0 waiting customers
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [f0b93baf] leave the queue 4f73b8ba
- 2020-12-05 21:03:42,378  INFO - MESSAGE: Iteration 53 - Customer [f0b93baf] joined the queue e52e85fb
- 2020-12-05 21:03:43,067  INFO - MESSAGE: Iteration 54 - Customer [100053fe] joined the queue 4f73b8ba
- 2020-12-05 21:03:43,067  INFO - MESSAGE: Iteration 54 - Customer [f0b93baf] start checking out at queue e52e85fb
- 2020-12-05 21:03:43,763  INFO - MESSAGE: Iteration 55 - Customer [393fcc45] joined the queue e52e85fb
- 2020-12-05 21:03:44,453  INFO - MESSAGE: Iteration 56 - Customer [315d810b] joined the queue e52e85fb
- 2020-12-05 21:03:44,453  INFO - MESSAGE: Iteration 56 - Customer [39641782] departure after checking out at queue e52e85fb
- 2020-12-05 21:03:44,453  INFO - MESSAGE: Iteration 56 - Customer [393fcc45] start checking out at queue e52e85fb
+2020-12-05 23:11:15,612  INFO - MESSAGE: Iteration 75 - Customer [97fd5a20] start checking out at queue d297add4
+ 2020-12-05 23:11:16,233  INFO - MESSAGE: Iteration 77 - Customer [41e0b45a] departure after checking out at queue 4bc85e5b
+ 2020-12-05 23:11:16,234  INFO - MESSAGE: Iteration 77 - Customer [8728db3a] departure after checking out at queue d297add4
+ 2020-12-05 23:11:18,872  INFO - MESSAGE: Iteration 86 - Customer [97fd5a20] departure after checking out at queue d297add4
+ 2020-12-05 23:11:20,614  INFO - MESSAGE: Iteration 92 - Customer [ef6aba5c] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:24,416  INFO - MESSAGE: Iteration 105 - Customer [ecba1f74] joined the queue 08358b30
+ 2020-12-05 23:11:24,416  INFO - MESSAGE: Iteration 105 - Customer [ecba1f74] start checking out at queue 08358b30
+ 2020-12-05 23:11:25,014  INFO - MESSAGE: Iteration 107 - Customer [887263ce] joined the queue d297add4
+ 2020-12-05 23:11:25,014  INFO - MESSAGE: Iteration 107 - Customer [887263ce] start checking out at queue d297add4
+ 2020-12-05 23:11:25,598  INFO - MESSAGE: Iteration 109 - Customer [9b196c71] joined the queue d297add4
+ 2020-12-05 23:11:25,598  INFO - MESSAGE: Iteration 109 - Customer [9b196c71] start checking out at queue d297add4
+ 2020-12-05 23:11:27,081  INFO - MESSAGE: Iteration 114 - Customer [60099fc1] joined the queue d297add4
+ 2020-12-05 23:11:27,082  INFO - MESSAGE: Iteration 114 - Customer [60099fc1] start checking out at queue d297add4
+ 2020-12-05 23:11:27,420  INFO - MESSAGE: Iteration 115 - Customer [0b1a0db8] joined the queue d297add4
+ 2020-12-05 23:11:27,420  INFO - MESSAGE: Iteration 115 - Customer [0b1a0db8] start checking out at queue d297add4
+ 2020-12-05 23:11:28,084  INFO - MESSAGE: Iteration 117 - Customer [887263ce] departure after checking out at queue d297add4
+ 2020-12-05 23:11:28,402  INFO - MESSAGE: Iteration 118 - Customer [a5c5ede3] joined the queue d297add4
+ 2020-12-05 23:11:28,402  INFO - MESSAGE: Iteration 118 - Customer [e882869e] joined the queue 08358b30
+ 2020-12-05 23:11:28,402  INFO - MESSAGE: Iteration 118 - Customer [3b71f7bc] joined the queue d297add4
+ 2020-12-05 23:11:28,402  INFO - MESSAGE: Iteration 118 - Customer [a5c5ede3] start checking out at queue d297add4
+ 2020-12-05 23:11:28,402  INFO - MESSAGE: Iteration 118 - Customer [3b71f7bc] start checking out at queue d297add4
+ 2020-12-05 23:11:29,011  INFO - MESSAGE: Iteration 120 - Customer [48625ed4] joined the queue 08358b30
+ 2020-12-05 23:11:29,643  INFO - MESSAGE: Iteration 122 - Customer [9b196c71] departure after checking out at queue d297add4
+ 2020-12-05 23:11:29,935  INFO - MESSAGE: Iteration 123 - Customer [ecba1f74] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:29,935  INFO - MESSAGE: Iteration 123 - Customer [e882869e] start checking out at queue 08358b30
+ 2020-12-05 23:11:30,237  INFO - MESSAGE: Iteration 124 - Customer [a5c5ede3] departure after checking out at queue d297add4
+ 2020-12-05 23:11:30,533  INFO - MESSAGE: Iteration 125 - Customer [0b1a0db8] departure after checking out at queue d297add4
+ 2020-12-05 23:11:30,874  INFO - MESSAGE: Iteration 126 - Customer [3b71f7bc] departure after checking out at queue d297add4
+ 2020-12-05 23:11:31,182  INFO - MESSAGE: Iteration 127 - Customer [60099fc1] departure after checking out at queue d297add4
+ 2020-12-05 23:11:31,798  INFO - MESSAGE: Iteration 129 - Customer [70eeab9c] joined the queue 08358b30
+ 2020-12-05 23:11:33,552  INFO - MESSAGE: Iteration 135 - Customer [06a50140] joined the queue d297add4
+ 2020-12-05 23:11:33,552  INFO - MESSAGE: Iteration 135 - Customer [06a50140] start checking out at queue d297add4
+ 2020-12-05 23:11:33,851  INFO - MESSAGE: Iteration 136 - Customer [6d1adfc1] joined the queue d297add4
+ 2020-12-05 23:11:33,851  INFO - MESSAGE: Iteration 136 - Customer [6d1adfc1] start checking out at queue d297add4
+ 2020-12-05 23:11:34,145  INFO - MESSAGE: Iteration 137 - Customer [bd2cd1e2] joined the queue 08358b30
+ 2020-12-05 23:11:34,726  INFO - MESSAGE: Iteration 139 - Customer [50ed4af4] joined the queue 08358b30
+ 2020-12-05 23:11:35,021  INFO - MESSAGE: Iteration 140 - Customer [e882869e] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:35,022  INFO - MESSAGE: Iteration 140 - Customer [48625ed4] start checking out at queue 08358b30
+ 2020-12-05 23:11:35,317  INFO - MESSAGE: Iteration 141 - Customer [5b44d992] joined the queue 08358b30
+ 2020-12-05 23:11:35,317  INFO - MESSAGE: Iteration 141 - Customer [06a50140] departure after checking out at queue d297add4
+ 2020-12-05 23:11:35,611  INFO - MESSAGE: Iteration 142 - Customer [2d1adec8] joined the queue d297add4
+ 2020-12-05 23:11:35,611  INFO - MESSAGE: Iteration 142 - Customer [2d1adec8] start checking out at queue d297add4
+ 2020-12-05 23:11:36,477  INFO - MESSAGE: Iteration 145 - Customer [6d1adfc1] departure after checking out at queue d297add4
+ 2020-12-05 23:11:37,062  INFO - MESSAGE: Iteration 147 - Customer [2d1adec8] departure after checking out at queue d297add4
+ 2020-12-05 23:11:37,359  INFO - MESSAGE: Iteration 148 - Customer [7973ec89] joined the queue d297add4
+ 2020-12-05 23:11:37,359  INFO - MESSAGE: Iteration 148 - Customer [7973ec89] start checking out at queue d297add4
+ 2020-12-05 23:11:39,397  INFO - MESSAGE: Iteration 155 - Customer [7973ec89] departure after checking out at queue d297add4
+ 2020-12-05 23:11:40,561  INFO - MESSAGE: Iteration 159 - Customer [1af64459] joined the queue d297add4
+ 2020-12-05 23:11:40,561  INFO - MESSAGE: Iteration 159 - Customer [48625ed4] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:40,561  INFO - MESSAGE: Iteration 159 - Customer [70eeab9c] start checking out at queue 08358b30
+ 2020-12-05 23:11:40,561  INFO - MESSAGE: Iteration 159 - Customer [1af64459] start checking out at queue d297add4
+ 2020-12-05 23:11:42,312  INFO - MESSAGE: Iteration 165 - Customer [654dac6d] joined the queue d297add4
+ 2020-12-05 23:11:42,312  INFO - MESSAGE: Iteration 165 - Customer [1af64459] departure after checking out at queue d297add4
+ 2020-12-05 23:11:42,312  INFO - MESSAGE: Iteration 165 - Customer [654dac6d] start checking out at queue d297add4
+ 2020-12-05 23:11:43,203  INFO - MESSAGE: Iteration 168 - Customer [a5916690] joined the queue d297add4
+ 2020-12-05 23:11:43,203  INFO - MESSAGE: Iteration 168 - Customer [a5916690] start checking out at queue d297add4
+ 2020-12-05 23:11:43,492  INFO - MESSAGE: Iteration 169 - Customer [557335fc] joined the queue d297add4
+ 2020-12-05 23:11:43,492  INFO - MESSAGE: Iteration 169 - Customer [557335fc] start checking out at queue d297add4
+ 2020-12-05 23:11:44,654  INFO - MESSAGE: Iteration 173 - Customer [654dac6d] departure after checking out at queue d297add4
+ 2020-12-05 23:11:45,523  INFO - MESSAGE: Iteration 176 - Customer [9f66ef88] joined the queue d297add4
+ 2020-12-05 23:11:45,523  INFO - MESSAGE: Iteration 176 - Customer [70eeab9c] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:45,523  INFO - MESSAGE: Iteration 176 - Customer [bd2cd1e2] start checking out at queue 08358b30
+ 2020-12-05 23:11:45,523  INFO - MESSAGE: Iteration 176 - Customer [9f66ef88] start checking out at queue d297add4
+ 2020-12-05 23:11:46,101  INFO - MESSAGE: Iteration 178 - Customer [557335fc] departure after checking out at queue d297add4
+ 2020-12-05 23:11:46,974  INFO - MESSAGE: Iteration 181 - Customer [e2e60914] joined the queue d297add4
+ 2020-12-05 23:11:46,974  INFO - MESSAGE: Iteration 181 - Customer [e2e60914] start checking out at queue d297add4
+ 2020-12-05 23:11:47,557  INFO - MESSAGE: Iteration 183 - Customer [dae57717] joined the queue d297add4
+ 2020-12-05 23:11:47,557  INFO - MESSAGE: Iteration 183 - Customer [a5916690] departure after checking out at queue d297add4
+ 2020-12-05 23:11:47,557  INFO - MESSAGE: Iteration 183 - Customer [dae57717] start checking out at queue d297add4
+ 2020-12-05 23:11:48,735  INFO - MESSAGE: Iteration 187 - Customer [6bd9fc68] joined the queue d297add4
+ 2020-12-05 23:11:48,735  INFO - MESSAGE: Iteration 187 - Customer [6bd9fc68] start checking out at queue d297add4
+ 2020-12-05 23:11:49,314  INFO - MESSAGE: Iteration 189 - Customer [9f66ef88] departure after checking out at queue d297add4
+ 2020-12-05 23:11:50,482  INFO - MESSAGE: Iteration 193 - Customer [fc404dec] joined the queue d297add4
+ 2020-12-05 23:11:50,482  INFO - MESSAGE: Iteration 193 - Customer [bd2cd1e2] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:50,482  INFO - MESSAGE: Iteration 193 - Customer [50ed4af4] start checking out at queue 08358b30
+ 2020-12-05 23:11:50,482  INFO - MESSAGE: Iteration 193 - Customer [fc404dec] start checking out at queue d297add4
+ 2020-12-05 23:11:50,781  INFO - MESSAGE: Iteration 194 - Customer [e2e60914] departure after checking out at queue d297add4
+ 2020-12-05 23:11:51,365  INFO - MESSAGE: Iteration 196 - Customer [4506599c] joined the queue 08358b30
+ 2020-12-05 23:11:51,657  INFO - MESSAGE: Iteration 197 - Customer [dae57717] departure after checking out at queue d297add4
+ 2020-12-05 23:11:51,947  INFO - MESSAGE: Iteration 198 - Customer [6bd9fc68] departure after checking out at queue d297add4
+ 2020-12-05 23:11:52,527  INFO - MESSAGE: Iteration 200 - Customer [a622bcf7] joined the queue d297add4
+ 2020-12-05 23:11:52,528  INFO - MESSAGE: Iteration 200 - Customer [a622bcf7] start checking out at queue d297add4
+ 2020-12-05 23:11:52,823  INFO - MESSAGE: Iteration 201 - Customer [5b44d992] departure angrily from queue 08358b30
+ 2020-12-05 23:11:52,824  INFO - MESSAGE: Iteration 201 - Customer [5b44d992] leave the queue 08358b30
+ 2020-12-05 23:11:53,114  INFO - MESSAGE: Iteration 202 - Customer [fc404dec] departure after checking out at queue d297add4
+ 2020-12-05 23:11:55,457  INFO - MESSAGE: Iteration 210 - Customer [a622bcf7] departure after checking out at queue d297add4
+ 2020-12-05 23:11:55,750  INFO - MESSAGE: Iteration 211 - Customer [50ed4af4] departure after checking out at queue 08358b30
+ 2020-12-05 23:11:55,750  INFO - MESSAGE: Iteration 211 - Customer [4506599c] start checking out at queue 08358b30
+ 2020-12-05 23:11:57,798  INFO - MESSAGE: Iteration 218 - Customer [530ea43b] joined the queue d297add4
+ 2020-12-05 23:11:57,798  INFO - MESSAGE: Iteration 218 - Customer [530ea43b] start checking out at queue d297add4
+ 2020-12-05 23:11:58,673  INFO - MESSAGE: Iteration 221 - Customer [5636149b] joined the queue d297add4
+ 2020-12-05 23:11:58,673  INFO - MESSAGE: Iteration 221 - Customer [5636149b] start checking out at queue d297add4
+ 2020-12-05 23:11:58,965  INFO - MESSAGE: Iteration 222 - Customer [82808107] joined the queue d297add4
+ 2020-12-05 23:11:58,965  INFO - MESSAGE: Iteration 222 - Customer [82808107] start checking out at queue d297add4
+ 2020-12-05 23:11:59,842  INFO - MESSAGE: Iteration 225 - Customer [530ea43b] departure after checking out at queue d297add4
+ 2020-12-05 23:12:00,460  INFO - MESSAGE: Iteration 227 - Customer [0dfa779f] joined the queue 08358b30
+ 2020-12-05 23:12:00,749  INFO - MESSAGE: Iteration 228 - Customer [5fe33d14] joined the queue d297add4
+ 2020-12-05 23:12:00,749  INFO - MESSAGE: Iteration 228 - Customer [5fe33d14] start checking out at queue d297add4
+ 2020-12-05 23:12:01,039  INFO - MESSAGE: Iteration 229 - Customer [4506599c] departure after checking out at queue 08358b30
+ 2020-12-05 23:12:01,039  INFO - MESSAGE: Iteration 229 - Customer [0dfa779f] start checking out at queue 08358b30
+ 2020-12-05 23:12:01,649  INFO - MESSAGE: Iteration 231 - Customer [5636149b] departure after checking out at queue d297add4
+ 2020-12-05 23:12:01,649  INFO - MESSAGE: Iteration 231 - Customer [82808107] departure after checking out at queue d297add4
+ 2020-12-05 23:12:02,525  INFO - MESSAGE: Iteration 234 - Customer [209965f8] joined the queue d297add4
+ 2020-12-05 23:12:02,525  INFO - MESSAGE: Iteration 234 - Customer [209965f8] start checking out at queue d297add4
+ 2020-12-05 23:12:03,397  INFO - MESSAGE: Iteration 237 - Customer [5fe33d14] departure after checking out at queue d297add4
+ 2020-12-05 23:12:04,569  INFO - MESSAGE: Iteration 241 - Customer [209965f8] departure after checking out at queue d297add4
+ 2020-12-05 23:12:05,447  INFO - MESSAGE: Iteration 244 - Customer [c13f7c08] joined the queue d297add4
+ 2020-12-05 23:12:05,447  INFO - MESSAGE: Iteration 244 - Customer [c13f7c08] start checking out at queue d297add4
+ 2020-12-05 23:12:06,612  INFO - MESSAGE: Iteration 248 - Customer [d4534fe2] joined the queue 08358b30
+ 2020-12-05 23:12:06,612  INFO - MESSAGE: Iteration 248 - Customer [0dfa779f] departure after checking out at queue 08358b30
+ 2020-12-05 23:12:06,612  INFO - MESSAGE: Iteration 248 - Customer [d4534fe2] start checking out at queue 08358b30
+ 2020-12-05 23:12:08,076  INFO - MESSAGE: Iteration 253 - Customer [c13f7c08] departure after checking out at queue d297add4
+ 2020-12-05 23:12:08,367  INFO - MESSAGE: Iteration 254 - Customer [574abeea] joined the queue 08358b30
+ 2020-12-05 23:12:11,602  INFO - MESSAGE: Iteration 265 - Customer [d4534fe2] departure after checking out at queue 08358b30
+ 2020-12-05 23:12:11,602  INFO - MESSAGE: Iteration 265 - Customer [574abeea] start checking out at queue 08358b30
+ 2020-12-05 23:12:12,788  INFO - MESSAGE: Iteration 269 - Customer [aa58e4a6] joined the queue d297add4
+ 2020-12-05 23:12:12,788  INFO - MESSAGE: Iteration 269 - Customer [aa58e4a6] start checking out at queue d297add4
+ 2020-12-05 23:12:14,252  INFO - MESSAGE: Iteration 274 - Customer [aa58e4a6] departure after checking out at queue d297add4
+ 2020-12-05 23:12:15,770  INFO - MESSAGE: Iteration 279 - Customer [4a24718d] joined the queue 08358b30
+ 2020-12-05 23:12:16,366  INFO - MESSAGE: Iteration 281 - Customer [fa52f1d0] joined the queue d297add4
+ 2020-12-05 23:12:16,366  INFO - MESSAGE: Iteration 281 - Customer [77c7870d] joined the queue 08358b30
+ 2020-12-05 23:12:16,366  INFO - MESSAGE: Iteration 281 - Customer [574abeea] departure after checking out at queue 08358b30
+ 2020-12-05 23:12:16,366  INFO - MESSAGE: Iteration 281 - Customer [4a24718d] start checking out at queue 08358b30
+ 2020-12-05 23:12:16,366  INFO - MESSAGE: Iteration 281 - Customer [fa52f1d0] start checking out at queue d297add4
+ 2020-12-05 23:12:16,709  INFO - MESSAGE: Iteration 282 - Customer [a0e5cace] joined the queue d297add4
+ 2020-12-05 23:12:16,710  INFO - MESSAGE: Iteration 282 - Customer [a0e5cace] start checking out at queue d297add4
  

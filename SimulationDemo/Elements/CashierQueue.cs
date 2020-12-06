@@ -65,8 +65,9 @@ namespace SimulationDemo.Elements
                 builder.Append($"[{cur.CustomerId}]");
             }
             Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] " +
-                $"Avg. Waiting Time: {_avgWaitingTime:00} " +
-                $"[{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] ||{builder}");
+                $"- Avg. Waiting Time: {_avgWaitingTime:00} " +
+                $"- Lastest 10 Cust Avg. Waiting Time: {(_last10waitingtime.Count == 0 ? 0 : _last10waitingtime.Sum() / _last10waitingtime.Count):00} " +
+                $"- [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] ||{builder}");
         }
     }
 }

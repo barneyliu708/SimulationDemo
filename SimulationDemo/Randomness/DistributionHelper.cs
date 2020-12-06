@@ -10,7 +10,7 @@ namespace SimulationDemo.Randomness
         private static object lockobj = new object();
         private static Dictionary<EventEnum, IDistribution> _distribution = new Dictionary<EventEnum, IDistribution>()
         {
-            { EventEnum.Arrival, new Bernoulli(0.9) },
+            { EventEnum.Arrival, new Poison(0.5) },
             { EventEnum.BuyingItems, new ThreeOutcomes(30, 40) },
             { EventEnum.ScaningSmallAmountItems, new Normal(5, 1) },
             { EventEnum.ScaningMediumAmountItems, new Normal(10, 1) },

@@ -11,6 +11,7 @@ namespace SimulationDemo.Elements
         {
             _queueId = RandomStrGenerator.GetRandomString();
             _isQueueOpened = true;
+            _last10waitingtime = new LinkedList<int>();
         }
 
         protected string _queueId;
@@ -20,6 +21,7 @@ namespace SimulationDemo.Elements
         protected int _totalWaitingTime;
         protected double _avgWaitingTime;
         protected int _totalDepartureCustomerCount;
+        protected LinkedList<int> _last10waitingtime;
 
         public string QueueId { get => _queueId; }
         public bool IsQueueOpened { get => _isQueueOpened; }
@@ -78,15 +80,22 @@ namespace SimulationDemo.Elements
 
             _totalDepartureCustomerCount++;
 
+            int newWaitingTime = 0;
             if (customer.StartCheckoutTime == 0)
             {
-                _totalWaitingTime += (Simulation.GlobalTime - customer.ArrivalTime);
+                newWaitingTime = (Simulation.GlobalTime - customer.ArrivalTime);
             }
             else
             {
-                _totalWaitingTime += (customer.StartCheckoutTime - customer.ArrivalTime);
+                newWaitingTime = (customer.StartCheckoutTime - customer.ArrivalTime);
             }
 
+            _totalWaitingTime += newWaitingTime;
+            _last10waitingtime.AddLast(newWaitingTime);
+            if (_last10waitingtime.Count > 10)
+            {
+                _last10waitingtime.RemoveFirst();
+            }
             _avgWaitingTime = _totalWaitingTime / _totalDepartureCustomerCount;
         }
     }

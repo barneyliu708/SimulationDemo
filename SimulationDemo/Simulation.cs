@@ -19,6 +19,7 @@ namespace SimulationDemo
         private CheckoutArea _checkoutArea;
 
         private int _sleepmillesecond;
+        private int _sleepmillesecondForResume;
 
         public Simulation(int numCashier, int numSelfChechout, int numMachine, int maxIteration = int.MaxValue)
         {
@@ -29,7 +30,7 @@ namespace SimulationDemo
 
         public void SpeedUp()
         {
-            if (_sleepmillesecond >= 100)
+            if (_sleepmillesecond > 100)
             {
                 _sleepmillesecond -= 100;
             }
@@ -46,13 +47,16 @@ namespace SimulationDemo
             for (_globalTime = 1; _globalTime < _maxIteration; ++_globalTime)
             {
                 // the arrival of new customers
-                if ((int)DistributionHelper.GetDistribution(EventEnum.Arrival).Sample() == 1) // check if new customer arrivals
+                int numOfNewCustomer = (int)DistributionHelper.GetDistribution(EventEnum.Arrival).Sample();
+                while (numOfNewCustomer > 0)
                 {
                     Customer newCustomer = new Customer(_globalTime);
                     newCustomer.ArriveCheckoutArea(_checkoutArea);
 
                     IQueue quickestQueue = _checkoutArea.QuickestQueue(newCustomer);
                     newCustomer.JoinQueue(quickestQueue);
+
+                    numOfNewCustomer--;
                 }
 
                 // the departure of customers after checking out -- loop through each queue

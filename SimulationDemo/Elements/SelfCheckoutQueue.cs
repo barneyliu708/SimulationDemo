@@ -86,7 +86,8 @@ namespace SimulationDemo.Elements
                 builder.Append($"[{cur.CustomerId}]");
             }
             Console.WriteLine($"Self-Checkout[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] " +
-                $"Avg. Waiting Time: {_avgWaitingTime} " +
+                $"- Avg. Waiting Time: {_avgWaitingTime:00} " +
+                $"- Lastest 10 Cust Avg. Waiting Time: {(_last10waitingtime.Count == 0 ? 0 : _last10waitingtime.Sum() / _last10waitingtime.Count):00} " +
                 $"||{builder.ToString()}");
 
             for (int i = 0; i < _numOfMachines; i++)
