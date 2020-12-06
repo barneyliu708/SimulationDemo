@@ -1,0 +1,34 @@
+2020-12-05 23:30:49,250  INFO - MESSAGE: Iteration 0 - Execution started
+ 2020-12-05 23:30:58,699  INFO - MESSAGE: Iteration 16 - Customer [c6da481d] joined the queue b090b961
+ 2020-12-05 23:30:58,699  INFO - MESSAGE: Iteration 16 - Customer [c6da481d] start checking out at queue b090b961
+ 2020-12-05 23:31:01,739  INFO - MESSAGE: Iteration 21 - Customer [55b6bc6d] joined the queue b090b961
+ 2020-12-05 23:31:01,740  INFO - MESSAGE: Iteration 21 - Customer [55b6bc6d] start checking out at queue b090b961
+ 2020-12-05 23:31:02,974  INFO - MESSAGE: Iteration 23 - Customer [91123ba0] joined the queue b090b961
+ 2020-12-05 23:31:02,977  INFO - MESSAGE: Iteration 23 - Customer [91123ba0] start checking out at queue b090b961
+ 2020-12-05 23:31:03,580  INFO - MESSAGE: Iteration 24 - Customer [2a99721b] joined the queue b090b961
+ 2020-12-05 23:31:03,580  INFO - MESSAGE: Iteration 24 - Customer [2a99721b] start checking out at queue b090b961
+ 2020-12-05 23:31:04,197  INFO - MESSAGE: Iteration 25 - Customer [a90109c5] joined the queue f7bdcab6
+ 2020-12-05 23:31:04,198  INFO - MESSAGE: Iteration 25 - Customer [a90109c5] start checking out at queue f7bdcab6
+ 2020-12-05 23:31:04,805  INFO - MESSAGE: Iteration 26 - Customer [708e92b5] joined the queue 79e37d49
+ 2020-12-05 23:31:04,805  INFO - MESSAGE: Iteration 26 - Customer [708e92b5] start checking out at queue 79e37d49
+ 2020-12-05 23:31:06,047  INFO - MESSAGE: Iteration 28 - Customer [c6da481d] departure after checking out at queue b090b961
+ 2020-12-05 23:31:09,105  INFO - MESSAGE: Iteration 33 - Customer [5bb9fc2d] joined the queue b090b961
+ 2020-12-05 23:31:09,105  INFO - MESSAGE: Iteration 33 - Customer [5bb9fc2d] start checking out at queue b090b961
+ 2020-12-05 23:31:09,106  INFO - MESSAGE: Iteration 33 - Customer [91123ba0] departure after checking out at queue b090b961
+ 2020-12-05 23:31:09,714  INFO - MESSAGE: Iteration 34 - Customer [55b6bc6d] departure after checking out at queue b090b961
+ 2020-12-05 23:31:11,017  INFO - MESSAGE: Iteration 36 - Customer [2a99721b] departure after checking out at queue b090b961
+ 2020-12-05 23:31:12,301  INFO - MESSAGE: Iteration 38 - Customer [7f28c76c] joined the queue b090b961
+ 2020-12-05 23:31:12,301  INFO - MESSAGE: Iteration 38 - Customer [7f28c76c] start checking out at queue b090b961
+ 2020-12-05 23:31:13,578  INFO - MESSAGE: Iteration 40 - Customer [b165fda9] joined the queue b090b961
+ 2020-12-05 23:31:13,579  INFO - MESSAGE: Iteration 40 - Customer [b165fda9] start checking out at queue b090b961
+ 2020-12-05 23:31:14,847  INFO - MESSAGE: Iteration 42 - Customer [708e92b5] departure after checking out at queue 79e37d49
+ 2020-12-05 23:31:15,468  INFO - MESSAGE: Iteration 43 - Customer [a90109c5] departure after checking out at queue f7bdcab6
+ 2020-12-05 23:31:16,685  INFO - MESSAGE: Iteration 45 - Customer [5bb9fc2d] departure after checking out at queue b090b961
+ 2020-12-05 23:31:18,549  INFO - MESSAGE: Iteration 48 - Customer [b70ce4e1] joined the queue b090b961
+ 2020-12-05 23:31:18,549  INFO - MESSAGE: Iteration 48 - Customer [b70ce4e1] start checking out at queue b090b961
+ 2020-12-05 23:31:19,783  INFO - MESSAGE: Iteration 50 - Customer [781bd992] joined the queue f7bdcab6
+ 2020-12-05 23:31:19,783  INFO - MESSAGE: Iteration 50 - Customer [781bd992] start checking out at queue f7bdcab6
+ 2020-12-05 23:31:21,670  INFO - MESSAGE: Iteration 53 - Customer [b165fda9] departure after checking out at queue b090b961
+ 2020-12-05 23:31:22,283  INFO - MESSAGE: Iteration 54 - Customer [b70ce4e1] departure after checking out at queue b090b961
+ 2020-12-05 23:31:23,502  INFO - MESSAGE: Iteration 56 - Customer [7f28c76c] departure after checking out at queue b090b961
+ 
