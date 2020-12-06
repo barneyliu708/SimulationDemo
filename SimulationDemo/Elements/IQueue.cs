@@ -12,12 +12,12 @@ namespace SimulationDemo.Elements
         void CloseQueue();
         void OpenQueue();
         void NewCustomersJoins(Customer newCustomer);
-        void CustomerLeaves(Customer customer);
+        void CustomerLeavesWaitingQueue(Customer customer);
         bool IsCurrentCustomerFinished();
         void StartCheckoutForNextCustomer();
         IEnumerable<Customer> GetAllCustomers();
         int IndexOfCustomerInQueue(Customer customer);
         bool IsQueueIdle();
-
+        void UpdateStatisticsOnDeparture(Customer customer);
     }
 }

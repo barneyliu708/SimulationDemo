@@ -14,13 +14,14 @@ namespace SimulationDemo.Elements
         }
 
         protected string _queueId;
-
         protected bool _isQueueOpened;
-
         protected LinkedList<Customer> _waitingqueue;
 
-        public string QueueId { get => _queueId; }
+        protected int _totalWaitingTime;
+        protected double _avgWaitingTime;
+        protected int _totalDepartureCustomerCount;
 
+        public string QueueId { get => _queueId; }
         public bool IsQueueOpened { get => _isQueueOpened; }
 
         public void CloseQueue()
@@ -40,10 +41,11 @@ namespace SimulationDemo.Elements
             
         }
 
-        // customer will leave either after finishing the checkout, or leave without buying anything
-        public void CustomerLeaves(Customer customer)
+        // leave without buying anything
+        public void CustomerLeavesWaitingQueue(Customer customer)
         {
             _waitingqueue.Remove(customer);
+            this.UpdateStatisticsOnDeparture(customer);
         }
 
         public int NumOfWaitingCustomers()
@@ -65,6 +67,27 @@ namespace SimulationDemo.Elements
                 index++;
             }
             return index;
+        }
+
+        public void UpdateStatisticsOnDeparture(Customer customer)
+        {
+            if (customer == null)
+            {
+                return;
+            }
+
+            _totalDepartureCustomerCount++;
+
+            if (customer.StartCheckoutTime == 0)
+            {
+                _totalWaitingTime += (Simulation.GlobalTime - customer.ArrivalTime);
+            }
+            else
+            {
+                _totalWaitingTime += (customer.StartCheckoutTime - customer.ArrivalTime);
+            }
+
+            _avgWaitingTime = _totalWaitingTime / _totalDepartureCustomerCount;
         }
     }
 }

@@ -13,6 +13,15 @@ namespace SimulationDemo.Elements
         private List<SelfCheckoutQueue> _selfCheckoutQueues;
         private int _numMachine;
 
+        private int _totalWaitingTime;
+        private double _avgWaitingTime;
+        private int _totalAngryLeaveCount;
+        private int _totalArrivalCustomerCount;
+        private int _totalDepartureCustomerCount;
+        private int _totalChangeLineCount;
+        private int[] _last10waitingtime;
+        private int _idx;
+
         public int NumMachine { get => _numMachine; }
 
         public CheckoutArea(int numCashier, int numSelfChechout, int numMachine)
@@ -20,6 +29,8 @@ namespace SimulationDemo.Elements
             _cashierQueues = new ConcurrentBag<CashierQueue>();
             _selfCheckoutQueues = new List<SelfCheckoutQueue>();
             _numMachine = numMachine;
+            _last10waitingtime = new int[10];
+            _idx = 0;
 
 
             if (numCashier + numSelfChechout <= 0 && numCashier * numSelfChechout <= 0)
@@ -127,10 +138,54 @@ namespace SimulationDemo.Elements
             return allCustomers;
         }
 
+        public void UpdateStatisticsOnArrival(Customer customer)
+        {
+            _totalArrivalCustomerCount++;
+        }
+
+        public void UpdateStatisticsOnChangeLine(Customer customer)
+        {
+            _totalChangeLineCount++;
+        }
+
+        public void UpdateStatisticsOnDeparture(Customer customer)
+        {
+            _totalDepartureCustomerCount++;
+
+            int newWaitingTime = 0;
+            if (customer.StartCheckoutTime == 0)
+            {
+                _totalAngryLeaveCount++;
+                newWaitingTime = (Simulation.GlobalTime - customer.ArrivalTime);
+            }
+            else
+            {
+                newWaitingTime = (customer.StartCheckoutTime - customer.ArrivalTime);
+            }
+
+            _totalWaitingTime += newWaitingTime;
+            _last10waitingtime[_idx++] = newWaitingTime;
+            _idx %= _last10waitingtime.Length;
+            _avgWaitingTime = _totalWaitingTime / _totalDepartureCustomerCount;
+        }
         public void PrintOut()
         {
-            Console.WriteLine("--------------------------------------------------------------------------------------------");
-            foreach(var q in _cashierQueues)
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------Statistics---------------------------------------------------");
+            Console.WriteLine($"Total Arrival: {_totalArrivalCustomerCount}");
+            Console.WriteLine($"Total Departure: {_totalDepartureCustomerCount}");
+            Console.WriteLine($"Total Remainint Customers: {_totalArrivalCustomerCount - _totalDepartureCustomerCount}");
+            Console.WriteLine($"Total Angry Departure: {_totalAngryLeaveCount}");
+            Console.WriteLine($"Avg. Waiting Time: {_avgWaitingTime}");
+            StringBuilder sb = new StringBuilder();
+            foreach(int n in _last10waitingtime)
+            {
+                sb.Append($"{n}, ");
+            }
+            Console.WriteLine($"Avg. Waiting Time of Lastest {_last10waitingtime.Length} Customers: [{sb.ToString(0, sb.Length - 2)}]");
+            Console.WriteLine();
+            Console.WriteLine("-------------------------------Checkout Area------------------------------------------------");
+            foreach (var q in _cashierQueues)
             {
                 q.PrintOut();
             }

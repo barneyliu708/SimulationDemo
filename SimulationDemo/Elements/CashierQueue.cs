@@ -41,6 +41,7 @@ namespace SimulationDemo.Elements
             }
 
             _currentInServiceCustomer?.DepartureAfterCheckout();
+            this.UpdateStatisticsOnDeparture(_currentInServiceCustomer);
             _currentInServiceCustomer = null;
 
             if (_waitingqueue.Count != 0) // if queue is empty, then _currentInServiceCustomer is null 
@@ -51,6 +52,11 @@ namespace SimulationDemo.Elements
             }
         }
 
+        public bool IsQueueIdle()
+        {
+            return _currentInServiceCustomer == null && _waitingqueue.Count == 0;
+        }
+
         public void PrintOut()
         {
             StringBuilder builder = new StringBuilder();
@@ -58,17 +64,9 @@ namespace SimulationDemo.Elements
             {
                 builder.Append($"[{cur.CustomerId}]");
             }
-            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] [{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}]  ||{builder}");
+            Console.WriteLine($"Cashier[{_queueId}] [{(_currentInServiceCustomer != null ? "busy" : "idle")}] [{(_isQueueOpened ? "opened" : "closed")}] " +
+                $"Avg. Waiting Time: {_avgWaitingTime:00} " +
+                $"[{(_currentInServiceCustomer != null ? _currentInServiceCustomer.CustomerId : "        ")}] ||{builder}");
         }
-
-        public bool IsQueueIdle()
-        {
-            return _currentInServiceCustomer == null && _waitingqueue.Count == 0;
-        }
-
-        //public override string ToString()
-        //{
-        //    return $"Cashier[{_queueId}] [{(_waitingqueue.Count != 0 ? "busy" : "idle")}] |{new string('*', _waitingqueue.Count)}";
-        //}
     }
 }

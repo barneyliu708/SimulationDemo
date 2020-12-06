@@ -25,6 +25,8 @@ namespace SimulationDemo.Elements
 
         public string CustomerId { get => _customerId; }
         public EventEnum AmountItems { get => _amountItems; }
+        public int StartCheckoutTime { get => _startCheckoutTime; }
+        public int ArrivalTime { get => _arrivalTime; }
 
         public Customer(int arrivalTime)
         {
@@ -118,7 +120,8 @@ namespace SimulationDemo.Elements
             {
                 throw new Exception("Cannot change line anymore if the customer already start checking out.");
             }
-            this.LeaveQueue();
+            _checkoutArea.UpdateStatisticsOnChangeLine(this);
+            this.LeaveWaitingQueue();
             this.JoinQueue(newqueue);
         }
 
@@ -130,10 +133,12 @@ namespace SimulationDemo.Elements
         public void ArriveCheckoutArea(CheckoutArea checkoutArea)
         {
             _checkoutArea = checkoutArea;
+            _checkoutArea.UpdateStatisticsOnArrival(this);
         }
 
         public void DepatureCheckoutArea()
         {
+            _checkoutArea.UpdateStatisticsOnDeparture(this);
             _checkoutArea = null;
         }
 
@@ -144,14 +149,14 @@ namespace SimulationDemo.Elements
             SimLogger.Info($"Customer [{_customerId}] joined the queue {queue.QueueId}");
         }
 
-        public void LeaveQueue()
+        public void LeaveWaitingQueue()
         {
             if (_joinedQueue == null)
             {
                 throw new Exception($"The customer has not join any queue yet");
             }
 
-            _joinedQueue.CustomerLeaves(this);
+            _joinedQueue.CustomerLeavesWaitingQueue(this);
             SimLogger.Info($"Customer [{_customerId}] leave the queue {_joinedQueue.QueueId}");
 
             _joinedQueue = null;
@@ -169,9 +174,12 @@ namespace SimulationDemo.Elements
             {
                 throw new Exception($"Cannot departure since checkout is not finished yet");
             }
-            // this.LeaveQueue(); // does not need to call leavQueue method as in-service customer is not defined as in-line customer
+            //this.LeaveQueue(); // does not need to call leavQueue method as in-service customer is not in waiting line
             SimLogger.Info($"Customer [{_customerId}] departure after checking out at queue {_joinedQueue.QueueId}");
+            
+            _joinedQueue.UpdateStatisticsOnDeparture(this);
             _joinedQueue = null;
+            
             this.DepatureCheckoutArea();
         }
 
@@ -181,7 +189,11 @@ namespace SimulationDemo.Elements
             {
                 throw new Exception($"Should not angry departure as the customer can still wait longer: currentTime = {Simulation.GlobalTime}, arrivalTime = {_arrivalTime}, maxToleranceTime = {_maxToleranceTime}");
             }
-            this.LeaveQueue();
+
+            SimLogger.Info($"Customer [{_customerId}] departure angrily from queue {_joinedQueue.QueueId}");
+            
+            _joinedQueue.UpdateStatisticsOnDeparture(this);
+            this.LeaveWaitingQueue();
             this.DepatureCheckoutArea();
         }
     }
