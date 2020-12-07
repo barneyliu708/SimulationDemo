@@ -21,7 +21,8 @@ namespace Simulation.Presentation
             this.numOfCashierTextBox.Text = "10";
             this.numOfSelfCheckoutTextBox.Text = "1";
             this.numOfSelfCheckMachineTextBox.Text = "5";
-            this.arrivalRateTextBox.Text = "0.2";
+            this.arrivalRateTextBox.Text = "0.5";
+            this.maxIterationTextBox.Text = "MAX";
         }
         private void InitializeBackgroundWorker()
         {
@@ -56,7 +57,15 @@ namespace Simulation.Presentation
                 int.TryParse(this.numOfSelfCheckMachineTextBox.Text, out numOfMachines) &&
                 double.TryParse(this.arrivalRateTextBox.Text, out arrPro))
             {
-                _sim = new SimulationDemo.Simulation(numCashier: numOfCashier, numSelfChechout: numOfSelfCheckout, numMachine: numOfMachines);
+                int maxIteration;
+                if (int.TryParse(this.maxIterationTextBox.Text, out maxIteration) && maxIteration > 0)
+                {
+                    _sim = new SimulationDemo.Simulation(numCashier: numOfCashier, numSelfChechout: numOfSelfCheckout, numMachine: numOfMachines, maxIteration: maxIteration);
+                }
+                else
+                {
+                    _sim = new SimulationDemo.Simulation(numCashier: numOfCashier, numSelfChechout: numOfSelfCheckout, numMachine: numOfMachines);
+                }
 
                 IDistribution dist = new Poison(arrPro);
                 DistributionHelper.UpdateDistribution(EventEnum.Arrival, dist);
@@ -67,6 +76,8 @@ namespace Simulation.Presentation
                 this.numOfCashierTextBox.Enabled = false;
                 this.numOfSelfCheckoutTextBox.Enabled = false;
                 this.numOfSelfCheckMachineTextBox.Enabled = false;
+
+                this.startbutton.Text = "Started";
             }
         }
 
@@ -108,6 +119,12 @@ namespace Simulation.Presentation
         private void SlowDown_Click(object sender, EventArgs e)
         {
             _sim.SlowDown();
+        }
+
+        private void stopButton_Click(object sender, EventArgs e)
+        {
+            _sim.Stop();
+            this.stopButton.Enabled = false;
         }
     }
 }

@@ -42,11 +42,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.numOfSelfCheckMachineTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.stopButton = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.maxIterationTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // startbutton
             // 
-            this.startbutton.Location = new System.Drawing.Point(47, 217);
+            this.startbutton.Location = new System.Drawing.Point(45, 296);
             this.startbutton.Name = "startbutton";
             this.startbutton.Size = new System.Drawing.Size(131, 40);
             this.startbutton.TabIndex = 0;
@@ -56,7 +59,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(438, 288);
+            this.button2.Location = new System.Drawing.Point(436, 367);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(131, 40);
             this.button2.TabIndex = 1;
@@ -66,7 +69,7 @@
             // 
             // arrivalRateTextBox
             // 
-            this.arrivalRateTextBox.Location = new System.Drawing.Point(238, 293);
+            this.arrivalRateTextBox.Location = new System.Drawing.Point(236, 372);
             this.arrivalRateTextBox.Name = "arrivalRateTextBox";
             this.arrivalRateTextBox.Size = new System.Drawing.Size(175, 35);
             this.arrivalRateTextBox.TabIndex = 2;
@@ -75,7 +78,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(45, 298);
+            this.label1.Location = new System.Drawing.Point(43, 377);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(120, 30);
             this.label1.TabIndex = 3;
@@ -83,7 +86,7 @@
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(45, 375);
+            this.button3.Location = new System.Drawing.Point(43, 454);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(147, 40);
             this.button3.TabIndex = 4;
@@ -93,7 +96,7 @@
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(238, 217);
+            this.button4.Location = new System.Drawing.Point(236, 296);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(131, 40);
             this.button4.TabIndex = 5;
@@ -103,7 +106,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(424, 217);
+            this.button5.Location = new System.Drawing.Point(422, 296);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(131, 40);
             this.button5.TabIndex = 6;
@@ -113,7 +116,7 @@
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(238, 375);
+            this.button6.Location = new System.Drawing.Point(236, 454);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(131, 40);
             this.button6.TabIndex = 7;
@@ -169,11 +172,41 @@
             this.label4.TabIndex = 13;
             this.label4.Text = "# of Machines per Area";
             // 
+            // stopButton
+            // 
+            this.stopButton.Location = new System.Drawing.Point(606, 296);
+            this.stopButton.Name = "stopButton";
+            this.stopButton.Size = new System.Drawing.Size(131, 40);
+            this.stopButton.TabIndex = 14;
+            this.stopButton.Text = "Stop";
+            this.stopButton.UseVisualStyleBackColor = true;
+            this.stopButton.Click += new System.EventHandler(this.stopButton_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(54, 211);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(137, 30);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Max Iteration";
+            // 
+            // textBox1
+            // 
+            this.maxIterationTextBox.Location = new System.Drawing.Point(330, 211);
+            this.maxIterationTextBox.Name = "textBox1";
+            this.maxIterationTextBox.Size = new System.Drawing.Size(175, 35);
+            this.maxIterationTextBox.TabIndex = 16;
+
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 30F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(760, 566);
+            this.Controls.Add(this.maxIterationTextBox);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.stopButton);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.numOfSelfCheckMachineTextBox);
             this.Controls.Add(this.label3);
@@ -212,6 +245,9 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox numOfSelfCheckMachineTextBox;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button stopButton;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox maxIterationTextBox;
     }
 }
 

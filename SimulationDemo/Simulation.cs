@@ -41,10 +41,15 @@ namespace SimulationDemo
             _sleepmillesecond += 100;
         }
 
+        public void Stop()
+        {
+            _sleepmillesecond = int.MaxValue;
+        }
+
         public void Execute()
         {
             SimLogger.Info("Execution started");
-            for (_globalTime = 1; _globalTime < _maxIteration; ++_globalTime)
+            for (_globalTime = 1; _globalTime <= _maxIteration; ++_globalTime)
             {
                 // the arrival of new customers
                 int numOfNewCustomer = (int)DistributionHelper.GetDistribution(EventEnum.Arrival).Sample();

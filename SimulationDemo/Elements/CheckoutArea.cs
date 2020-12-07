@@ -69,32 +69,28 @@ namespace SimulationDemo.Elements
             IQueue quickestCashier = null;
             foreach (var currentQ in _cashierQueues)
             {
-                if (currentQ.IsQueueOpened == false)
+                if (currentQ.IsQueueOpened)
                 {
-                    continue;
-                }
-
-                if (quickestCashier == null || 
-                    currentQ.IsQueueIdle() || 
-                    (!currentQ.IsQueueIdle() && !quickestCashier.IsQueueIdle() && quickestCashier.NumOfWaitingCustomers() > currentQ.NumOfWaitingCustomers()))
-                {
-                    quickestCashier = currentQ;
+                    if (quickestCashier == null ||
+                        currentQ.IsQueueIdle() ||
+                        (!currentQ.IsQueueIdle() && !quickestCashier.IsQueueIdle() && quickestCashier.NumOfWaitingCustomers() > currentQ.NumOfWaitingCustomers()))
+                    {
+                        quickestCashier = currentQ;
+                    }
                 }
             }
 
             IQueue quickestSelfCheckout = null;
             foreach (var currentQ in _selfCheckoutQueues)
             {
-                if (currentQ.IsQueueOpened == false)
+                if (currentQ.IsQueueOpened)
                 {
-                    continue;
-                }
-
-                if (quickestSelfCheckout == null || 
-                    currentQ.IsQueueIdle() || 
-                    (!currentQ.IsQueueIdle() && !quickestSelfCheckout.IsQueueIdle() && quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers()))
-                {
-                    quickestSelfCheckout = currentQ;
+                    if (quickestSelfCheckout == null ||
+                        currentQ.IsQueueIdle() ||
+                        (!currentQ.IsQueueIdle() && !quickestSelfCheckout.IsQueueIdle() && quickestSelfCheckout.NumOfWaitingCustomers() >= currentQ.NumOfWaitingCustomers()))
+                    {
+                        quickestSelfCheckout = currentQ;
+                    }
                 }
             }
 

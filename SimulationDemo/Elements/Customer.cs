@@ -38,6 +38,8 @@ namespace SimulationDemo.Elements
             _makePaymentTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.MakingPayment).Sample());
             _maxToleranceTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.AngryDeparture).Sample());
             _needHelpTime = Convert.ToInt32(DistributionHelper.GetDistribution(EventEnum.FixingMachineError).Sample());
+
+            SimLogger.Info($"Customer [{_customerId}] arrives with {_amountItems} items");
         }
 
         public bool IsCheckoutFinished()
@@ -72,7 +74,26 @@ namespace SimulationDemo.Elements
             {
                 return false;
             }
-            return Simulation.GlobalTime >= _arrivalTime + _maxToleranceTime;
+
+            Type joinedQueueType = _joinedQueue.GetType();
+            int eNumOfCustomersAhead = this.NumOfWaitingCustomersAhead();
+            if (joinedQueueType == typeof(SelfCheckoutQueue))
+            {
+                eNumOfCustomersAhead = eNumOfCustomersAhead / _checkoutArea.NumMachine;
+            }
+
+            int angryLeaveTime = _maxToleranceTime;
+            if (_amountItems == EventEnum.ScaningSmallAmountItems)
+            {
+                angryLeaveTime = (int)0.8 * _maxToleranceTime;
+            }
+            else if (_amountItems == EventEnum.ScaningLargeAmountItems)
+            {
+                angryLeaveTime = (int)1.5 * _maxToleranceTime;
+            }
+            angryLeaveTime = _arrivalTime + angryLeaveTime;
+
+            return eNumOfCustomersAhead >=2 && Simulation.GlobalTime >= angryLeaveTime;
         }
 
         public bool IfShouldChangeLine(out IQueue newqueue)
@@ -108,12 +129,11 @@ namespace SimulationDemo.Elements
             if(ifShouldChange)
             {
                 newqueue = quickestQueue;
-                SimLogger.Info($"Customer [{_customerId}] finds a quick queue: current has {eNumOfCustomersAhead} ahead in queue {_joinedQueue.QueueId}, while queue {quickestQueue.QueueId} has total {eNumOfCustomers} waiting customers");
+                SimLogger.Info($"Customer [{_customerId}] finds a quicker queue: current has {eNumOfCustomersAhead} ahead in queue {_joinedQueue.QueueId}, while queue {quickestQueue.QueueId} has total {eNumOfCustomers} waiting customers");
             }
-            return ifShouldChange; // if current joined queue is not the quickest queue in the check out area, then should change
+            return ifShouldChange;
         }
 
-        // ToDO
         public void ChangeLine(IQueue newqueue)
         {
             if (this.IsCheckoutStarted())
@@ -146,7 +166,7 @@ namespace SimulationDemo.Elements
         {
             _joinedQueue = queue;
             _joinedQueue.NewCustomersJoins(this);
-            SimLogger.Info($"Customer [{_customerId}] joined the queue {queue.QueueId}");
+            SimLogger.Info($"Customer [{_customerId}] joined the {queue.GetType().Name} queue {queue.QueueId}");
         }
 
         public void LeaveWaitingQueue()
@@ -157,7 +177,7 @@ namespace SimulationDemo.Elements
             }
 
             _joinedQueue.CustomerLeavesWaitingQueue(this);
-            SimLogger.Info($"Customer [{_customerId}] leave the queue {_joinedQueue.QueueId}");
+            SimLogger.Info($"Customer [{_customerId}] leave the {_joinedQueue.GetType().Name} queue {_joinedQueue.QueueId}");
 
             _joinedQueue = null;
         }

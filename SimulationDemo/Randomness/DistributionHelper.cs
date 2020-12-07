@@ -12,13 +12,13 @@ namespace SimulationDemo.Randomness
         {
             { EventEnum.Arrival, new Poison(0.5) },
             { EventEnum.BuyingItems, new ThreeOutcomes(30, 40) },
-            { EventEnum.ScaningSmallAmountItems, new Normal(5, 1) },
-            { EventEnum.ScaningMediumAmountItems, new Normal(10, 1) },
-            { EventEnum.ScaningLargeAmountItems, new Normal(15, 1) },
-            { EventEnum.MakingPayment, new Normal(3, 1) },
+            { EventEnum.ScaningSmallAmountItems, new Normal(2, 1) },
+            { EventEnum.ScaningMediumAmountItems, new Normal(5, 1) },
+            { EventEnum.ScaningLargeAmountItems, new Normal(10, 1) },
+            { EventEnum.MakingPayment, new Normal(1, 0.5) },
             { EventEnum.MachineError, new Bernoulli(0.05)},
             { EventEnum.FixingMachineError, new Normal(5, 1) },
-            { EventEnum.AngryDeparture, new Normal(60, 1) }
+            { EventEnum.AngryDeparture, new Normal(30, 1) }
         };
 
         public static void UpdateDistribution(EventEnum eventType, IDistribution distribution)
