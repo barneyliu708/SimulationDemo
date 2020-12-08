@@ -23,7 +23,7 @@ namespace SimulationDemo
 
         public Simulation(int numCashier, int numSelfChechout, int numMachine, int maxIteration = int.MaxValue)
         {
-            _sleepmillesecond = 500;
+            _sleepmillesecond = 510;
             _maxIteration = maxIteration;
             _checkoutArea = new CheckoutArea(numCashier, numSelfChechout, numMachine);
         }

@@ -174,6 +174,7 @@ namespace SimulationDemo.Elements
             Console.WriteLine($"Total Remainint Customers: {_totalArrivalCustomerCount - _totalDepartureCustomerCount}");
             Console.WriteLine($"Total Angry Departure: {_totalAngryLeaveCount}");
             Console.WriteLine($"Avg. Waiting Time: {_avgWaitingTime}");
+            Console.WriteLine($"Total Change Line Counts: {_totalChangeLineCount}");
             StringBuilder sb = new StringBuilder();
             foreach(int n in _last10waitingtime)
             {

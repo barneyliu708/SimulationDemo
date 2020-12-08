@@ -14,7 +14,7 @@ namespace SimulationDemo.Randomness
             { EventEnum.BuyingItems, new ThreeOutcomes(30, 40) },
             { EventEnum.ScaningSmallAmountItems, new Normal(2, 1) },
             { EventEnum.ScaningMediumAmountItems, new Normal(5, 1) },
-            { EventEnum.ScaningLargeAmountItems, new Normal(10, 1) },
+            { EventEnum.ScaningLargeAmountItems, new Normal(8, 1) },
             { EventEnum.MakingPayment, new Normal(1, 0.5) },
             { EventEnum.MachineError, new Bernoulli(0.05)},
             { EventEnum.FixingMachineError, new Normal(5, 1) },
