@@ -1,0 +1,822 @@
+2020-12-07 17:46:58,230  INFO - MESSAGE: Iteration 668 - Customer [fc2e1620] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:46:58,254  INFO - MESSAGE: Iteration 668 - Customer [fc2e1620] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:46:58,254  INFO - MESSAGE: Iteration 668 - Customer [fc2e1620] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,517  INFO - MESSAGE: Iteration 669 - Customer [faa7e6e6] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,518  INFO - MESSAGE: Iteration 669 - Customer [faa7e6e6] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:46:58,543  INFO - MESSAGE: Iteration 669 - Customer [54ada2dd] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:46:58,543  INFO - MESSAGE: Iteration 669 - Customer [54ada2dd] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:46:58,543  INFO - MESSAGE: Iteration 669 - Customer [e8c43ffb] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [e8c43ffb] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [bb22c038] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [bb22c038] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [6a21c1d0] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [6a21c1d0] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [edd365ab] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [edd365ab] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [ae9b0b6c] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [ae9b0b6c] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [81ff56b7] departure after checking out at queue 2f991afc
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [9343824e] start checking out at queue 2f991afc
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [996194e3] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [fc2e1620] start checking out at queue c5230d1a
+ 2020-12-07 17:46:58,544  INFO - MESSAGE: Iteration 669 - Customer [6a21c1d0] start checking out at queue c5230d1a
+ 2020-12-07 17:46:58,863  INFO - MESSAGE: Iteration 670 - Customer [4b2ad9db] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:58,863  INFO - MESSAGE: Iteration 670 - Customer [4b2ad9db] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [16ef0009] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [16ef0009] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [e56f74e7] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [e56f74e7] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [5b5e26b1] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [5b5e26b1] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [1e8b51df] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [ea61c9b3] start checking out at queue 386aa3b8
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [8839a37e] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [062b5893] start checking out at queue 77ddad1d
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [aec7d47f] departure after checking out at queue 025d6c37
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [a09a2fbe] start checking out at queue 025d6c37
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [3a53b640] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [edd365ab] start checking out at queue c5230d1a
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [4758758c] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:58,864  INFO - MESSAGE: Iteration 670 - Customer [ae9b0b6c] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [872fd1db] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [872fd1db] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [ac2dd845] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [ac2dd845] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [2b9bca99] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [e56f74e7] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [8a8497c5] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [5b5e26b1] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [008ffede] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [faa7e6e6] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [faa7e6e6] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:46:59,144  INFO - MESSAGE: Iteration 671 - Customer [faa7e6e6] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [9c6c676b] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [9c6c676b] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [c9e9f358] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [c9e9f358] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [28649ffc] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [28649ffc] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [bded4c8d] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [bded4c8d] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [6643b9e4] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [6643b9e4] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [775a6653] departure after checking out at queue 41d7762e
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [a7a1abbf] start checking out at queue 41d7762e
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [503879a2] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [9596098b] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:46:59,372  INFO - MESSAGE: Iteration 672 - Customer [faa7e6e6] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [a056c0e1] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [a056c0e1] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [8581f6fe] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [8581f6fe] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [1f05fb55] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [1f05fb55] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [30f480c2] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,640  INFO - MESSAGE: Iteration 673 - Customer [28649ffc] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [dda5b9d8] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [dda5b9d8] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [459b78e5] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [459b78e5] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [264e31aa] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [264e31aa] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [b14ddecb] departure after checking out at queue 4ec49589
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [8243750c] start checking out at queue 4ec49589
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [b87a14e6] departure after checking out at queue 8a314639
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [2ce643a6] start checking out at queue 8a314639
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [cd137711] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [422678e7] start checking out at queue 86bc56f0
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [11bc407a] departure after checking out at queue 838eace1
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [e8c43ffb] start checking out at queue 838eace1
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [2ce216cf] departure after checking out at queue e2b3b889
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [8d5ed7fc] start checking out at queue e2b3b889
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [e56f74e7] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [bded4c8d] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [5b5e26b1] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [6643b9e4] start checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [6a21c1d0] departure after checking out at queue c5230d1a
+ 2020-12-07 17:46:59,874  INFO - MESSAGE: Iteration 674 - Customer [1f05fb55] start checking out at queue c5230d1a
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [7e483a85] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [7e483a85] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [a4b74a94] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [a4b74a94] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [c8dc1051] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [c8dc1051] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [c62919b3] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [c62919b3] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [43ae82ea] departure after checking out at queue 245149a7
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [f0df140e] start checking out at queue 245149a7
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [a09a2fbe] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [9c6c676b] start checking out at queue 025d6c37
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [edd365ab] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [dda5b9d8] start checking out at queue c5230d1a
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [ae9b0b6c] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [4b2ad9db] finds a quicker queue: current has 0 ahead in queue 2f991afc, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [4b2ad9db] leave the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:00,123  INFO - MESSAGE: Iteration 675 - Customer [4b2ad9db] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [421304d6] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [421304d6] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [c8ba4fcc] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [c8ba4fcc] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [7b24addf] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [7b24addf] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [840ec90c] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [bb22c038] start checking out at queue eeff700f
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [df3c4a17] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [a0a65ffe] start checking out at queue 62065c1f
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [d9d2784c] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [54ada2dd] start checking out at queue dc030d2d
+ 2020-12-07 17:47:00,345  INFO - MESSAGE: Iteration 676 - Customer [4b2ad9db] start checking out at queue c5230d1a
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [8788d99f] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [8788d99f] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [ad0d8d5b] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [ad0d8d5b] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [ada60806] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [ada60806] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [062b5893] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [ac2dd845] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [1f05fb55] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:00,624  INFO - MESSAGE: Iteration 677 - Customer [c8ba4fcc] start checking out at queue c5230d1a
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [21927f78] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [21927f78] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [a33313d6] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [a33313d6] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [58c61de6] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [58c61de6] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [8d5ed7fc] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [c62919b3] start checking out at queue e2b3b889
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [fc2e1620] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [7b24addf] start checking out at queue c5230d1a
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [28649ffc] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:00,901  INFO - MESSAGE: Iteration 678 - Customer [ada60806] start checking out at queue c5230d1a
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [3dd488ce] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [3dd488ce] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [9343824e] departure after checking out at queue 2f991afc
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [16ef0009] start checking out at queue 2f991afc
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [ea61c9b3] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [872fd1db] start checking out at queue 386aa3b8
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [422678e7] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [a4b74a94] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [a0a65ffe] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [8788d99f] start checking out at queue 62065c1f
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [54ada2dd] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [ad0d8d5b] start checking out at queue dc030d2d
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [9596098b] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [8581f6fe] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [bded4c8d] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,181  INFO - MESSAGE: Iteration 679 - Customer [a33313d6] start checking out at queue c5230d1a
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [4ef04f65] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [4ef04f65] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [b6173ebc] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [b6173ebc] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [47768e0d] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [47768e0d] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [6643b9e4] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [faa7e6e6] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [4ef04f65] finds a quicker queue: current has 0 ahead in queue 2f991afc, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [4ef04f65] leave the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:01,444  INFO - MESSAGE: Iteration 680 - Customer [4ef04f65] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4102d376] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4102d376] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [a3bea4ef] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [a3bea4ef] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [a1c80989] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [a1c80989] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [7b24addf] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4ef04f65] start checking out at queue c5230d1a
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [dda5b9d8] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4102d376] finds a quicker queue: current has 0 ahead in queue 2f991afc, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4102d376] leave the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:01,681  INFO - MESSAGE: Iteration 681 - Customer [4102d376] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [ca1b189a] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [ca1b189a] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [9c6c676b] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [421304d6] start checking out at queue 025d6c37
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [e8c43ffb] departure after checking out at queue 838eace1
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [c8dc1051] start checking out at queue 838eace1
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [a33313d6] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [4102d376] start checking out at queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [4ef04f65] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [4b2ad9db] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [c8ba4fcc] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [b6173ebc] finds a quicker queue: current has 0 ahead in queue 386aa3b8, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [b6173ebc] leave the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:01,918  INFO - MESSAGE: Iteration 682 - Customer [b6173ebc] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,136  INFO - MESSAGE: Iteration 683 - Customer [21ed51a4] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,136  INFO - MESSAGE: Iteration 683 - Customer [21ed51a4] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [7c9a4da7] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [7c9a4da7] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [25c5b426] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [25c5b426] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [5cb4c1bb] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [5cb4c1bb] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [513478fe] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [513478fe] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [0ddb5736] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [0ddb5736] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [9d467bdf] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [9d467bdf] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [669d4558] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [669d4558] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [14e1a82b] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [14e1a82b] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [e9ed89ad] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [e9ed89ad] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [f0df140e] departure after checking out at queue 245149a7
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [459b78e5] start checking out at queue 245149a7
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [a7a1abbf] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [a056c0e1] start checking out at queue 41d7762e
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [b6173ebc] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [0ddb5736] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [ada60806] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [9d467bdf] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [669d4558] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [21927f78] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [21927f78] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,137  INFO - MESSAGE: Iteration 683 - Customer [21927f78] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [14599f5d] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [14599f5d] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [df7c4186] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [df7c4186] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [0795e595] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [0795e595] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [8243750c] departure after checking out at queue 4ec49589
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [264e31aa] start checking out at queue 4ec49589
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [669d4558] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [21927f78] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [14599f5d] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [14599f5d] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,368  INFO - MESSAGE: Iteration 684 - Customer [14599f5d] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [4fac515c] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [4fac515c] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [bb22c038] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [c9e9f358] start checking out at queue eeff700f
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [872fd1db] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:47:02,658  INFO - MESSAGE: Iteration 685 - Customer [21ed51a4] start checking out at queue 386aa3b8
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [2ce643a6] departure after checking out at queue 8a314639
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [7e483a85] start checking out at queue 8a314639
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [8581f6fe] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [25c5b426] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [b6173ebc] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [14599f5d] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [4fac515c] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [4fac515c] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,659  INFO - MESSAGE: Iteration 685 - Customer [4fac515c] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [74c435e2] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [74c435e2] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [ac2dd845] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [a4b74a94] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [47768e0d] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [8788d99f] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [a3bea4ef] start checking out at queue 62065c1f
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [ad0d8d5b] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [a1c80989] start checking out at queue dc030d2d
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [c62919b3] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [3dd488ce] start checking out at queue e2b3b889
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [0ddb5736] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [4fac515c] start checking out at queue c5230d1a
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [58c61de6] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue 77ddad1d has total 0 waiting customers
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [58c61de6] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [58c61de6] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [74c435e2] finds a quicker queue: current has 0 ahead in queue 386aa3b8, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [74c435e2] leave the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:02,889  INFO - MESSAGE: Iteration 686 - Customer [74c435e2] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [68ef1c59] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [68ef1c59] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [6e3c182e] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [6e3c182e] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [fff85721] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [fff85721] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [edf4220c] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [edf4220c] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [918dabbd] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [918dabbd] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [16ef0009] departure after checking out at queue 2f991afc
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [ca1b189a] start checking out at queue 2f991afc
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [58c61de6] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [421304d6] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [7c9a4da7] start checking out at queue 025d6c37
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [9d467bdf] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [74c435e2] start checking out at queue c5230d1a
+ 2020-12-07 17:47:03,114  INFO - MESSAGE: Iteration 687 - Customer [21927f78] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:03,115  INFO - MESSAGE: Iteration 687 - Customer [68ef1c59] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:03,115  INFO - MESSAGE: Iteration 687 - Customer [68ef1c59] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,115  INFO - MESSAGE: Iteration 687 - Customer [68ef1c59] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [58255d28] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [58255d28] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [3ce5dbe5] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [3ce5dbe5] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [63ad2922] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [63ad2922] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [6c0c82c8] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [6c0c82c8] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [ba1280f9] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [ba1280f9] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [14599f5d] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [68ef1c59] start checking out at queue c5230d1a
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [58255d28] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [58255d28] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,369  INFO - MESSAGE: Iteration 688 - Customer [58255d28] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:03,591  INFO - MESSAGE: Iteration 689 - Customer [ca888a99] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,591  INFO - MESSAGE: Iteration 689 - Customer [ca888a99] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,591  INFO - MESSAGE: Iteration 689 - Customer [f6b5c793] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [f6b5c793] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [23f333fe] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [23f333fe] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [a477e75d] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [a477e75d] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [c063340e] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [c063340e] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [a056c0e1] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [df7c4186] start checking out at queue 41d7762e
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [a3bea4ef] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [918dabbd] start checking out at queue 62065c1f
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [c8dc1051] departure after checking out at queue 838eace1
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [5cb4c1bb] start checking out at queue 838eace1
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [3dd488ce] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [f6b5c793] start checking out at queue e2b3b889
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [4102d376] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:03,592  INFO - MESSAGE: Iteration 689 - Customer [58255d28] start checking out at queue c5230d1a
+ 2020-12-07 17:47:03,593  INFO - MESSAGE: Iteration 689 - Customer [6e3c182e] finds a quicker queue: current has 0 ahead in queue 386aa3b8, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:03,593  INFO - MESSAGE: Iteration 689 - Customer [6e3c182e] leave the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:03,593  INFO - MESSAGE: Iteration 689 - Customer [6e3c182e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [80165476] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [80165476] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [5adf3df9] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [5adf3df9] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [25c5b426] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [ba1280f9] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [6e3c182e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [3ce5dbe5] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [3ce5dbe5] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:03,823  INFO - MESSAGE: Iteration 690 - Customer [3ce5dbe5] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [38f08dfb] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [38f08dfb] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [5b373f15] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [5b373f15] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [d7802b0b] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [d7802b0b] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [84aec3fe] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [84aec3fe] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [8d8dc9ee] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [8d8dc9ee] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [3ce5dbe5] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [38f08dfb] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [38f08dfb] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:04,045  INFO - MESSAGE: Iteration 691 - Customer [38f08dfb] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [d34f6277] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [d34f6277] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [f6f5832b] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [f6f5832b] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [821e8ea4] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [821e8ea4] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [16d97789] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [16d97789] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [459b78e5] departure after checking out at queue 245149a7
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [14e1a82b] start checking out at queue 245149a7
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [a1c80989] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [63ad2922] start checking out at queue dc030d2d
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [38f08dfb] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,267  INFO - MESSAGE: Iteration 692 - Customer [f6f5832b] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [95187a6e] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [95187a6e] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [97e8de9d] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [97e8de9d] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [2a0d77b2] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [2a0d77b2] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [47768e0d] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [edf4220c] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [4fac515c] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [821e8ea4] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [74c435e2] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [97e8de9d] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [6e3c182e] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,554  INFO - MESSAGE: Iteration 693 - Customer [2a0d77b2] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [01eb7f33] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [01eb7f33] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [aaea0684] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [aaea0684] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [8d601a4e] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [8d601a4e] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [870fbe6e] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:04,850  INFO - MESSAGE: Iteration 694 - Customer [870fbe6e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [c518fe45] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [c518fe45] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [c9e9f358] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [ca888a99] start checking out at queue eeff700f
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [264e31aa] departure after checking out at queue 4ec49589
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [e9ed89ad] start checking out at queue 4ec49589
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [58c61de6] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [d34f6277] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [7c9a4da7] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [6c0c82c8] start checking out at queue 025d6c37
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [58255d28] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [aaea0684] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [68ef1c59] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [870fbe6e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [f6f5832b] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:04,851  INFO - MESSAGE: Iteration 694 - Customer [c518fe45] start checking out at queue c5230d1a
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [6f2581af] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [6f2581af] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [27642997] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [27642997] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [ca1b189a] departure after checking out at queue 2f991afc
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [513478fe] start checking out at queue 2f991afc
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [7e483a85] departure after checking out at queue 8a314639
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [fff85721] start checking out at queue 8a314639
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [918dabbd] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:05,087  INFO - MESSAGE: Iteration 695 - Customer [5b373f15] start checking out at queue 62065c1f
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [9276f209] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [9276f209] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [ff7b20b4] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [ff7b20b4] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [169c2a2e] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [169c2a2e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [d4742af8] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [d4742af8] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [fe25ac2e] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [fe25ac2e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,350  INFO - MESSAGE: Iteration 696 - Customer [b82bb343] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:05,351  INFO - MESSAGE: Iteration 696 - Customer [b82bb343] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,351  INFO - MESSAGE: Iteration 696 - Customer [2d1ea214] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,351  INFO - MESSAGE: Iteration 696 - Customer [2d1ea214] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,351  INFO - MESSAGE: Iteration 696 - Customer [21ed51a4] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:47:05,351  INFO - MESSAGE: Iteration 696 - Customer [80165476] start checking out at queue 386aa3b8
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [82537f92] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [82537f92] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [1db92ef7] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [1db92ef7] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [63ad2922] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:05,588  INFO - MESSAGE: Iteration 697 - Customer [95187a6e] start checking out at queue dc030d2d
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [5cb4c1bb] departure after checking out at queue 838eace1
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [84aec3fe] start checking out at queue 838eace1
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [aaea0684] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [169c2a2e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [3ce5dbe5] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [d4742af8] start checking out at queue c5230d1a
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [c518fe45] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:05,589  INFO - MESSAGE: Iteration 697 - Customer [fe25ac2e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [2a476803] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [2a476803] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [00495f6a] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [00495f6a] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [edf4220c] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [01eb7f33] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [f6b5c793] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:05,848  INFO - MESSAGE: Iteration 698 - Customer [8d8dc9ee] start checking out at queue e2b3b889
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [e4ca5f50] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [e4ca5f50] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [d0f1edeb] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [d0f1edeb] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [7d23a28b] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [7d23a28b] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [cb795e90] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [cb795e90] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [18dd14a3] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [18dd14a3] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [33e839e3] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [33e839e3] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [df7c4186] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [5adf3df9] start checking out at queue 41d7762e
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [169c2a2e] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [b82bb343] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [821e8ea4] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [2d1ea214] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,113  INFO - MESSAGE: Iteration 699 - Customer [38f08dfb] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,114  INFO - MESSAGE: Iteration 699 - Customer [82537f92] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [1fab2e09] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [1fab2e09] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [ba1280f9] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [d7802b0b] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [870fbe6e] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [2a0d77b2] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [6f2581af] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [6f2581af] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:06,381  INFO - MESSAGE: Iteration 700 - Customer [6f2581af] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [de444700] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [de444700] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [d7eeebda] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [d7eeebda] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [4063ed07] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [4063ed07] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [39a3e595] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [39a3e595] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [64b7613e] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [64b7613e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [ca888a99] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [23f333fe] start checking out at queue eeff700f
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [d34f6277] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [33e839e3] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [fff85721] departure after checking out at queue 8a314639
+ 2020-12-07 17:47:06,635  INFO - MESSAGE: Iteration 701 - Customer [9276f209] start checking out at queue 8a314639
+ 2020-12-07 17:47:06,636  INFO - MESSAGE: Iteration 701 - Customer [8d8dc9ee] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:06,636  INFO - MESSAGE: Iteration 701 - Customer [d0f1edeb] start checking out at queue e2b3b889
+ 2020-12-07 17:47:06,636  INFO - MESSAGE: Iteration 701 - Customer [6f2581af] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,636  INFO - MESSAGE: Iteration 701 - Customer [d7eeebda] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [135747e7] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [135747e7] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [b26b490a] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [b26b490a] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [14e1a82b] departure after checking out at queue 245149a7
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [0795e595] start checking out at queue 245149a7
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [84aec3fe] departure after checking out at queue 838eace1
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [00495f6a] start checking out at queue 838eace1
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [d0f1edeb] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [97e8de9d] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [4063ed07] start checking out at queue c5230d1a
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [1db92ef7] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue e2b3b889 has total 0 waiting customers
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [1db92ef7] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:47:06,905  INFO - MESSAGE: Iteration 702 - Customer [1db92ef7] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [09d29405] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [09d29405] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [1381cbb6] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [1381cbb6] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [e9ed89ad] departure after checking out at queue 4ec49589
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [c063340e] start checking out at queue 4ec49589
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [80165476] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [16d97789] start checking out at queue 386aa3b8
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [6c0c82c8] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [27642997] start checking out at queue 025d6c37
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [1db92ef7] start checking out at queue e2b3b889
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [2d1ea214] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [39a3e595] start checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [d7eeebda] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [64b7613e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [d4742af8] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [82537f92] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [fe25ac2e] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [09d29405] finds a quicker queue: current has 0 ahead in queue eeff700f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [09d29405] leave the CashierQueue queue eeff700f
+ 2020-12-07 17:47:07,147  INFO - MESSAGE: Iteration 703 - Customer [09d29405] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [6a9017a5] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [6a9017a5] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [9c0d36b9] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [9c0d36b9] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [e204fdd0] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [e204fdd0] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [9ce48976] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [9ce48976] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [513478fe] departure after checking out at queue 2f991afc
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [a477e75d] start checking out at queue 2f991afc
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [01eb7f33] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [e4ca5f50] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [09d29405] start checking out at queue c5230d1a
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [135747e7] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [135747e7] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:07,381  INFO - MESSAGE: Iteration 704 - Customer [135747e7] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [5b373f15] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [ff7b20b4] start checking out at queue 62065c1f
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [95187a6e] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [2a476803] start checking out at queue dc030d2d
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [135747e7] start checking out at queue c5230d1a
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [1fab2e09] finds a quicker queue: current has 0 ahead in queue 41d7762e, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [1fab2e09] leave the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:07,637  INFO - MESSAGE: Iteration 705 - Customer [1fab2e09] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [04445086] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [04445086] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [a9091615] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [a9091615] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [cb1769e0] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [cb1769e0] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [fab9b424] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [fab9b424] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [b9acec84] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [b9acec84] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:07,885  INFO - MESSAGE: Iteration 706 - Customer [1fab2e09] start checking out at queue c5230d1a
+ 2020-12-07 17:47:08,119  INFO - MESSAGE: Iteration 707 - Customer [bed70e05] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:08,119  INFO - MESSAGE: Iteration 707 - Customer [bed70e05] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:08,119  INFO - MESSAGE: Iteration 707 - Customer [cb4f3103] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:08,119  INFO - MESSAGE: Iteration 707 - Customer [cb4f3103] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:08,119  INFO - MESSAGE: Iteration 707 - Customer [5adf3df9] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [a9091615] start checking out at queue 41d7762e
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [e4ca5f50] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [cb1769e0] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [27642997] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [9c0d36b9] start checking out at queue 025d6c37
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [b82bb343] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [cb4f3103] start checking out at queue c5230d1a
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [6f2581af] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [4063ed07] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [04445086] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [04445086] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:08,120  INFO - MESSAGE: Iteration 707 - Customer [04445086] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [7ec1e156] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [7ec1e156] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [a84a5185] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [a84a5185] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [04445086] start checking out at queue c5230d1a
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [39a3e595] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [64b7613e] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [1fab2e09] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,388  INFO - MESSAGE: Iteration 708 - Customer [7ec1e156] finds a quicker queue: current has 0 ahead in queue 77ddad1d, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:08,389  INFO - MESSAGE: Iteration 708 - Customer [7ec1e156] leave the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:08,389  INFO - MESSAGE: Iteration 708 - Customer [7ec1e156] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:08,630  INFO - MESSAGE: Iteration 709 - Customer [ea2403be] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:08,630  INFO - MESSAGE: Iteration 709 - Customer [ea2403be] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:08,630  INFO - MESSAGE: Iteration 709 - Customer [abc7e737] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:08,630  INFO - MESSAGE: Iteration 709 - Customer [abc7e737] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [33b55f63] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [33b55f63] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [33e839e3] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [ea2403be] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [a9091615] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [a84a5185] start checking out at queue 41d7762e
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [2a476803] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [b9acec84] start checking out at queue dc030d2d
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [cb4f3103] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [7ec1e156] start checking out at queue c5230d1a
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [fab9b424] finds a quicker queue: current has 0 ahead in queue 62065c1f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [fab9b424] leave the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:08,631  INFO - MESSAGE: Iteration 709 - Customer [fab9b424] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [bf570461] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [bf570461] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [c1ea4b97] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [c1ea4b97] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [9da326db] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [9da326db] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [23f333fe] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [6a9017a5] start checking out at queue eeff700f
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [9276f209] departure after checking out at queue 8a314639
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [b26b490a] start checking out at queue 8a314639
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [ff7b20b4] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:08,879  INFO - MESSAGE: Iteration 710 - Customer [9da326db] start checking out at queue 62065c1f
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [d7802b0b] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [de444700] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [fab9b424] start checking out at queue c5230d1a
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [33b55f63] finds a quicker queue: current has 0 ahead in queue 025d6c37, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [33b55f63] leave the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:08,880  INFO - MESSAGE: Iteration 710 - Customer [33b55f63] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,158  INFO - MESSAGE: Iteration 711 - Customer [68e7be69] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,158  INFO - MESSAGE: Iteration 711 - Customer [68e7be69] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:09,158  INFO - MESSAGE: Iteration 711 - Customer [9c70b70a] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:09,158  INFO - MESSAGE: Iteration 711 - Customer [9c70b70a] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:09,158  INFO - MESSAGE: Iteration 711 - Customer [74c2ff1f] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [74c2ff1f] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [47ffaa01] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [47ffaa01] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [249b9a0d] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [249b9a0d] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [33b55f63] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [09d29405] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [68e7be69] finds a quicker queue: current has 0 ahead in queue 8a314639, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [68e7be69] leave the CashierQueue queue 8a314639
+ 2020-12-07 17:47:09,159  INFO - MESSAGE: Iteration 711 - Customer [68e7be69] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [064cbb52] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [064cbb52] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [091202ee] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [091202ee] joined the CashierQueue queue eeff700f
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [f240d4a5] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [f240d4a5] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [98129c26] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [98129c26] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [00495f6a] departure after checking out at queue 838eace1
+ 2020-12-07 17:47:09,408  INFO - MESSAGE: Iteration 712 - Customer [1381cbb6] start checking out at queue 838eace1
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [68e7be69] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [f240d4a5] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [135747e7] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [9c70b70a] finds a quicker queue: current has 0 ahead in queue 62065c1f, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [9c70b70a] leave the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:09,409  INFO - MESSAGE: Iteration 712 - Customer [9c70b70a] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [127c26ff] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [127c26ff] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [bda9fe79] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [bda9fe79] joined the CashierQueue queue 838eace1
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [374d16f4] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [374d16f4] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [626eda47] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [626eda47] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [1114c7a5] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [1114c7a5] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [25b490be] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [25b490be] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [a477e75d] departure after checking out at queue 2f991afc
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [7d23a28b] start checking out at queue 2f991afc
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [16d97789] departure after checking out at queue 386aa3b8
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [18dd14a3] start checking out at queue 386aa3b8
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [a84a5185] departure after checking out at queue 41d7762e
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [c1ea4b97] start checking out at queue 41d7762e
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [b9acec84] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [74c2ff1f] start checking out at queue dc030d2d
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [68e7be69] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [9c70b70a] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [249b9a0d] finds a quicker queue: current has 0 ahead in queue 4ddf6d1c, while queue c5230d1a has total 0 waiting customers
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [249b9a0d] leave the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:09,638  INFO - MESSAGE: Iteration 713 - Customer [249b9a0d] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,891  INFO - MESSAGE: Iteration 714 - Customer [fc52fec4] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [fc52fec4] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [5c95a8b6] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [5c95a8b6] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [47f13667] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [47f13667] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [1fd7a3eb] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [1fd7a3eb] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [fc636ff4] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [fc636ff4] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [e15128d0] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [e15128d0] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [6d040328] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [6d040328] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [0795e595] departure after checking out at queue 245149a7
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [8d601a4e] start checking out at queue 245149a7
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [c063340e] departure after checking out at queue 4ec49589
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [cb795e90] start checking out at queue 4ec49589
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [1db92ef7] departure after checking out at queue e2b3b889
+ 2020-12-07 17:47:09,892  INFO - MESSAGE: Iteration 714 - Customer [e204fdd0] start checking out at queue e2b3b889
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [7ec1e156] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [249b9a0d] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [04445086] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [47f13667] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [f240d4a5] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [1fd7a3eb] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [fc636ff4] start checking out at queue c5230d1a
+ 2020-12-07 17:47:09,893  INFO - MESSAGE: Iteration 714 - Customer [e15128d0] start checking out at queue c5230d1a
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [b5db3a98] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [b5db3a98] joined the CashierQueue queue e2b3b889
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [19cda651] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [19cda651] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [4485e22e] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [4485e22e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [6202c022] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [6202c022] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [cb1769e0] departure after checking out at queue 86bc56f0
+ 2020-12-07 17:47:10,118  INFO - MESSAGE: Iteration 715 - Customer [abc7e737] start checking out at queue 86bc56f0
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [b36da9b7] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [b36da9b7] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [05279b80] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [05279b80] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [8c78da0c] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [8c78da0c] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [8a78748e] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [8a78748e] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [f07c89f2] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [f07c89f2] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [74c2ff1f] departure after checking out at queue dc030d2d
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [fc52fec4] start checking out at queue dc030d2d
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [de444700] departure after checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [5c95a8b6] start checking out at queue 4ddf6d1c
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [33b55f63] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:10,355  INFO - MESSAGE: Iteration 716 - Customer [6d040328] start checking out at queue c5230d1a
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [096f938b] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [096f938b] joined the CashierQueue queue dc030d2d
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [132e8370] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [132e8370] joined the CashierQueue queue 4ddf6d1c
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [148fe00f] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [148fe00f] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [fa7a251f] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [fa7a251f] joined the CashierQueue queue 2f991afc
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [4ddd0d88] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [4ddd0d88] joined the CashierQueue queue 245149a7
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [c313bd7a] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [c313bd7a] joined the CashierQueue queue 4ec49589
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [2b89ccce] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,600  INFO - MESSAGE: Iteration 717 - Customer [2b89ccce] joined the CashierQueue queue 386aa3b8
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [9da326db] departure after checking out at queue 62065c1f
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [127c26ff] start checking out at queue 62065c1f
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [9c0d36b9] departure after checking out at queue 025d6c37
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [47ffaa01] start checking out at queue 025d6c37
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [47f13667] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [19cda651] start checking out at queue c5230d1a
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [fab9b424] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [4485e22e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [9c70b70a] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:10,601  INFO - MESSAGE: Iteration 717 - Customer [6202c022] start checking out at queue c5230d1a
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [118896e8] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [118896e8] joined the CashierQueue queue 62065c1f
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [e204568a] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [e204568a] joined the CashierQueue queue 025d6c37
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [fbc09f3f] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [fbc09f3f] joined the CashierQueue queue 41d7762e
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [60c24a91] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [60c24a91] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [857c3679] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [857c3679] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [4308e722] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [4308e722] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [c3878765] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [c3878765] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [ea2403be] departure after checking out at queue 77ddad1d
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [bf570461] start checking out at queue 77ddad1d
+ 2020-12-07 17:47:10,897  INFO - MESSAGE: Iteration 718 - Customer [6d040328] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:10,898  INFO - MESSAGE: Iteration 718 - Customer [05279b80] start checking out at queue c5230d1a
+ 2020-12-07 17:47:11,167  INFO - MESSAGE: Iteration 719 - Customer [b26b490a] departure after checking out at queue 8a314639
+ 2020-12-07 17:47:11,167  INFO - MESSAGE: Iteration 719 - Customer [064cbb52] start checking out at queue 8a314639
+ 2020-12-07 17:47:11,167  INFO - MESSAGE: Iteration 719 - Customer [249b9a0d] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:11,167  INFO - MESSAGE: Iteration 719 - Customer [8c78da0c] start checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [df140f15] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [df140f15] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [819b62d9] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [819b62d9] joined the SelfCheckoutQueue queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [53965602] arrives with ScaningLargeAmountItems items
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [53965602] joined the CashierQueue queue 77ddad1d
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [dab93e65] arrives with ScaningMediumAmountItems items
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [dab93e65] joined the CashierQueue queue 8a314639
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [ed5a3570] arrives with ScaningSmallAmountItems items
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [ed5a3570] joined the CashierQueue queue 86bc56f0
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [6a9017a5] departure after checking out at queue eeff700f
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [9ce48976] start checking out at queue eeff700f
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [8c78da0c] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [8a78748e] start checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [1fd7a3eb] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [f07c89f2] start checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [e15128d0] departure after checking out at queue c5230d1a
+ 2020-12-07 17:47:11,466  INFO - MESSAGE: Iteration 720 - Customer [148fe00f] start checking out at queue c5230d1a
+ 

@@ -21,7 +21,7 @@ namespace Simulation.Presentation
             this.numOfCashierTextBox.Text = "10";
             this.numOfSelfCheckoutTextBox.Text = "1";
             this.numOfSelfCheckMachineTextBox.Text = "5";
-            this.arrivalRateTextBox.Text = "0.5";
+            this.arrivalRateTextBox.Text = "3.5";
             this.maxIterationTextBox.Text = "MAX";
         }
         private void InitializeBackgroundWorker()
